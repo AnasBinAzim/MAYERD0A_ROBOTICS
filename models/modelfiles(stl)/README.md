@@ -68,3 +68,8 @@ Quantity: **x2**
 
 Each file is integral to the assembly and operation of **SMOKI**, contributing to its precision engineering and robust performance.
 
+---
+
+🖨️ **Printing Details**:  
+All components were printed with **100% infill** and a **0.2mm layer height**. To ensure proper bed adhesion, a **4mm brim** was used during printing.
+
