@@ -103,9 +103,9 @@ To power the **Raspberry Pi 5** and other components, we used the **LM4016 10A b
 
 ### MT3608 Boost Converter for Motor Power 🔼
 
-<div align="center">
+
   <img src="https://github.com/user-attachments/assets/df1ad4a9-8bfe-4b93-9299-7dd5913af512" alt="MT3608 Boost Converter" width="400" />
-</div>
+
 
 To power the motors, we used the **MT3608 boost converter** to step up the voltage to **14V**. This ensures that the motors receive adequate current for smooth and responsive operation under varying loads.
 
