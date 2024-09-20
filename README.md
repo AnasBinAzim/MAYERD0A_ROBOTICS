@@ -20,7 +20,7 @@
 
 
 ## Overview of our Repository
-<img align="right" alt="NAUT" width="350" src="https://github.com/A-N-M-Noor/mechaScratch_404/assets/136412241/f41fb3bd-7ffd-43ef-84f9-5d22dfb7f75c">
+
 
  * `models` - the 3D printable files used in our robot.
  * `getting started` - getting started guide.
