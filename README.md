@@ -102,13 +102,26 @@ The SMOKI robot chassis exemplifies a harmonious blend of advanced engineering p
 
 ## Power Delivery and Optimization
 
-* 
-* 
-* 
-* 
-* 
+* ## Power Delivery and Optimization ⚡🔋 *
 
-----
+In the SMOKI project, efficient power delivery and optimization are paramount to ensure that all components operate reliably and effectively. Our design utilizes advanced voltage conversion techniques to meet the specific power requirements of various systems within the robot.
+---
+
+### Voltage Conversion with LM4016 Buck Converter 🔽
+
+To convert our battery voltage from **8.4 volts** to **5 volts**, we employed an **LM4016-based 10 amp buck converter**. This step-down converter is essential for powering our main microcontroller, Raspberry Pi, and other components that require a stable 5V supply. The Raspberry Pi, in particular, demands between **5 to 6 amps** at 5V, making it crucial for us to implement a robust power solution. The LM4016 not only ensures efficient voltage regulation but also minimizes energy loss, allowing our system to operate smoothly and efficiently.
+---
+
+### MT3608 Boost Converter for Motor Power 🔼
+For powering the motors, we integrated an MT3608 boost converter, which steps up the voltage to 14V DC. This converter is vital for delivering the necessary current to drive the motors effectively while maintaining performance under varying load conditions. The ability of the MT3608 to provide stable output at higher voltages ensures that our motors can function optimally, enhancing the overall performance of the SMOKI vehicle.
+---
+
+### Raspberry Pi and Camera Integration 📷
+Additionally, our Raspberry Pi is responsible for powering the onboard camera, which plays a critical role in navigation and obstacle detection. By utilizing these optimized power delivery methods, we can ensure that all components receive the appropriate voltage and current they require for seamless operation.
+---
+
+### Conclusion 🌟
+The careful selection of power delivery components such as the LM4016 buck converter and MT3608 boost converter reflects our commitment to creating a reliable and efficient robotic system. These optimizations not only enhance performance but also contribute to the longevity of the SMOKI project as we prepare for the challenges of the 2024 WRO National Final from Bangladesh.
 
 ## Debugging
 
