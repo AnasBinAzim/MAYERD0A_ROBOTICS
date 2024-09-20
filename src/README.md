@@ -3,7 +3,8 @@
 ### This contains the source code of the bot which includes opencv works and the arduino codes.
 ---
 
-<img src="https://github.com/user-attachments/assets/d3fc7745-01cd-43c3-9105-fc6b4c8bee38" alt="arduino5804" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; display: block; margin: auto;">
+
+![arduino5804-photoaidcom-cropped](https://github.com/user-attachments/assets/4d58a303-1fc4-4131-9e0a-257a0b3cafb1)
 
 
 <u> </u>
