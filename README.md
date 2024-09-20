@@ -3,7 +3,9 @@
 
 ---
 
-| ![bot](https://github.com/user-attachments/assets/08601b9d-fa28-4cfd-aa6c-960e2666ef5a) | **Overview of our Repository**                               | 
+
+
+| ![bot](https://github.com/user-attachments/assets/08601b9d-fa28-4cfd-aa6c-960e2666ef5a) | ![PXL_20240916_165312921](https://github.com/user-attachments/assets/add6315b-c7b9-423c-a3e3-f3b21e9102ac)                              | 
 |--------------------------------------------------------------|--------------------------------------------------------------| 
 | **TEAM NAME:** MAYERDOA ROBOTICS                             | **experiments:** Codes that were used to do experiments.    | 
 | **TEAM MEMBERS:**                                            | **models:** The 3D printable files used in our robot.       | 
