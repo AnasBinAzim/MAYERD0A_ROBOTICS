@@ -5,9 +5,6 @@
   <img src="https://github.com/user-attachments/assets/172c3a2a-33b5-4c01-a7e5-fbb2edcce263" alt="Mayerdoa Robotics Logo" width="200" />
 </div>
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/08601b9d-fa28-4cfd-aa6c-960e2666ef5a" alt="SMOKI robot" width="300" />
-</div>
 
 ### This repository is a collection of engineering materials related to **SMOKI**, a self-driving vehicle model developed by **Team MAYERDOA_ROBOTICS**, participating in the **2024 WRO National Final (Future Engineers)** from **Bangladesh**.
 
