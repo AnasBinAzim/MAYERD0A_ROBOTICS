@@ -63,21 +63,7 @@ With these spacers, our **SMOKI** robot will achieve optimal performance and rel
 
 ## ⚙️ Motor Installation
 
-<style>
-  .circular {
-    width: 150px; /* Adjust the size as needed */
-    height: 150px; /* Adjust the size as needed */
-    border-radius: 50%;
-    overflow: hidden;
-    display: inline-block;
-    margin: 5px;
-  }
 
-  .circular img {
-    width: 100%;
-    height: auto;
-  }
-</style>
 
 <div class="circular">
   <img src="https://github.com/user-attachments/assets/8facc1f2-73a4-4faa-bf4d-b6b053624c80" alt="PXL_20240914_201518166">
