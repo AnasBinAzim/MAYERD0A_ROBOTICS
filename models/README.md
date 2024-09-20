@@ -31,8 +31,7 @@ The **Baseplate** of the **SMOKI** robot is meticulously crafted using the **End
 - **Modular Structure**: Designed to accommodate various attachments and components, making upgrades and modifications seamless.
 - **Optimized Layout**: The layout is engineered for efficient wiring and component placement, ensuring easy assembly and maintenance.
 
-This baseplate serves as a solid foundation for the **SMOKI** robot, providing stability and support for all its advanced features. Experience the power of 3D printing and elevate your robotic projects!
-
+This baseplate serves as a solid foundation for the **SMOKI** robot, providing stability and support for all its advanced features. 
 ---
 <u>  </u>
 
@@ -54,7 +53,7 @@ The **Spacers** are essential components of the **SMOKI** robot, meticulously de
 - **Facilitates Installation**: Simplifies the assembly process by allowing for easy placement of components without interference.
 - **Optimizes Performance**: By maintaining correct spacing, these spacers help in reducing friction and wear, ensuring smooth operation of all moving parts.
 
-With these spacers, your **SMOKI** robot will achieve optimal performance and reliability, making your assembly process seamless and effective!
+With these spacers, our **SMOKI** robot will achieve optimal performance and reliability, making our assembly process seamless and effective!
 
 
 ## ⚙️ Motor Installation
@@ -73,7 +72,7 @@ The **Motor Installation** is a critical phase in the assembly of the **SMOKI** 
 - **Enhanced Mobility**: These motors drive the robot's movements, enabling it to navigate and perform tasks effectively.
 - **Smooth Operation**: Proper installation minimizes vibrations and ensures efficient power transmission, enhancing the overall performance.
 
-With the motors expertly installed, your **SMOKI** robot is now ready to take on challenges and showcase its capabilities in action!
+With the motors expertly installed, our **SMOKI** robot is now ready to take on challenges and showcase its capabilities in action!
 
 
 
