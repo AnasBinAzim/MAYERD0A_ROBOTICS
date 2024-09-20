@@ -102,7 +102,7 @@ The SMOKI robot chassis exemplifies a harmonious blend of advanced engineering p
 
 ## Power Delivery and Optimization
 
-* ## Power Delivery and Optimization ⚡🔋 *
+* ### Power Delivery and Optimization ⚡🔋 *
 
 In the SMOKI project, efficient power delivery and optimization are paramount to ensure that all components operate reliably and effectively. Our design utilizes advanced voltage conversion techniques to meet the specific power requirements of various systems within the robot.
 ---
