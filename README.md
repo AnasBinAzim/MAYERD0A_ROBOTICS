@@ -1,7 +1,10 @@
 # Mayerdoa Robotics Future Engineers Documentation 2024: Smoki Project Overview
 ----
  <!-- ![mecha scratch main](https://github.com/A-N-M-Noor/mechaScratch_404/assets/136412241/82dec0fd-90a3-4080-8b9e-d6446caba096)   -->
-![bot](https://github.com/user-attachments/assets/08601b9d-fa28-4cfd-aa6c-960e2666ef5a) 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/08601b9d-fa28-4cfd-aa6c-960e2666ef5a" alt="bot" width="300" />
+</div>
+<!--![bot]()--> 
 
 ### This repository is a collection of engineering materials related to SMOKI, a self-driving vehicle model developed by Team MAYERDOA_ROBOTICS, participating in the 2024 WRO National Final (Future Engineers) from BANGLADESH.
 ----
