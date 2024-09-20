@@ -1,6 +1,7 @@
-## 🖥️ Main PCB Overview
+=## 🖥️ Main PCB Overview
 
 ![PCB](https://github.com/user-attachments/assets/77136ed7-afbb-4478-9d1e-ea04fce11178)
+![PCB_TOPVIEW](https://github.com/user-attachments/assets/13a823c7-32da-4f99-98ef-584f43ab23da)
 
 The **Main PCB** (Printed Circuit Board) is the heart of the **SMOKI** robot, seamlessly integrating all electronic components for optimal performance. 
 
