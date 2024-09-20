@@ -8,8 +8,8 @@
 |--------------------------------------------------------------| 
 | **TEAM NAME:** MAYERDOA ROBOTICS                             | 
 | **TEAM MEMBERS:**                                            | 
-| - Rakibul Islam (Dhaka Residential Model College)          | 
-| - Anas Bin Azim (Adamjee Cantonment College)               | 
-| - Mohiuddin Sami (Rajuk Uttara Model College)              |
+| + Rakibul Islam (Dhaka Residential Model College)          | 
+| + Anas Bin Azim (Adamjee Cantonment College)               | 
+| + Mohiuddin Sami (Rajuk Uttara Model College)              |
 
 
