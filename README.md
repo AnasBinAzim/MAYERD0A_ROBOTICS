@@ -45,13 +45,24 @@
 
 The chassis of the SMOKI self-driving vehicle is designed to integrate innovative mechanical and electrical components, ensuring both functionality and aesthetic appeal. This section highlights the key features of the chassis, including the Ackermann steering system, babble gear, 3D printed body, and sonar mounts.
 
+
 ### Ackermann Steering System
+
+
+![ACKERMANN](https://github.com/user-attachments/assets/28a984ff-0f97-451f-aece-ad402b33abc4)
+---
 
 The **Ackermann steering system** is a crucial feature of the SMOKI chassis, designed to enhance maneuverability and reduce tire wear during turns. This steering mechanism allows the inner front wheel to turn at a larger angle than the outer wheel, ensuring that both wheels follow a common turning radius. This configuration minimizes tire scrubbing and improves handling, particularly in tight corners. The design is based on a modified four-bar linkage that optimally aligns the wheels with the center of the turning radius, providing smooth navigation and stability at various speeds.
 
-### Babble Gear
+### Bevel Gear
+<u> </u>
+![BEVELGEAR](https://github.com/user-attachments/assets/4d207380-4325-476c-b617-cc9c9e9e034e)
+---
 
-Incorporating **babble gear** into the chassis enhances the vehicle's ability to manage torque and speed efficiently. This gear system allows for precise control over movement, enabling quick adjustments during operation. The design of babble gear contributes to a lightweight structure while maintaining strength, making it ideal for robotic applications where agility and responsiveness are paramount.
+
+
+
+Incorporating **bevel gear** into the chassis enhances the vehicle's ability to manage torque and speed efficiently. This gear system allows for precise control over movement, enabling quick adjustments during operation. The design of bevel gears contributes to a compact structure while maintaining strength, making it ideal for robotic applications where agility and responsiveness are paramount.
 
 ### 3D Printed Body
 
