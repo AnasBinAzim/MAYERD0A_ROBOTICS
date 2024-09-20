@@ -1,7 +1,7 @@
 ## 🛠️ Ackermann Steering System Assembly
 
 ### Step 1: Install the Steering Axle Couplers
-Take the **steering axle couplers** and install two **7 mm inner diameter bearings** into each coupler.
+Take the **steering axle couplers** and install two **625 Bearings** into each coupler.
 
 ![AxleCoupler1](https://github.com/user-attachments/assets/92957ab6-3f7d-4a64-b847-4c74e212011f)
 ![AxleCoupler2](https://github.com/user-attachments/assets/a9c14a4e-aba7-4764-bdfe-fb84b80e260b)
