@@ -11,8 +11,8 @@
 
 ## Team Members
 - **Anas Bin Azim** – [anas.azim.71@gmail.com](mailto:anas.azim.71@gmail.com)
-- **Rakibul Islam** – email to be updated
-- **Mohiuddin Sami** – email to be updated
+- **Rakibul Islam** – [rakibul.rir06@gmail.com](mailto:rakibul.rir06@gmail.com)
+- **Mohiuddin Sami** – [](mailto:)
 
 ---
 
