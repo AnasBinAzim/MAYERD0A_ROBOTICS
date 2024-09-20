@@ -43,6 +43,28 @@
 
 ## Robot's Chassis
 
+The chassis of the SMOKI self-driving vehicle is designed to integrate innovative mechanical and electrical components, ensuring both functionality and aesthetic appeal. This section highlights the key features of the chassis, including the Ackermann steering system, babble gear, 3D printed body, and sonar mounts.
+
+### Ackermann Steering System
+
+The **Ackermann steering system** is a crucial feature of the SMOKI chassis, designed to enhance maneuverability and reduce tire wear during turns. This steering mechanism allows the inner front wheel to turn at a larger angle than the outer wheel, ensuring that both wheels follow a common turning radius. This configuration minimizes tire scrubbing and improves handling, particularly in tight corners. The design is based on a modified four-bar linkage that optimally aligns the wheels with the center of the turning radius, providing smooth navigation and stability at various speeds.
+
+### Babble Gear
+
+Incorporating **babble gear** into the chassis enhances the vehicle's ability to manage torque and speed efficiently. This gear system allows for precise control over movement, enabling quick adjustments during operation. The design of babble gear contributes to a lightweight structure while maintaining strength, making it ideal for robotic applications where agility and responsiveness are paramount.
+
+### 3D Printed Body
+
+The **3D printed body** of SMOKI not only adds to its aesthetic appeal but also allows for customization in design and functionality. The use of advanced 3D printing techniques enables the creation of complex shapes that traditional manufacturing methods cannot achieve. This flexibility in design helps optimize weight distribution and structural integrity while providing a modern look that aligns with the innovative spirit of robotics.
+
+### Sonar Mounts
+
+The integration of **sonar mounts** is another significant aspect of the chassis design. These mounts are strategically positioned to enhance sensor performance, allowing for better obstacle detection and navigation capabilities. By optimizing the placement of sonar sensors, SMOKI can achieve improved handling and responsiveness in dynamic environments. The aesthetic integration of these mounts into the chassis design ensures that functionality does not compromise visual appeal.
+
+## Conclusion
+
+The SMOKI robot chassis exemplifies a harmonious blend of advanced engineering principles and modern design aesthetics. The combination of an Ackermann steering system, babble gear, 3D printed body, and well-placed sonar mounts creates a robust platform for autonomous operation while ensuring an appealing visual presentation. This thoughtful integration reflects Team MAYERDOA_ROBOTICS' commitment to innovation in robotics as they prepare for the 2024 WRO National Final from Bangladesh.
+
 ----
 
 ## Electrical Design of Our Robot
