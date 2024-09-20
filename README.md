@@ -119,6 +119,9 @@ To convert our battery voltage from **8.4 volts** to **5 volts**, we employed an
 For powering the motors, we integrated an MT3608 boost converter, which steps up the voltage to 14V DC. This converter is vital for delivering the necessary current to drive the motors effectively while maintaining performance under varying load conditions. The ability of the MT3608 to provide stable output at higher voltages ensures that our motors can function optimally, enhancing the overall performance of the SMOKI vehicle.
 
 ### Raspberry Pi and Camera Integration 📷
+![Raspberrypi5](https://github.com/user-attachments/assets/8f873be0-f273-4863-8847-c895b6039f63)
+
+
 
 Additionally, our Raspberry Pi is responsible for powering the onboard camera, which plays a critical role in navigation and obstacle detection. By utilizing these optimized power delivery methods, we can ensure that all components receive the appropriate voltage and current they require for seamless operation.
 
