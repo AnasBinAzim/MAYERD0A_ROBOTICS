@@ -15,24 +15,23 @@ Building a robot can be a complex task, but with clear instructions and visual r
 Dive into the sections below to begin your journey in assembling **SMOKI**. Happy building!
 ---
 
- # Main PCB :
- <u> </u>
- 
- 
-## 🖥️ Main PCB Overview
+## 🛠️ 3D Printed Baseplate
 
-![PCB](https://github.com/user-attachments/assets/77136ed7-afbb-4478-9d1e-ea04fce11178)
+![baseplate1](https://github.com/user-attachments/assets/72105c34-1ef5-48b3-98ba-1df9f89528e6)
+![baseplate2](https://github.com/user-attachments/assets/400e777a-40b3-428d-bfba-09254823ea0c)
+![baseplate3](https://github.com/user-attachments/assets/fe2da24e-9cb5-4e29-9f8a-93f530ff78e4)
 
-The **Main PCB** (Printed Circuit Board) is the heart of the **SMOKI** robot, seamlessly integrating all electronic components for optimal performance. 
+The **Baseplate** of the **SMOKI** robot is meticulously crafted using the **Ender 3 S1 Pro 3D printer**, showcasing precision and innovation in design.
 
-### 🌟 Key Features:
-- **Compact Design**: Designed to maximize space while maintaining functionality.
-- **High-Quality Materials**: Built with durable components to ensure longevity and reliability.
-- **Versatile Connectivity**: Multiple ports and connectors for easy integration with sensors, motors, and other peripherals.
+### 🌟 Design Highlights:
+- **Fully 3D Printed**: Each component is fabricated with high accuracy, ensuring a perfect fit for all attached elements.
+- **Lightweight and Durable**: Made from robust materials that strike a balance between strength and weight, allowing for enhanced mobility.
 
-### ⚡ Performance Highlights:
-- **Efficient Power Management**: Ensures stable operation under various conditions.
-- **Signal Integrity**: Designed to minimize noise and interference, allowing for clear communication between components.
+### 🔧 Functional Features:
+- **Modular Structure**: Designed to accommodate various attachments and components, making upgrades and modifications seamless.
+- **Optimized Layout**: The layout is engineered for efficient wiring and component placement, ensuring easy assembly and maintenance.
 
-This PCB serves as the backbone of **SMOKI**, enabling smooth operation and robust performance in all your robotic endeavors!
+This baseplate serves as a solid foundation for the **SMOKI** robot, providing stability and support for all its advanced features. Experience the power of 3D printing and elevate your robotic projects!
+
+
 
