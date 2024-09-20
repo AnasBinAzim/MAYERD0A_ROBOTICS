@@ -63,9 +63,32 @@ With these spacers, our **SMOKI** robot will achieve optimal performance and rel
 
 ## ⚙️ Motor Installation
 
-![PXL_20240914_201518166](https://github.com/user-attachments/assets/8facc1f2-73a4-4faa-bf4d-b6b053624c80)
-![PXL_20240914_201852512](https://github.com/user-attachments/assets/7a989f6a-698d-4b96-9f98-d9a0533a4c82)
-![PXL_20240914_203720351](https://github.com/user-attachments/assets/c871499d-f5cb-4641-be0e-b871cdc31506)
+<style>
+  .circular {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .circular img {
+    width: 100%;
+    height: auto;
+  }
+</style>
+
+<div class="circular">
+  <img src="https://github.com/user-attachments/assets/8facc1f2-73a4-4faa-bf4d-b6b053624c80" alt="PXL_20240914_201518166">
+</div>
+<div class="circular">
+  <img src="https://github.com/user-attachments/assets/7a989f6a-698d-4b96-9f98-d9a0533a4c82" alt="PXL_20240914_201852512">
+</div>
+<div class="circular">
+  <img src="https://github.com/user-attachments/assets/c871499d-f5cb-4641-be0e-b871cdc31506" alt="PXL_20240914_203720351">
+</div>
+
 
 The **Motor Installation** is a critical phase in the assembly of the **SMOKI** robot, providing the necessary power and movement for dynamic operation.
 
