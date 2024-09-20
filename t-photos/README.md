@@ -1,6 +1,7 @@
 ###### **This folder contains photos of our team MAYERDOA_ROBOTICS.**
 
 
+
 ![candid](https://github.com/user-attachments/assets/2d566714-781f-4ef4-95c5-bb22acc00fe3)
 
 
