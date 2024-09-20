@@ -1,1 +1,1 @@
-# This directory contains the STL files of ** SMOKI **
+## This directory contains the STL files of ** SMOKI **
