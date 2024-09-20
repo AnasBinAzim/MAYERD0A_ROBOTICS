@@ -131,9 +131,11 @@ This assembly is crucial for ensuring that our **SMOKI** robot operates smoothly
 
 
 ### Step 3: Install the Full Axle
-Now, installing the full axle in the **rear axle housing section** of the base plate to ensure proper alignment and support.
+
 
 ![raamain](https://github.com/user-attachments/assets/8a92e44a-ea7e-41d6-b882-64e0fa82a2b5)
+---
+Now, installing the full axle in the **rear axle housing section** of the base plate to ensure proper alignment and support.
 
 ![raamain2](https://github.com/user-attachments/assets/22c2c0cd-2f99-4bb6-9a22-62287ebd5f29)
 
