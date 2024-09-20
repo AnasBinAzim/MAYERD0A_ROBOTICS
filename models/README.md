@@ -33,5 +33,28 @@ The **Baseplate** of the **SMOKI** robot is meticulously crafted using the **End
 
 This baseplate serves as a solid foundation for the **SMOKI** robot, providing stability and support for all its advanced features. Experience the power of 3D printing and elevate your robotic projects!
 
+---
+<u>  </u>
+
+
+
+## 🛠️ Installation Spacers
+
+![spacers1](https://github.com/user-attachments/assets/8c20efef-1ec5-4403-bfcf-1aa2f07cc61a)
+![spaces](https://github.com/user-attachments/assets/e06a76a0-df43-4a02-bde3-09d2e5468e13)
+![spacers1](https://github.com/user-attachments/assets/7cef22ff-dfe9-4b2a-a049-f9b747adbb1e)
+
+The **Spacers** are essential components of the **SMOKI** robot, meticulously designed to ensure proper installation and balance throughout the assembly.
+
+### 🌟 Key Features:
+- **Precision Engineering**: Each spacer is crafted to exact dimensions, ensuring a perfect fit and alignment of all parts.
+- **Enhanced Stability**: Provides necessary clearance and support, contributing to the overall balance and stability of the robot.
+
+### ⚙️ Functional Importance:
+- **Facilitates Installation**: Simplifies the assembly process by allowing for easy placement of components without interference.
+- **Optimizes Performance**: By maintaining correct spacing, these spacers help in reducing friction and wear, ensuring smooth operation of all moving parts.
+
+With these spacers, your **SMOKI** robot will achieve optimal performance and reliability, making your assembly process seamless and effective!
+
 
 
