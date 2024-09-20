@@ -3,7 +3,7 @@
 
 ---
 
-| ![bot](https://github.com/user-attachments/assets/a6670027-46c2-4afe-9a92-775ba06ae660) | 
+| ![bot](https://github.com/user-attachments/assets/08601b9d-fa28-4cfd-aa6c-960e2666ef5a) | 
 |--------------------------------------------------------------| 
 | **TEAM NAME:** MAYERDOA ROBOTICS                             | 
 | **TEAM MEMBERS:**                                            | 
@@ -17,4 +17,5 @@
 <u>  </u>
 
 ---
+
 
