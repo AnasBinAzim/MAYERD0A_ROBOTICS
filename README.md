@@ -54,6 +54,8 @@ The **SMOKI** chassis is designed for both functionality and aesthetic appeal, f
 The **Ackermann steering system** allows for precise turns, reducing tire scrubbing and enhancing the robot's maneuverability by ensuring that the wheels follow the correct turning radius. This is particularly useful for making tight corners and improving handling.
 
 ### Bevel Gear
+![bevelgear](https://github.com/user-attachments/assets/49e795c4-6718-499f-b6ac-76ed3502a514)
+
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/43fb031e-52ba-4e7a-ab7d-bf6c4b74763a" alt="Bevel Gear" width="400" />
