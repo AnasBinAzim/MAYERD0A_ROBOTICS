@@ -129,7 +129,8 @@ The SMOKI robot exemplifies a well-thought-out combination of engineering and de
 
 ### Thank you for following our journey! We hope SMOKI inspires you to dream big and engineer even bigger! 💖🚀 (OUR DESIGNER DESERVES A RAISE WE KNOW)
 
-![image](https://github.com/user-attachments/assets/6822440e-b21c-4589-8e9e-06c5610c67bb)
+![MAINVIC](https://github.com/user-attachments/assets/2855a98b-45ef-4111-b37d-6a7ba6855f7c)
+
 
 
 
