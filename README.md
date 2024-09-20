@@ -14,8 +14,6 @@
 | <li>Anas Bin Azim (Adamjee Cantonment College)</li>          |**v-photos:** Contains the photos of the robot from all required directions. | 
 | <li>Mohiuddin Sami (Rajuk Uttara Model College)</li>         |**video:** Contains the video link of YouTube where our robot can be seen in action. |  
 | </ul>                                                        |**others:** Other essential photos. 
-|                                                              |                                                                              | 
-|                                                              |  
 |                                                              |                         |
 
 
