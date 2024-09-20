@@ -1,4 +1,4 @@
-# Mayerdoa Robotics Future Engineers Documentation 2024: SMOKI Project Overview
+![MAYERDOA_ROBOTICS](https://github.com/user-attachments/assets/74a31cca-7235-47dd-b86c-cf4a7217da79)# Mayerdoa Robotics Future Engineers Documentation 2024: SMOKI Project Overview
 ---
 
 <div align="center">
@@ -126,3 +126,10 @@ The SMOKI robot exemplifies a well-thought-out combination of engineering and de
 <div align="center">
   <img src="https://github.com/user-attachments/assets/08601b9d-fa28-4cfd-aa6c-960e2666ef5a" alt="SMOKI robot" width="300" />
 </div>
+
+
+### Thank you for following our journey! We hope SMOKI inspires you to dream big and engineer even bigger! 💖🚀
+
+![MAYERDOA_ROBOTICS](https://github.com/user-attachments/assets/fb3d724d-9f06-4cf9-9138-51eeb12efb49)
+
+
