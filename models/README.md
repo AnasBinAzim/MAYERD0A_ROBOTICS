@@ -21,8 +21,7 @@ Dive into the sections below to begin your journey in assembling **SMOKI**. Happ
 ---
 
 
-![baseplate1](https://github.com/user-attachments/assets/72105c34-1ef5-48b3-98ba-1df9f89528e6)
-![baseplate2](https://github.com/user-attachments/assets/400e777a-40b3-428d-bfba-09254823ea0c)
+
 
 
 The **Baseplate** of the **SMOKI** robot is meticulously crafted using the **Ender 3 S1 Pro 3D printer**, showcasing precision and innovation in design.
@@ -45,6 +44,8 @@ This baseplate serves as a solid foundation for the **SMOKI** robot, providing s
 
 ![spacers1](https://github.com/user-attachments/assets/8c20efef-1ec5-4403-bfcf-1aa2f07cc61a)
 ![spaces](https://github.com/user-attachments/assets/e06a76a0-df43-4a02-bde3-09d2e5468e13)
+![baseplate1](https://github.com/user-attachments/assets/72105c34-1ef5-48b3-98ba-1df9f89528e6)
+![baseplate2](https://github.com/user-attachments/assets/400e777a-40b3-428d-bfba-09254823ea0c)
 
 
 The **Spacers** are essential components of the **SMOKI** robot, meticulously designed to ensure proper installation and balance throughout the assembly.
