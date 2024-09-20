@@ -40,7 +40,7 @@ This baseplate serves as a solid foundation for the **SMOKI** robot, providing s
 
 
 
-## 🛠️ Installation Spacers
+## 🛠️ Installation Spacers (m3 35.5 mm spacers)
 
 ![spacers1](https://github.com/user-attachments/assets/8c20efef-1ec5-4403-bfcf-1aa2f07cc61a)
 ![spaces](https://github.com/user-attachments/assets/e06a76a0-df43-4a02-bde3-09d2e5468e13)
