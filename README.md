@@ -57,7 +57,6 @@ The **Ackermann steering system** allows for precise turns, reducing tire scrubb
 ### Bevel Gear
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/49e795c4-6718-499f-b6ac-76ed3502a514" alt="Bevel Gear Diagram" width="400" style="margin-right: 20px;" />
   <img src="https://github.com/user-attachments/assets/43fb031e-52ba-4e7a-ab7d-bf6c4b74763a" alt="Bevel Gear Photo" width="400" />
 </div>
 
