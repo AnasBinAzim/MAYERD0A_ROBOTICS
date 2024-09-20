@@ -127,10 +127,5 @@ The SMOKI robot exemplifies a well-thought-out combination of engineering and de
 ---
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/172c3a2a-33b5-4c01-a7e5-fbb2edcce263" alt="Mayerdoa Robotics Logo" width="200" />
+  <img src="https://github.com/user-attachments/assets/08601b9d-fa28-4cfd-aa6c-960e2666ef5a" alt="SMOKI robot" width="300" />
 </div>
-
-
-## Debugging Tools and Strategies
-*(Details coming soon)*
-
