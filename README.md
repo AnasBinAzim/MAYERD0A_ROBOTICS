@@ -43,7 +43,7 @@
 
 ## Robot's Chassis
 
-The **SMOKI** chassis is designed for both functionality and aesthetic appeal, featuring an **Ackermann steering system**, **bevel gear**, **3D printed body**, and **sonar mounts**.
+The **SMOKI** chassis is designed for both functionality and aesthetic appeal, featuring an **Ackermann steering system**, **bevel gear**, **3D printed body**, and **sonar mounts with adjustable angle**.
 
 ### Ackermann Steering System
 
