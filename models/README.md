@@ -18,6 +18,9 @@ Dive into the sections below to begin your journey in assembling **SMOKI**. Happ
 ## 🛠️ 3D Printed Baseplate
 
 ![baseplate3](https://github.com/user-attachments/assets/fe2da24e-9cb5-4e29-9f8a-93f530ff78e4)
+---
+
+
 ![baseplate1](https://github.com/user-attachments/assets/72105c34-1ef5-48b3-98ba-1df9f89528e6)
 ![baseplate2](https://github.com/user-attachments/assets/400e777a-40b3-428d-bfba-09254823ea0c)
 
