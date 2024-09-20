@@ -42,7 +42,7 @@ This baseplate serves as a solid foundation for the **SMOKI** robot, providing s
 
 ![spacers1](https://github.com/user-attachments/assets/8c20efef-1ec5-4403-bfcf-1aa2f07cc61a)
 ![spaces](https://github.com/user-attachments/assets/e06a76a0-df43-4a02-bde3-09d2e5468e13)
-![spacers1](https://github.com/user-attachments/assets/7cef22ff-dfe9-4b2a-a049-f9b747adbb1e)
+
 
 The **Spacers** are essential components of the **SMOKI** robot, meticulously designed to ensure proper installation and balance throughout the assembly.
 
