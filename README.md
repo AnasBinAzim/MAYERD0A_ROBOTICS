@@ -2,6 +2,10 @@
 ---
 
 <div align="center">
+  <img src="https://github.com/user-attachments/assets/172c3a2a-33b5-4c01-a7e5-fbb2edcce263" alt="Mayerdoa Robotics Logo" width="200" />
+</div>
+
+<div align="center">
   <img src="https://github.com/user-attachments/assets/08601b9d-fa28-4cfd-aa6c-960e2666ef5a" alt="SMOKI robot" width="300" />
 </div>
 
@@ -53,7 +57,6 @@ The **SMOKI** chassis is designed for both functionality and aesthetic appeal, f
 
 The **Ackermann steering system** allows for precise turns, reducing tire scrubbing and enhancing the robot's maneuverability by ensuring that the wheels follow the correct turning radius. This is particularly useful for making tight corners and improving handling.
 
-
 ### Bevel Gear
 
 <div align="center">
@@ -70,6 +73,7 @@ The **3D printed body** of the SMOKI robot offers a sleek, customizable design w
 
 The **sonar mounts** are strategically positioned to maximize sensor performance, allowing for better obstacle detection. Their placement on the chassis ensures that the sonar sensors are both functional and aesthetically integrated into the overall design.
 
+---
 
 ## Electrical Design
 
@@ -95,17 +99,14 @@ The **sonar mounts** are strategically positioned to maximize sensor performance
 Power efficiency is crucial to ensure smooth operation. We employed voltage conversion techniques to meet the robot's diverse power needs.
 
 ### LM4016 Buck Converter for Voltage Step-Down 🔽
+
 ![buck converter](https://github.com/user-attachments/assets/4e7c2bde-ba4d-4ce8-a09f-45d2f8686652)
-
-
 
 To power the **Raspberry Pi 5** and other components, we used the **LM4016 10A buck converter** to step down battery voltage from **8.4V** to **5V**. This stable 5V supply is crucial for the Raspberry Pi, which demands between **5-6A** at peak performance. The converter efficiently regulates voltage, ensuring minimal energy loss.
 
 ### MT3608 Boost Converter for Motor Power 🔼
 
-
-  <img src="https://github.com/user-attachments/assets/df1ad4a9-8bfe-4b93-9299-7dd5913af512" alt="MT3608 Boost Converter" width="400" />
-
+<img src="https://github.com/user-attachments/assets/df1ad4a9-8bfe-4b93-9299-7dd5913af512" alt="MT3608 Boost Converter" width="400" />
 
 To power the motors, we used the **MT3608 boost converter** to step up the voltage to **14V**. This ensures that the motors receive adequate current for smooth and responsive operation under varying loads.
 
@@ -124,6 +125,11 @@ Our **Raspberry Pi 5** powers the **SJCAM C200 Action Camera**, which is integra
 The SMOKI robot exemplifies a well-thought-out combination of engineering and design principles. Our advanced power delivery system, Ackermann steering, 3D-printed body, and carefully integrated sonar mounts represent a commitment to innovation and precision. These design choices provide a competitive edge as we approach the 2024 WRO National Final.
 
 ---
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/172c3a2a-33b5-4c01-a7e5-fbb2edcce263" alt="Mayerdoa Robotics Logo" width="200" />
+</div>
+
 
 ## Debugging Tools and Strategies
 *(Details coming soon)*
