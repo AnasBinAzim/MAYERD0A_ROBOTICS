@@ -1,5 +1,4 @@
-![MAYERDOA_ROBOTICS](https://github.com/user-attachments/assets/74a31cca-7235-47dd-b86c-cf4a7217da79)# Mayerdoa Robotics Future Engineers Documentation 2024: SMOKI Project Overview
----
+
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/172c3a2a-33b5-4c01-a7e5-fbb2edcce263" alt="Mayerdoa Robotics Logo" width="200" />
