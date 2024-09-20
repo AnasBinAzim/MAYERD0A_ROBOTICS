@@ -48,15 +48,18 @@ The chassis of the SMOKI self-driving vehicle is designed to integrate innovativ
 
 ### Ackermann Steering System
 
+![Ackermann-steering-mechanism-This-is-the-diagram-for-the-Ackermann-steering-mechanism](https://github.com/user-attachments/assets/5f9959c6-4502-4eab-a4da-55fe32c69f43)
 
-![ACKERMANN](https://github.com/user-attachments/assets/28a984ff-0f97-451f-aece-ad402b33abc4)
+
+
 ---
 
 The **Ackermann steering system** is a crucial feature of the SMOKI chassis, designed to enhance maneuverability and reduce tire wear during turns. This steering mechanism allows the inner front wheel to turn at a larger angle than the outer wheel, ensuring that both wheels follow a common turning radius. This configuration minimizes tire scrubbing and improves handling, particularly in tight corners. The design is based on a modified four-bar linkage that optimally aligns the wheels with the center of the turning radius, providing smooth navigation and stability at various speeds.
 
 ### Bevel Gear
 <u> </u>
-![BEVELGEAR](https://github.com/user-attachments/assets/4d207380-4325-476c-b617-cc9c9e9e034e)
+![BEVELGEAR](https://github.com/user-attachments/assets/43fb031e-52ba-4e7a-ab7d-bf6c4b74763a)
+
 ---
 
 
