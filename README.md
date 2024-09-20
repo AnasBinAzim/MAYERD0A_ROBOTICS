@@ -95,10 +95,9 @@ The **sonar mounts** are strategically positioned to maximize sensor performance
 Power efficiency is crucial to ensure smooth operation. We employed voltage conversion techniques to meet the robot's diverse power needs.
 
 ### LM4016 Buck Converter for Voltage Step-Down 🔽
+![buck converter](https://github.com/user-attachments/assets/4e7c2bde-ba4d-4ce8-a09f-45d2f8686652)
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/bdc26d30-7b1c-49c7-82f4-e08e2a08ef87" alt="LM4016 Buck Converter" width="400" />
-</div>
+
 
 To power the **Raspberry Pi 5** and other components, we used the **LM4016 10A buck converter** to step down battery voltage from **8.4V** to **5V**. This stable 5V supply is crucial for the Raspberry Pi, which demands between **5-6A** at peak performance. The converter efficiently regulates voltage, ensuring minimal energy loss.
 
