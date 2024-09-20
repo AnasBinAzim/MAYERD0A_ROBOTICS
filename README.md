@@ -55,9 +55,9 @@ The **Ackermann steering system** allows for precise turns, reducing tire scrubb
 
 ### Bevel Gear
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/43fb031e-52ba-4e7a-ab7d-bf6c4b74763a" alt="Bevel Gear Photo" width="400" />
-</div>
+![GEARMAINMAIN](https://github.com/user-attachments/assets/8e56c556-2eb2-46a9-8785-7f3f2b5e6b47)
+---
+
 
 The **bevel gear** system is designed to manage torque and speed efficiently, providing precise control over movement. Its compact and durable structure is ideal for robotics, allowing for agile and responsive behavior during operations.
 
