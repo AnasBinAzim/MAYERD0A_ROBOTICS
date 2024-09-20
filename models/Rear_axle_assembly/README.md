@@ -1,3 +1,10 @@
+## 🛠️ 3D Printed Baseplate
+
+![baseplate3](https://github.com/user-attachments/assets/fe2da24e-9cb5-4e29-9f8a-93f530ff78e4)
+---
+
+
+
 
 The **Baseplate** of the **SMOKI** robot is meticulously crafted using the **Ender 3 S1 Pro 3D printer**, showcasing precision and innovation in design.
 
