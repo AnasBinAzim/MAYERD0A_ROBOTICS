@@ -44,3 +44,75 @@
 ----
 ----
 
+## Mechanical Design
+<!-- Exactly what the headline says-->
+
+### Mechanical Parts List
+*
+*
+*
+*
+*
+*
+*
+*
+
+
+
+----
+
+
+## Robot's Chassis
+
+
+
+
+
+----
+
+
+## Electrical design of our robot.
+
+
+
+
+
+
+### Electronics Parts list
+
+
+
+*
+*
+*
+*
+*
+*
+*
+*
+
+
+----
+
+
+## Power Delivery and Optimization
+
+*
+*
+*
+*
+*
+
+
+----
+
+
+## Debugging
+
+
+
+
+
+----
+----
+----
