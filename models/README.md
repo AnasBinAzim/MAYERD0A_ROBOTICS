@@ -57,4 +57,25 @@ The **Spacers** are essential components of the **SMOKI** robot, meticulously de
 With these spacers, your **SMOKI** robot will achieve optimal performance and reliability, making your assembly process seamless and effective!
 
 
+## ⚙️ Motor Installation
+
+![PXL_20240914_201518166](https://github.com/user-attachments/assets/8facc1f2-73a4-4faa-bf4d-b6b053624c80)
+![PXL_20240914_201852512](https://github.com/user-attachments/assets/7a989f6a-698d-4b96-9f98-d9a0533a4c82)
+![PXL_20240914_203720351](https://github.com/user-attachments/assets/c871499d-f5cb-4641-be0e-b871cdc31506)
+
+The **Motor Installation** is a critical phase in the assembly of the **SMOKI** robot, providing the necessary power and movement for dynamic operation.
+
+### 🌟 Key Features:
+- **Robust Motors**: Each motor is selected for its durability and performance, ensuring reliable movement across various terrains.
+- **Precise Fitting**: Motors are securely fitted to guarantee optimal alignment and functionality.
+
+### ⚡ Functional Importance:
+- **Enhanced Mobility**: These motors drive the robot's movements, enabling it to navigate and perform tasks effectively.
+- **Smooth Operation**: Proper installation minimizes vibrations and ensures efficient power transmission, enhancing the overall performance.
+
+With the motors expertly installed, your **SMOKI** robot is now ready to take on challenges and showcase its capabilities in action!
+
+
+
+
 
