@@ -90,6 +90,7 @@ With these spacers, our **SMOKI** robot will achieve optimal performance and rel
 </div>
 
 
+
 The **Motor Installation** is a critical phase in the assembly of the **SMOKI** robot, providing the necessary power and movement for dynamic operation.
 
 ### 🌟 Key Features:
@@ -101,8 +102,29 @@ The **Motor Installation** is a critical phase in the assembly of the **SMOKI** 
 - **Smooth Operation**: Proper installation minimizes vibrations and ensures efficient power transmission, enhancing the overall performance.
 
 With the motors expertly installed, our **SMOKI** robot is now ready to take on challenges and showcase its capabilities in action!
+---
 
 
+
+## 🔧 Rear Axle Gear Assembly
+
+### Step 1: Install the Rear Wheels
+Securely attach the rear wheels using **two M3 screws** for each wheel to ensure stability and functionality.
+
+![RAA1](https://github.com/user-attachments/assets/195ae02d-8574-42a6-bf4f-1c63f7de61fb)
+
+---
+
+### Step 2: Install the Rear Main Drive Gear
+Next, fit the assembled rear wheels into the **rear main drive gear** for optimal performance.
+
+![raachoto](https://github.com/user-attachments/assets/71236f8c-890e-4e2e-86f9-2a41d1abd409)
+
+![raa3](https://github.com/user-attachments/assets/1aa37ee3-d874-4617-a10e-53346960c419)
+
+---
+
+This assembly is crucial for ensuring that our **SMOKI** robot operates smoothly and efficiently, providing the necessary torque and drive for all your robotic adventures!
 
 
 
