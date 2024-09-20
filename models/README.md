@@ -201,11 +201,15 @@ The **Main PCB** (Printed Circuit Board) is the heart of the **SMOKI** robot, se
 - **Signal Integrity**: Designed to minimize noise and interference, allowing for clear communication between components.
 
 This PCB serves as the backbone of **SMOKI**, enabling smooth operation and robust performance in all our robotic endeavors!
+---
+
+# FINAL LOOK:
 
 
 
 
 
+![finallook](https://github.com/user-attachments/assets/d22367b6-8404-4fd5-9051-22d38cbfefbf)
 
 
 
