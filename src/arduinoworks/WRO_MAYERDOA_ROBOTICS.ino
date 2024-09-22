@@ -1,4 +1,5 @@
-#include <Servo.h>                // Include Servo library for controlling servo motors
+
+ #include <Servo.h>                // Include Servo library for controlling servo motors
 #include <NewPing.h>             // Include NewPing library for ultrasonic distance sensing
 #include <Arduino.h>             // Include Arduino core library
 
@@ -21,7 +22,7 @@ NewPing sl(9, 7, 300);          // Left sensor (trigger pin: 9, echo pin: 7, max
 short int fd, ld, rd;           // Variables to hold distance readings from front, left, and right sensors
 
 // PID constants for control algorithm
-float Kp = 4.2;                 // Proportional gain
+float Kp = 3;                 // Proportional gain
 float Ki = 0;                   // Integral gain
 float Kd = 0;                   // Derivative gain
 
@@ -32,13 +33,17 @@ const int desiredDistance = 30;  // Target distance in centimeters
 float previousError = 0;        // Store previous error for PID calculations
 float integral = 0;             // Integral component for PID control
 unsigned long s_timer = 0;      // Timer for sampling or control timing
-char int_it;                    // Character variable, purpose unclear from context
-int obj;                        // Variable for object detection, purpose unclear
+char int_it;                    // Variable for storing ascii codes by rpi5
+int obj;                        // variable for storing object id
 bool line_dect = 1;             // Line detection status (1 for true)
 unsigned long timer = 0;        // General timer variable
 int turn = 0;                   // Variable to determine turn direction
 bool should_stop = 0;           // Flag to indicate if stopping is needed
 unsigned long stop_timer = 0;   // Timer for stop functionality
+bool orientation_check = 0;
+unsigned long orientation_timer = 0;
+bool left = 0;
+
 
 void setup() {
   Serial.begin(9600);           // Initialize serial communication at 9600 baud rate
