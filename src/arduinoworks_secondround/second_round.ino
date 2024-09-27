@@ -1,7 +1,7 @@
 bool line_done = 0;
 unsigned long turn_millis = 0;
 unsigned long risktimer = 0;
-int rrc ,lrc,frc ;
+int rrc, lrc, frc;
 void first() {
   turn = 0;         // Reset turn counter
   timer = 0;        // Reset timer
@@ -15,11 +15,11 @@ void first() {
   while (1) {
     linecheck();
     reading();
-    if(left){
-      digitalWrite(led,1);
+    if (left) {
+      digitalWrite(led, 1);
     }
-//     Serial.println(left);
-//    riskcount();
+    //     Serial.println(left);
+    //    riskcount();
     if (!should_stop && turn >= 12) {
       if (!should_stop) {
         should_stop = 1;
@@ -36,106 +36,74 @@ void first() {
 
     // Calculate PID correction
     float correction = Kp * error + Ki * integral + Kd * (error - previousError);
-    //    Serial.print(correction);  // Print correction value for debugging
-    //    Serial.print("  ");
-
-    // Map correction to servo angle (-90 to 90 degrees for steering)
-    int steeringAngle = map(correction, 90, -90, 70, 130); 
-//    delay(100);// Adjust range for responsiveness
-//    Serial.println(is_obj);
-//    Serial.print("yes");
-//    Serial.println(wait_timer);
+    int steeringAngle = map(correction, 90, -90, 60, 140);
     if (objstr != 100) {
       steeringAngle = objstr;
-//      if(objstr > 100)
-//         laststr = 1;
-//      else 
-//        laststr = 2;
-// 
-//      is_obj = 1;
-//      wait_timer = millis();
+      if (objstr > 100) {
+        laststr = 1;
+        wait_timer = millis();
+      } else {
+        laststr = 2;
+        wait_timer = millis();
+      }
+      is_obj = 1;
+      //      wait_timer = millis();
+    } else if (objstr == 100) {
+      steeringAngle = steeringAngle;
+      is_obj = 0;
     }
-//     if (objstr == 100) {
-//      
-//      if(is_obj==1 && millis() - wait_timer <= 100){
-//        steeringAngle = objstr;
-//      }
-//      else if(is_obj==1 && millis()-wait_timer > 100){
-//        wait_timer = 0;
-//        return_timer = millis();
-//        is_obj = 2;}        
-//     
-//      else if(is_obj==2 && millis()-return_timer <= 1200){
-//        if(laststr == 1)
-//          steeringAngle = 55;
-//         else
-//         steeringAngle = 145;                
-//      }
-//      else if(is_obj==2 && millis()-return_timer > 350){
-//        is_obj = 0;
-//        wait_timer = 0;
-//        return_timer = 0;
-//      }
-      else if(rrc || lrc){
-        
-        if(rrc>3) {
-          while(millis()-risktimer <= 200){
+    if (millis() - wait_timer >= 3000) {
+      laststr = 0;
+    }
+    if (rrc || lrc) {
+
+      if (rrc > 3) {
+        while (millis() - risktimer <= 200) {
           steeringAngle = 160;
-          }
         }
-        else if(lrc > 3) {
-          while(millis() - risktimer <=200){
-            steeringAngle = 40;
-          }
+      } else if (lrc > 3) {
+        while (millis() - risktimer <= 200) {
+          steeringAngle = 40;
         }
-        lrc = rrc = 0;
       }
-      else if (objstr == 100){
-        steeringAngle = steeringAngle;
+      lrc = rrc = 0;
+    }
+    if (fd < 10) {
+      if (is_obj) {
+        steering.write(100);
+        run(-60);
+        delay(600);
+      } else if (!is_obj && laststr) {
+        if (laststr = 1) {
+          steering.write(160);
+          run(-60);
+          delay(600);
+        } else if (laststr = 2) {
+          steering.write(40);
+          run(-60);
+          delay(600);
+        }
+        laststr = 0;
+      } else if (!is_obj && !laststr) {
+        if (left) {
+          steering.write(160);
+          run(-60);
+          delay(500);
+          steering.write(40);
+          run(60);
+          delay(400);
+        } else if (!left) {
+          steering.write(40);
+          run(-60);
+          delay(500);
+          steering.write(160);
+          run(60);
+          delay(400);
+        }
       }
-////    }
-    
-    steeringAngle = constrain(steeringAngle, 55, 145);  // Constrain angle within servo limits
-//    riskcount();
-//    if(lrc || rrc){
-//      if(rrc>2){
-//        while(rd<10){
-//          steering.write(140);
-//          run(50);
-//        }
-//      }else if(lrc>2){
-//        while(ld<10){
-//          steering.write(60);
-//          run(50);
-//        }
-//      }
-//      lrc = rrc = 0;
-//    }else if(frc>2){
-//      if(left){
-//        while(fd<20){
-//          if(laststr > 100){
-//            steering.write(60);
-//          run(50);
-//          }else if(laststr < 100){
-//            steering.write(140);
-//          run(50);
-//          }
-//          
-//        }
-//      }else if(!left){
-//        while(fd<20){
-//          if(laststr > 100){
-//            steering.write(140);
-//          run(50);
-//          }else if(laststr < 100){
-//            steering.write(60);
-//          run(50);
-//          }
-//          
-//        }
-//      }
-//      frc = 0;
-//    }
+    }
+
+    steeringAngle = constrain(steeringAngle, 60, 140);
     steering.write(steeringAngle);  // Set steering angle based on correction
 
     // Update motor speed based on the correction
@@ -156,7 +124,7 @@ void linecheck() {
   unsigned long currentMillis = millis();  // Get current time in milliseconds
 
   // Check if line is detected and timer condition is met
-  if (!line_dect && (currentMillis - timer) > 1500) {
+  if (!line_dect && (currentMillis - timer) > 2500) {
     line_dect = 1;           // Reset line detection status
     digitalWrite(buz, LOW);  // Turn off buzzer
   } else if (!line_dect) {
@@ -175,15 +143,15 @@ void linecheck() {
     timer = currentMillis;    // Update timer to current time
   }
 }
-void riskcount(){
-  if(rd < 25){
+void riskcount() {
+  if (rd < 25) {
     rrc++;
     risktimer = millis();
-  }else if(ld<25){
+  } else if (ld < 25) {
     lrc++;
     risktimer = millis();
   }
-  if(fd<25){
+  if (fd < 25) {
     frc++;
   }
 }
