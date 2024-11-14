@@ -25,6 +25,20 @@ Our team name, **"MAYERDOA,"** translates to **"Mother's Prayers"** in Bengali, 
 
 ## 🎉 **Project Overview**
 
+## GITHUB GUIDE
+
+This repository contains all files, designs, and code used to create **SMOKI**. Below is a breakdown of the folder structure:
+
+* `models` – STL files for 3D-printed components.
+* `getting_started` – Initial setup guide.
+* `src` – Main code files for the robot.
+* `video` – Link to a YouTube demonstration of SMOKI in action.
+* `t-photos` – Contains one serious and one funny team photo.
+* `v-photos` – Photos of the robot from all angles.
+* `others` – Additional essential photos.
+
+
+
 Our bot, **SMOKI**, is built for excellence in the **World Robot Olympiad 2024** in the Future Engineers category. From its structural core using LEGO Technic elements to its computing capabilities powered by the **Raspberry Pi 5** and **ESP32 microcontroller**, SMOKI is crafted to handle the nuanced challenges of autonomous navigation and obstacle handling.
 
 ---
