@@ -43,7 +43,8 @@ In **Round 1**, the bot must autonomously complete **three laps** around the tra
 - **Tasks**: Path-following and speed control.
 
 <div align="center">
-  <img src="path/to/round1_track_image.jpg" alt="Round 1 Track Layout" width="500" />
+  <img src=![ROUND1 WRO](https://github.com/user-attachments/assets/823b29fa-8c92-479e-a78a-9fc96c407858)
+ />
 </div>
 
 ### 🏆 Round 2: Lap Completion with Obstacle Avoidance and Parking
@@ -58,7 +59,8 @@ After completing the laps, the bot must accurately park within a designated zone
 - **Tasks**: Obstacle detection, color-based avoidance, and precision parking.
 
 <div align="center">
-  <img src="path/to/round2_track_image.jpg" alt="Round 2 Track Layout" width="500" />
+  <img src=![WRO TRACK](https://github.com/user-attachments/assets/b578392d-b443-4315-8fe3-f03af828c39a)
+ />
 </div>
 
 ---
