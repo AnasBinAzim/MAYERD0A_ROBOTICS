@@ -29,10 +29,6 @@ Our bot, **SMOKI**, is built for excellence in the **World Robot Olympiad 2024**
 
 ---
 
-## 🎯 Project Objective
-
-This project is designed to meet the challenges and missions set forth in the **WRO 2024 Future Engineers** category. Our robot will participate in two rounds, each with specific goals related to autonomous navigation, obstacle avoidance, and parking accuracy.
-
 ### Mission Overview for WRO Future Engineers Rounds
 
 <table>
@@ -45,7 +41,7 @@ This project is designed to meet the challenges and missions set forth in the **
         <li><strong>Key Tasks</strong>: Accurate path-following, speed control, and lap counting.</li>
       </ul>
       <div align="center">
-        <img src="https://github.com/user-attachments/assets/823b29fa-8c92-479e-a78a-9fc96c407858" alt="Round 1 WRO Track" width="250" />
+        <img src="https://github.com/user-attachments/assets/823b29fa-8c92-479e-a78a-9fc96c407858" alt="Round 1 WRO Track" width="250" height="180" />
       </div>
     </td>
     <td width="50%" valign="top" align="left">
@@ -61,7 +57,7 @@ This project is designed to meet the challenges and missions set forth in the **
         <li><strong>Tasks</strong>: Obstacle detection, color-based avoidance, and precision parking.</li>
       </ul>
       <div align="center">
-        <img src="https://github.com/user-attachments/assets/b578392d-b443-4315-8fe3-f03af828c39a" alt="Round 2 WRO Track" width="250" />
+        <img src="https://github.com/user-attachments/assets/b578392d-b443-4315-8fe3-f03af828c39a" alt="Round 2 WRO Track" width="250" height="180" />
       </div>
     </td>
   </tr>
@@ -69,6 +65,7 @@ This project is designed to meet the challenges and missions set forth in the **
 
 
 ---
+
 
 ## 🧩 Components and Hardware
 
