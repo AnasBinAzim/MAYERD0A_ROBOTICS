@@ -120,6 +120,7 @@ The following images showcase the detailed assembly process of our WRO Bot's cha
   <img src="https://github.com/user-attachments/assets/64b7140a-9e3e-4bfb-b659-bb22befd86a8" width="150" height="150" />
   <img src="https://github.com/user-attachments/assets/38c7edd0-b888-41a8-91f2-c0fb84ade69e" width="150" height="150" />
   <img src="https://github.com/user-attachments/assets/ec1019fc-c8fe-4b5d-86d1-c554ce76b774" width="150" height="150" />
+  <img src="https://github.com/user-attachments/assets/2eb9f7d2-800f-4223-8c29-a2ce30d680db" width="150" height="150" />
 </p>
 
 
