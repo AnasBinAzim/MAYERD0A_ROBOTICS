@@ -37,6 +37,23 @@ This repository contains all files, designs, and code used to create **SMOKI**. 
 * `v-photos` – Photos of the robot from all angles.
 * `others` – Additional essential photos.
 
+---
+
+## Table of Contents
+
+- [Team MAYERDOA - "Mothers' Prayers"](#-team-mayerdoa---mothers-prayers)
+- [Project Overview](#-project-overview)
+- [Project Objective](#-project-objective)
+- [Mission Overview for WRO Future Engineers Rounds](#mission-overview-for-wro-future-engineers-rounds)
+- [Components and Hardware](#-components-and-hardware)
+- [Mobility Management](#-mobility-management)
+- [Power and Sense Management](#-power-and-sense-management)
+- [Program Infrastructure and Explanation of Algorithm](#-program-infrastructure-and-explanation-of-algorithm)
+- [Software Setup](#-software-setup)
+
+---
+
+
 
 
 Our bot, **SMOKI**, is built for excellence in the **World Robot Olympiad 2024** in the Future Engineers category. From its structural core using LEGO Technic elements to its computing capabilities powered by the **Raspberry Pi 5** and **ESP32 microcontroller**, SMOKI is crafted to handle the nuanced challenges of autonomous navigation and obstacle handling.
