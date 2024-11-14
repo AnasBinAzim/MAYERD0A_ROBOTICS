@@ -55,17 +55,17 @@ Our bot is built to adapt to complex tasks and deliver high performance in the W
 
 - **Raspberry Pi 5**  
   The **Raspberry Pi 5** serves as the brain of our bot, providing powerful processing capabilities for controlling sensors, managing tasks, and handling complex computational needs.
-  ![Raspberry Pi 5](![RPI5](https://github.com/user-attachments/assets/a16b195a-2446-4413-97ef-c06426b3b4ef)
+  ![Raspberry Pi 5](![RPI5](https://github.com/user-attachments/assets/a16b195a-2446-4413-97ef-c06426b3b4ef))
 )  
 
 - **ESP32 Microcontroller**  
   Acting as the main control unit, the **ESP32** is responsible for interpreting sensor data, handling input/output tasks, and executing control algorithms for movement and task execution.
-  ![ESP32](![esp32](https://github.com/user-attachments/assets/43c1e57a-8e3b-459e-9aeb-4ce3d8e4dd68)
+  ![ESP32](![esp32](https://github.com/user-attachments/assets/43c1e57a-8e3b-459e-9aeb-4ce3d8e4dd68))
 )
 
 - **XL4016 Buck Converter**  
   The **XL4016** buck converter efficiently steps down the voltage from the battery to supply stable 5V power to the Raspberry Pi and other components, ensuring reliable operation during competition tasks.
-  ![XL4016 Buck Converter](https://via.placeholder.com/150)
+  ![XL4016 Buck Converter](![image](https://github.com/user-attachments/assets/398f762d-c885-4e7c-b636-90ecdf7b67f4))
 
 - **Custom PCB**  
   Our custom-made PCB simplifies wiring and improves stability by integrating power management, sensor connections, and motor controls into a single, compact board.
