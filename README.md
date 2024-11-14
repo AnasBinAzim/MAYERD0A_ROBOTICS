@@ -4,152 +4,146 @@
   <img src="https://github.com/user-attachments/assets/172c3a2a-33b5-4c01-a7e5-fbb2edcce263" alt="MAYERDOA Robotics Logo" width="200" />
 </div>
 
-### Welcome to the repository for **SMOKI**! Developed by **Team MAYERDOA_ROBOTICS**, this project represents our entry for the **2024 WRO National Final (Future Engineers)**. In this repository, you'll find all engineering materials related to **SMOKI**, our self-driving vehicle model.
+# 🤖 Welcome to the WRO Bot Project Repository!
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/172c3a2a-33b5-4c01-a7e5-fbb2edcce263" alt="Mayerdoa Robotics Logo" width="200" />
+</div>
 
 ---
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Team Members](#team-members)
-3. [Project Overview](#project-overview)
-4. [Mechanical Design](#mechanical-design)
-5. [Electrical Design](#electrical-design)
-6. [Programming & Algorithms](#programming--algorithms)
-7. [Conclusion](#conclusion)
+## 🌍 World Robot Olympiad (WRO) Bot Project: **MAYERDOA_ROBOTICS**
+
+Welcome to the **World Robot Olympiad (WRO) Bot Project** repository! This project is a result of innovative engineering, teamwork, and a passion for robotics, designed to push the boundaries of autonomous functionality in a competitive environment. Our bot, **SMOKI**, combines the modularity and durability of **LEGO Technic** components, the processing power of a **Raspberry Pi 5**, and a comprehensive array of sensors controlled by an **ESP32 microcontroller** to bring high performance, adaptability, and intelligence to the WRO competition stage.
 
 ---
 
-## Introduction
+## 🎉 Introduction
 
-The **LEGO EV3 Expansion Set 45560** is central to our design, allowing for the flexibility, durability, and educational alignment required for WRO. This set enables us to develop advanced mechanical structures that meet **WRO regulations** for the **Future Engineers** category, which emphasizes functionality, modularity, and adaptability in robotics design. Our design goals align with the WRO objectives: creating a competitive, high-performing robot that demonstrates precision, problem-solving, and innovation.
+The **WRO Bot Project** aims to create a highly capable, autonomous robot designed to excel in the **World Robot Olympiad (WRO) 2024 Future Engineers** category. With a focus on **smart and sustainable mobility**, this bot will perform intricate tasks under a range of challenging conditions. Using advanced robotics principles, the processing power of a **Raspberry Pi 5**, modular **LEGO Technic** components, and a suite of sensors, the bot is built to achieve precision, efficiency, and adaptability across various mission scenarios.
 
 ---
 
-## Team Members
+## 🎯 Project Objective
+
+This project aims to create a competitive and reliable robot that can autonomously execute tasks in a time-sensitive, dynamic environment as outlined in the **WRO Future Engineers** competition. Key objectives include:
+
+1. **Build a High-Performance Robot**  
+   Design a robust robot capable of handling diverse and demanding tasks outlined in WRO’s mission-based rounds, focusing on modularity to adapt to different configurations and scenarios. The bot should execute tasks with precision, including object manipulation, autonomous pathfinding, and obstacle navigation.
+
+2. **Utilize Modular and Reusable Parts**  
+   By incorporating LEGO Technic components, a custom PCB, and tailored mounts, the bot’s structure is modular and reusable, allowing for easy reconfiguration and quick repairs. This setup ensures optimal performance across rounds and mission variations.
+
+3. **Implement Advanced Control Code**  
+   Develop sophisticated algorithms for the **ESP32** to manage sensor data interpretation, path planning, and task handling. This includes efficient data handling from ultrasonic, infrared, and camera sensors to enable the bot to make real-time decisions and adapt to environmental changes.
+
+4. **Optimize for Future Engineers Rounds**  
+   Prepare the robot specifically for the missions of the Future Engineers category, with flexible design and control logic to adapt to tasks like object sorting, navigation, alignment, and complex maneuvers. 
+
+---
+
+## 👥 Team Members
 
 - **Anas Bin Azim** – [anas.azim.71@gmail.com](mailto:anas.azim.71@gmail.com)
 - **Rakibul Islam** – [rakibul.rir06@gmail.com](mailto:rakibul.rir06@gmail.com)
 - **Mohiuddin Sami** – [sm.mohiuddin.sami@gmail.com](mailto:sm.mohiuddin.sami@gmail.com)
 
----
-
-## Project Overview
-
-This repository contains all files, designs, and code used to create **SMOKI**. Below is a breakdown of the folder structure:
-
-* `models` – STL files for 3D-printed components.
-* `getting_started` – Initial setup guide.
-* `src` – Main code files for the robot.
-* `video` – Link to a YouTube demonstration of SMOKI in action.
-* `t-photos` – Contains one serious and one funny team photo.
-* `v-photos` – Photos of the robot from all angles.
-* `others` – Additional essential photos.
+**Team**: **MAYERDOA_ROBOTICS**  
+**Country**: **Bangladesh**  
+**Event**: **2024 World Robot Olympiad**
 
 ---
 
-## Mechanical Design
+## 🚀 Features
 
-### Mechanical Parts List
-* **LEGO Technic Elements** (from the EV3 Expansion Set 45560)
-* M3 Nut 3mm – 10 pcs
-* M3 15mm Screw – 12 pcs
-* M2 Nut – 10 pcs
-* 35.5mm Red Female-to-Female Round Spacer – 4 pcs
-* 30mm Male-to-Female Hex Spacer – 4 pcs
-* 15mm Male-to-Female Hex Spacer – 3 pcs
-* Bearings
+Our bot is built to adapt to complex tasks and deliver high performance in the WRO environment. Below are some of the key features:
 
----
+- **Raspberry Pi 5**  
+  The **Raspberry Pi 5** serves as the brain of our bot, providing powerful processing capabilities for controlling sensors, managing tasks, and handling complex computational needs.
+  ![Raspberry Pi 5](https://via.placeholder.com/150)  
 
-## Robot's Chassis
+- **ESP32 Microcontroller**  
+  Acting as the main control unit, the **ESP32** is responsible for interpreting sensor data, handling input/output tasks, and executing control algorithms for movement and task execution.
+  ![ESP32](https://via.placeholder.com/150)
 
-The **SMOKI** chassis, designed with a mix of LEGO Technic parts and 3D-printed components, provides a sturdy base that supports all critical systems, including **Ackermann steering**, a **bevel gear system**, and integrated sonar mounts.
+- **XL4016 Buck Converter**  
+  The **XL4016** buck converter efficiently steps down the voltage from the battery to supply stable 5V power to the Raspberry Pi and other components, ensuring reliable operation during competition tasks.
+  ![XL4016 Buck Converter](https://via.placeholder.com/150)
 
-### Ackermann Steering System
+- **Custom PCB**  
+  Our custom-made PCB simplifies wiring and improves stability by integrating power management, sensor connections, and motor controls into a single, compact board.
+  ![Custom PCB](https://via.placeholder.com/150)
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/5f9959c6-4502-4eab-a4da-55fe32c69f43" alt="Ackermann Steering System" width="400" />
-</div>
+- **LEGO EV3 Expansion Set (45560)**  
+  This expansion set provides 853 LEGO Technic elements, such as beams, gears, and connectors, which enable us to build intricate mechanisms and expand our bot’s functionality.
+  - **Key Models**: Six showcase models can be built using the 45560 set, such as the Elephant, Remote Control, Spinner Factory, Stair Climber, Tank Bot, and Znap.
+  - **Purchase Link**: [LEGO EV3 Expansion Set 45560 on Amazon](https://www.amazon.com/dp/B00F3B2QK6)
+  - **Building Instructions**: [Download LEGO 45560 Model Instructions](https://education.lego.com/en-us/product-resources/mindstorms-ev3/downloads)
+  ![LEGO EV3 Set](https://via.placeholder.com/150)
 
-Our **Ackermann steering system** allows for precise turning, essential for navigating tight corners on the WRO course. This system reduces tire scrubbing and improves overall maneuverability by ensuring the wheels follow the correct turning radius.
+- **Sensor Array**  
+  Equipped with ultrasonic, infrared, and other sensors for obstacle detection, navigation, and environmental interaction.
+  ![Sensor Array](https://via.placeholder.com/150)
 
-### Bevel Gear
-
-![GEARMAINMAIN](https://github.com/user-attachments/assets/8e56c556-2eb2-46a9-8785-7f3f2b5e6b47)
-
-The **bevel gear** system is designed to manage torque and speed efficiently, providing precise control for agile and responsive movements.
-
-### 3D Printed Body
-
-The **3D printed body** of SMOKI offers a sleek, customizable design while optimizing weight distribution and structural integrity.
-
-### Sonar Mounts
-
-Strategically placed **sonar mounts** maximize sensor performance, allowing for effective obstacle detection.
+- **Custom 3D-Printed Mounts**  
+  Custom-made parts for securing components, ensuring stability and adaptability.
+  ![3D Printed Mount](https://via.placeholder.com/150)
 
 ---
 
-## Electrical Design
+## 🧩 Hardware Components
 
-### Electronics Parts List
-* 25GA 800 RPM Motor
-* Raspberry Pi 5 (8GB)
-* SJCAM C200 Action Camera
-* Arduino Nano
-* Copper Plate
-* MG90S Servo – 1 pcs
-* Li-Ion Battery – 2 pcs
-* Ultrasonic Sensor – 4 pcs
-* 10A Buck Module
-* MT3608 Booster Module
-* L298N Motor Driver
-* Push Button
-* Buzzer
+- **Raspberry Pi 5**: The processing hub of the bot.
+- **ESP32 Microcontroller**: The main controller, interpreting sensor data and managing control algorithms.
+- **LEGO Technic Parts (45560)**: Essential building blocks of the bot's structure.
+- **Ultrasonic and Infrared Sensors**: For distance measurement, navigation, and line-following tasks.
+- **XL4016 Buck Converter**: Provides stable voltage for powering the Raspberry Pi.
+- **Custom PCB**: Consolidates connections for efficient power and data handling.
+- **DC Motors**: Provides propulsion and precision in movement.
+- **3D Printed Parts**: Custom mounts for components, ensuring a secure setup.
+- **Power Supply**: Batteries and voltage regulators to power all components reliably.
 
 ---
 
-## Power Delivery and Optimization ⚡🔋
+## 🔧 Assembly Instructions
 
-Efficient power delivery ensures that SMOKI operates smoothly during intense tasks.
+### 🏗️ Chassis Structure
 
-### LM4016 Buck Converter for Voltage Step-Down 🔽
+The bot's main frame is built using LEGO Technic parts from the 45560 set, providing a sturdy base for mounting all other components.
 
-![buck converter](https://github.com/user-attachments/assets/4e7c2bde-ba4d-4ce8-a09f-45d2f8686652)
+![Chassis Assembly](./images/01_chassis_structure.jpg)
 
-We used the **LM4016 10A buck converter** to step down voltage from **8.4V** to **5V** for the **Raspberry Pi 5**, which demands between **5-6A** at peak performance.
+### 🚗 Drive System
 
-### MT3608 Boost Converter for Motor Power 🔼
+The drive system consists of DC motors connected to the wheels, providing the necessary propulsion and control for movement.
 
-<img src="https://github.com/user-attachments/assets/df1ad4a9-8bfe-4b93-9299-7dd5913af512" alt="MT3608 Boost Converter" width="400" />
+![Drive System](./images/02_drive_system.jpg)
 
-The **MT3608 boost converter** steps up voltage to **14V** for the motors, ensuring sufficient power for responsive movement.
+### ⚡ Electronics and Power System
 
-### Raspberry Pi and Camera Integration 📷
+- **Power Module**: Supplies consistent power to the Raspberry Pi and motors.
+- **Wiring**: Organized to ensure reliable connectivity and reduce interference.
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/8f873be0-f273-4863-8847-c895b6039f63" alt="Raspberry Pi and Camera" width="400" />
-</div>
+![Electronics Setup](./images/03_electronics.jpg)
 
-Our **Raspberry Pi 5** powers the **SJCAM C200 Action Camera**, which is integral for navigation and obstacle detection.
+### 🔍 Sensors
 
----
+Various sensors are strategically placed to provide the bot with spatial awareness, enabling obstacle avoidance, line tracking, and environmental data collection.
 
-## Programming & Algorithms
+![Sensors Array](./images/04_sensors.jpg)
 
-### Avoiding Obstacles
-* Utilizing sonar sensors and the camera feed to detect and avoid obstacles on the course.
+### 📸 Mounting the Raspberry Pi and Camera
 
-### Lap Counting
-* Uses camera processing to track and count laps in compliance with WRO rules.
+The Raspberry Pi is securely mounted on the bot using custom 3D-printed parts, which also provide ventilation. The camera is positioned for optimal visibility and angle.
 
-### Autonomous Steering
-* Custom algorithms allow for smooth autonomous steering based on Ackermann geometry principles.
+![Raspberry Pi and Camera Mount](./images/05_raspberry_camera.jpg)
 
 ---
 
-## Conclusion 🌟
+## 💻 Software Setup
 
-The SMOKI robot represents a careful balance of engineering and design principles. Our use of the LEGO EV3 Expansion Set 45560 alongside customized mechanical and electrical systems positions SMOKI as a strong contender for the 2024 WRO National Final.
-
----
-
+1. **Install Dependencies**:
+   ```bash
+   sudo apt update
+   sudo apt install python3 python3-pip
+   pip3 install -r requirements.txt
