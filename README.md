@@ -1,8 +1,3 @@
-# WRO_FE_2024 Engineering Documentation / **Project SMOKI** / Team **MAYERDOA_ROBOTICS** / Bangladesh
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/172c3a2a-33b5-4c01-a7e5-fbb2edcce263" alt="MAYERDOA Robotics Logo" width="200" />
-</div>
 
 # 🤖 Welcome to the WRO Bot Project Repository!
 
