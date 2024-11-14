@@ -92,7 +92,8 @@ Our bot is equipped with various components that support its autonomous function
 |--------------------------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | **Raspberry Pi 5**       | Provides processing power for control algorithms and sensor data management.                     | ![Raspberry Pi 5](https://github.com/user-attachments/assets/2467b4e3-1a5b-45f8-9aa9-fb4c0423d065)                                               | [Purchase Raspberry Pi 5](https://amzn.to/3wKg5TG)                                            |
 | **ESP32 Microcontroller**| Handles real-time sensor data interpretation and motor control.                                  | ![ESP32](https://github.com/user-attachments/assets/33a06ed7-70a8-4dc2-8be9-c8d0050e6f9a)                                                        | [Purchase ESP32](https://amzn.to/3ESP32)                                                      |
-| **LEGO EV3 Expansion Set (45560)** | Modular components used for building and structural support.                       | ![LEGO EV3 Set](https://github.com/user-attachments/assets/95c9cd15-5e35-43b9-a1e7-58e133cb417e)                                                  | [Purchase LEGO 45560](https://amzn.to/3K4eLEGO)                                               |
+| **LEGO EV3 Expansion Set (45560)** | Modular components used for building and structural support.                       | ![LEGO EV3 Set](![lego expansion-Photoroom](https://github.com/user-attachments/assets/c99f6a51-5c82-4981-bed8-0cb59690b966)
+)                          | [Purchase LEGO 45560](https://amzn.to/3K4eLEGO)                                               |
 | **XL4016 Buck Converter** | Provides stable voltage for the Raspberry Pi and ESP32, enhancing power management.             | ![XL4016 Buck Converter](https://github.com/user-attachments/assets/12e22ca7-35a7-4113-8842-1284a45e5a7e)                                        | [Purchase XL4016](https://amzn.to/4xl4016)                                                    |
 | **Custom PCB**           | Custom-designed PCB for efficient wiring and stable connections across all components.          | ![Custom PCB](https://via.placeholder.com/150)                                                                                                    | [Custom Design](https://custompcbprovider.com)                                                |
 | **Ultrasonic Sensors**    | Detects distances to obstacles and aids in precise navigation.                                   | ![Ultrasonic Sensor](https://github.com/user-attachments/assets/25014896-2204-4e75-ab74-484e8e3103a0)                                            | [Purchase Ultrasonic Sensor](https://amzn.to/3Ultrasonic)                                     |
@@ -120,7 +121,7 @@ Our bot is equipped with various components that support its autonomous function
 
 Built using LEGO Technic parts from the 45560 set, providing a strong base.
 
-![Chassis Assembly](./images/01_chassis_structure.jpg)
+![Chassis Assembly]()
 
 ### 🚗 Drive System
 
