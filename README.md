@@ -1,4 +1,3 @@
-
 # 🤖 Welcome to the WRO Bot Project Repository!
 
 <div align="center">
@@ -21,19 +20,39 @@ The **WRO Bot Project** aims to create a highly capable, autonomous robot design
 
 ## 🎯 Project Objective
 
-This project aims to create a competitive and reliable robot that can autonomously execute tasks in a time-sensitive, dynamic environment as outlined in the **WRO Future Engineers** competition. Key objectives include:
+This project is designed to meet the challenges and missions set forth in the **WRO 2024 Future Engineers** category. Our robot will participate in two rounds, each presenting unique challenges in autonomous navigation, obstacle avoidance, and task completion.
 
-1. **Build a High-Performance Robot**  
-   Design a robust robot capable of handling diverse and demanding tasks outlined in WRO’s mission-based rounds, focusing on modularity to adapt to different configurations and scenarios. The bot should execute tasks with precision, including object manipulation, autonomous pathfinding, and obstacle navigation.
+### Objective Overview
 
-2. **Utilize Modular and Reusable Parts**  
-   By incorporating LEGO Technic components, a custom PCB, and tailored mounts, the bot’s structure is modular and reusable, allowing for easy reconfiguration and quick repairs. This setup ensures optimal performance across rounds and mission variations.
+The main objective of the WRO 2024 Future Engineers competition is to build an autonomous robot capable of completing tasks within specified time limits, focusing on **environmental awareness**, **sustainable mobility**, and **adaptive navigation**.
 
-3. **Implement Advanced Control Code**  
-   Develop sophisticated algorithms for the **ESP32** to manage sensor data interpretation, path planning, and task handling. This includes efficient data handling from ultrasonic, infrared, and camera sensors to enable the bot to make real-time decisions and adapt to environmental changes.
+---
 
-4. **Optimize for Future Engineers Rounds**  
-   Prepare the robot specifically for the missions of the Future Engineers category, with flexible design and control logic to adapt to tasks like object sorting, navigation, alignment, and complex maneuvers. 
+## 📅 Mission Overview for WRO Future Engineers Rounds
+
+### 🏁 Round 1: Precision and Navigation
+
+In Round 1, the robot must navigate through a series of checkpoints, avoiding obstacles and accurately aligning with predefined markers. This round tests the bot's ability to follow complex paths, maintain speed control, and react to sudden changes in the track layout.
+
+- **Objective**: Complete a circuit of checkpoints within the allotted time while avoiding specific obstacles.
+- **Key Tasks**: Obstacle detection, precise movement, and real-time sensor data processing.
+  
+<div align="center">
+  <img src="path/to/track_image_round_1.jpg" alt="Track for Round 1" width="500" />
+</div>
+
+---
+
+### 🏆 Round 2: Task-Based Challenge
+
+Round 2 builds on the navigation skills from Round 1 by adding task-based challenges, such as identifying and sorting objects, detecting and avoiding new obstacles, and stopping at designated areas. The robot must demonstrate a higher level of decision-making and adaptive behavior in this round.
+
+- **Objective**: Identify specific objects on the track, pick and place as required, and avoid new obstacles.
+- **Key Tasks**: Object identification, adaptive pathfinding, and interaction with movable elements.
+  
+<div align="center">
+  <img src="path/to/track_image_round_2.jpg" alt="Track for Round 2" width="500" />
+</div>
 
 ---
 
@@ -49,36 +68,32 @@ This project aims to create a competitive and reliable robot that can autonomous
 
 ---
 
-## 🚀 Features
+## 🧩 Components
 
-Our bot is built to adapt to complex tasks and deliver high performance in the WRO environment. Below are some of the key features:
+Our bot incorporates a wide range of components that allow it to perform reliably and adapt to complex tasks in the WRO environment. Below are some of the key components:
 
 - **LEGO EV3 Expansion Set (45560)**  
   This expansion set provides 853 LEGO Technic elements, such as beams, gears, and connectors, which enable us to build intricate mechanisms and expand our bot’s functionality.
   - **Key Models**: Six showcase models can be built using the 45560 set, such as the Elephant, Remote Control, Spinner Factory, Stair Climber, Tank Bot, and Znap.
   - **Purchase Link**: [LEGO EV3 Expansion Set 45560 on Amazon](https://www.amazon.com/dp/B00F3B2QK6)
   - **Building Instructions**: [Download LEGO 45560 Model Instructions](https://education.lego.com/en-us/product-resources/mindstorms-ev3/downloads)
-  ![LEGO EV3 Set](![lego expansion](https://github.com/user-attachments/assets/53ab529f-2e16-41dc-8b47-2b9b9a454a1b)
-
+  ![LEGO EV3 Set](https://github.com/user-attachments/assets/53ab529f-2e16-41dc-8b47-2b9b9a454a1b)
 
 - **Raspberry Pi 5**  
   The **Raspberry Pi 5** serves as the brain of our bot, providing powerful processing capabilities for controlling sensors, managing tasks, and handling complex computational needs.
   ![Raspberry Pi 5](https://github.com/user-attachments/assets/a16b195a-2446-4413-97ef-c06426b3b4ef)
-  
 
 - **ESP32 Microcontroller**  
   Acting as the main control unit, the **ESP32** is responsible for interpreting sensor data, handling input/output tasks, and executing control algorithms for movement and task execution.
   ![ESP32](https://github.com/user-attachments/assets/43c1e57a-8e3b-459e-9aeb-4ce3d8e4dd68)
 
-
 - **XL4016 Buck Converter**  
   The **XL4016** buck converter efficiently steps down the voltage from the battery to supply stable 5V power to the Raspberry Pi and other components, ensuring reliable operation during competition tasks.
-  ![XL4016 Buck Converter](![image](https://github.com/user-attachments/assets/398f762d-c885-4e7c-b636-90ecdf7b67f4)
+  ![XL4016 Buck Converter](https://github.com/user-attachments/assets/398f762d-c885-4e7c-b636-90ecdf7b67f4)
 
 - **Custom PCB**  
   Our custom-made PCB simplifies wiring and improves stability by integrating power management, sensor connections, and motor controls into a single, compact board.
   ![Custom PCB](https://via.placeholder.com/150)
-
 
 - **Sensor Array**  
   Equipped with ultrasonic, infrared, and other sensors for obstacle detection, navigation, and environmental interaction.
@@ -90,17 +105,17 @@ Our bot is built to adapt to complex tasks and deliver high performance in the W
 
 ---
 
-## 🧩 Hardware Components
+## 🚀 Features
 
-- **Raspberry Pi 5**: The processing hub of the bot.
-- **ESP32 Microcontroller**: The main controller, interpreting sensor data and managing control algorithms.
-- **LEGO Technic Parts (45560)**: Essential building blocks of the bot's structure.
-- **Ultrasonic and Infrared Sensors**: For distance measurement, navigation, and line-following tasks.
-- **XL4016 Buck Converter**: Provides stable voltage for powering the Raspberry Pi.
-- **Custom PCB**: Consolidates connections for efficient power and data handling.
-- **DC Motors**: Provides propulsion and precision in movement.
-- **3D Printed Parts**: Custom mounts for components, ensuring a secure setup.
-- **Power Supply**: Batteries and voltage regulators to power all components reliably.
+- **Modular Design**: The use of LEGO Technic parts allows for easy assembly, disassembly, and reconfiguration, facilitating rapid prototyping and adaptability to different tasks.
+
+- **Advanced Processing**: The Raspberry Pi 5 provides the computational power necessary for complex algorithms, image processing, and real-time decision-making.
+
+- **Efficient Power Management**: The XL4016 buck converter and custom PCB ensure stable and efficient power distribution to all components, enhancing reliability during operations.
+
+- **Comprehensive Sensor Suite**: A variety of sensors enable the bot to perceive its environment accurately, allowing for precise navigation, obstacle avoidance, and task execution.
+
+- **Custom 3D-Printed Mounts**: These mounts secure and optimize the placement of sensors and components, ensuring stability and easy access for maintenance.
 
 ---
 
@@ -142,6 +157,11 @@ The Raspberry Pi is securely mounted on the bot using custom 3D-printed parts, w
 ## 💻 Software Setup
 
 1. **Install Dependencies**:
+   ```bash
+   sudo apt update
+   sudo apt install python3 python3-pip
+   pip3 install -r requirements.txt
+
    ```bash
    sudo apt update
    sudo apt install python3 python3-pip
