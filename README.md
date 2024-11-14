@@ -53,15 +53,23 @@ This project aims to create a competitive and reliable robot that can autonomous
 
 Our bot is built to adapt to complex tasks and deliver high performance in the WRO environment. Below are some of the key features:
 
+- **LEGO EV3 Expansion Set (45560)**  
+  This expansion set provides 853 LEGO Technic elements, such as beams, gears, and connectors, which enable us to build intricate mechanisms and expand our bot’s functionality.
+  - **Key Models**: Six showcase models can be built using the 45560 set, such as the Elephant, Remote Control, Spinner Factory, Stair Climber, Tank Bot, and Znap.
+  - **Purchase Link**: [LEGO EV3 Expansion Set 45560 on Amazon](https://www.amazon.com/dp/B00F3B2QK6)
+  - **Building Instructions**: [Download LEGO 45560 Model Instructions](https://education.lego.com/en-us/product-resources/mindstorms-ev3/downloads)
+  ![LEGO EV3 Set](![lego expansion](https://github.com/user-attachments/assets/53ab529f-2e16-41dc-8b47-2b9b9a454a1b)
+
+
 - **Raspberry Pi 5**  
   The **Raspberry Pi 5** serves as the brain of our bot, providing powerful processing capabilities for controlling sensors, managing tasks, and handling complex computational needs.
   ![Raspberry Pi 5](https://github.com/user-attachments/assets/a16b195a-2446-4413-97ef-c06426b3b4ef)
-)  
+  
 
 - **ESP32 Microcontroller**  
   Acting as the main control unit, the **ESP32** is responsible for interpreting sensor data, handling input/output tasks, and executing control algorithms for movement and task execution.
   ![ESP32](https://github.com/user-attachments/assets/43c1e57a-8e3b-459e-9aeb-4ce3d8e4dd68)
-)
+
 
 - **XL4016 Buck Converter**  
   The **XL4016** buck converter efficiently steps down the voltage from the battery to supply stable 5V power to the Raspberry Pi and other components, ensuring reliable operation during competition tasks.
@@ -70,13 +78,6 @@ Our bot is built to adapt to complex tasks and deliver high performance in the W
 - **Custom PCB**  
   Our custom-made PCB simplifies wiring and improves stability by integrating power management, sensor connections, and motor controls into a single, compact board.
   ![Custom PCB](https://via.placeholder.com/150)
-
-- **LEGO EV3 Expansion Set (45560)**  
-  This expansion set provides 853 LEGO Technic elements, such as beams, gears, and connectors, which enable us to build intricate mechanisms and expand our bot’s functionality.
-  - **Key Models**: Six showcase models can be built using the 45560 set, such as the Elephant, Remote Control, Spinner Factory, Stair Climber, Tank Bot, and Znap.
-  - **Purchase Link**: [LEGO EV3 Expansion Set 45560 on Amazon](https://www.amazon.com/dp/B00F3B2QK6)
-  - **Building Instructions**: [Download LEGO 45560 Model Instructions](https://education.lego.com/en-us/product-resources/mindstorms-ev3/downloads)
-  ![LEGO EV3 Set](![lego expansion](https://github.com/user-attachments/assets/53ab529f-2e16-41dc-8b47-2b9b9a454a1b)
 
 
 - **Sensor Array**  
