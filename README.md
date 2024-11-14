@@ -108,18 +108,18 @@ Our bot is equipped with various components that support its autonomous function
 The following images showcase the detailed assembly process of our WRO Bot's chassis, utilizing the LEGO 45560 expansion set.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f35d0fc2-224d-45f7-a863-30e9098c40af" width="150" height="150" />
-  <img src="https://github.com/user-attachments/assets/1b8da3c9-1893-435a-a694-a94949254aeb" width="150" height="150" />
-  <img src="https://github.com/user-attachments/assets/305f3ca1-0cee-404a-8215-7aa532ce29b4" width="150" height="150" />
-  <img src="https://github.com/user-attachments/assets/41d0e57a-37c3-4f4c-ac51-11565c5eae3e" width="150" height="150" />
-  <img src="https://github.com/user-attachments/assets/603f8648-d725-40b9-9c70-7f7e070e68ce" width="150" height="150" />
-  <img src="https://github.com/user-attachments/assets/98ead8a8-19e7-466c-9a73-a7ec516daf5e" width="150" height="150" />
-  <img src="https://github.com/user-attachments/assets/7aa07579-eaef-4024-b4e7-54cf38eaba18" width="150" height="150" />
-  <img src="https://github.com/user-attachments/assets/6a235cf7-fba6-4403-862e-a4929a48b6a9" width="150" height="150" />
-  <img src="https://github.com/user-attachments/assets/e717916d-93f4-4844-b1ac-7bc6b1c991f5" width="150" height="150" />
-  <img src="https://github.com/user-attachments/assets/64b7140a-9e3e-4bfb-b659-bb22befd86a8" width="150" height="150" />
-  <img src="https://github.com/user-attachments/assets/ec1019fc-c8fe-4b5d-86d1-c554ce76b774" width="150" height="150" />
-  <img src="https://github.com/user-attachments/assets/2eb9f7d2-800f-4223-8c29-a2ce30d680db" width="150" height="150" />
+  <img src="https://github.com/user-attachments/assets/f35d0fc2-224d-45f7-a863-30e9098c40af" width="200" height="150" />
+  <img src="https://github.com/user-attachments/assets/1b8da3c9-1893-435a-a694-a94949254aeb" width="200" height="150" />
+  <img src="https://github.com/user-attachments/assets/305f3ca1-0cee-404a-8215-7aa532ce29b4" width="200" height="150" />
+  <img src="https://github.com/user-attachments/assets/41d0e57a-37c3-4f4c-ac51-11565c5eae3e" width="200" height="150" />
+  <img src="https://github.com/user-attachments/assets/603f8648-d725-40b9-9c70-7f7e070e68ce" width="200" height="150" />
+  <img src="https://github.com/user-attachments/assets/98ead8a8-19e7-466c-9a73-a7ec516daf5e" width="200" height="150" />
+  <img src="https://github.com/user-attachments/assets/7aa07579-eaef-4024-b4e7-54cf38eaba18" width="200" height="150" />
+  <img src="https://github.com/user-attachments/assets/6a235cf7-fba6-4403-862e-a4929a48b6a9" width="200" height="150" />
+  <img src="https://github.com/user-attachments/assets/e717916d-93f4-4844-b1ac-7bc6b1c991f5" width="200" height="150" />
+  <img src="https://github.com/user-attachments/assets/64b7140a-9e3e-4bfb-b659-bb22befd86a8" width="200" height="150" />
+  <img src="https://github.com/user-attachments/assets/ec1019fc-c8fe-4b5d-86d1-c554ce76b774" width="200" height="150" />
+  <img src="https://github.com/user-attachments/assets/2eb9f7d2-800f-4223-8c29-a2ce30d680db" width="200" height="150" />
 </p>
 
 
