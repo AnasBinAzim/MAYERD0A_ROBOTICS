@@ -101,14 +101,26 @@ Our bot is equipped with various components that support its autonomous function
 
 ### 🏗️ Chassis Assembly
 
-The following images showcase the detailed assembly process of our WRO Bot's chassis, utilizing the LEGO 45560 expansion set. We’ve clustered multiple views for a comprehensive look at the assembly process.
+The following images showcase the detailed assembly process of our WRO Bot's chassis, utilizing the LEGO 45560 expansion set. 
 
 <p align="center">
-  <img src="images/PXL_20241113_191659602.PORTRAIT.ORIGINAL[1].jpg" /> 
-  <img src="images/PXL_20241113_200110695[1].jpg"  /> 
-  <img src="images/PXL_20241114_062930806[1].jpg"  />
-  <img src="images/PXL_20241113_191844222.PORTRAIT[1].jpg"/>
-  <!-- Add more images here, following the same format -->
+  <img src= ![PXL_20241113_191659602 PORTRAIT ORIGINAL 1](https://github.com/user-attachments/assets/f35d0fc2-224d-45f7-a863-30e9098c40af)
+ /> 
+  <img src= ![PXL_20241113_200110695 1](https://github.com/user-attachments/assets/1b8da3c9-1893-435a-a694-a94949254aeb)
+  /> 
+  <img src= ![PXL_20241114_062930806 1](https://github.com/user-attachments/assets/305f3ca1-0cee-404a-8215-7aa532ce29b4)
+  />
+  <img src= ![PXL_20241113_200044262 1](https://github.com/user-attachments/assets/41d0e57a-37c3-4f4c-ac51-11565c5eae3e)
+/>
+   <img src= ![PXL_20241113_200054271 1](https://github.com/user-attachments/assets/603f8648-d725-40b9-9c70-7f7e070e68ce)
+/>
+  <img src= ![PXL_20241113_190632400 PORTRAIT ORIGINAL 1](https://github.com/user-attachments/assets/98ead8a8-19e7-466c-9a73-a7ec516daf5e)
+/>
+ <img src= ![PXL_20241113_191534812 PORTRAIT 1](https://github.com/user-attachments/assets/cabef7af-5b70-4ce9-b736-c687f250d55c)
+
+/>
+
+
 </p>
 
 *Each image provides a unique angle or assembly step, helping illustrate the complexity and modularity of the design.*
