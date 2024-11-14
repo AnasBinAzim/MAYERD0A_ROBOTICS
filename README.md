@@ -31,26 +31,6 @@ Our bot, **SMOKI**, is built for excellence in the **World Robot Olympiad 2024**
 
 ## 🎯 Project Objective
 
-The primary objective of this project is to develop an autonomous robot capable of navigating a track, avoiding obstacles, and parking precisely, as outlined in the WRO Future Engineers 2024 guidelines.
-
-### Mission Details
-
-Our robot will participate in two rounds, each with unique goals related to autonomous navigation, obstacle avoidance, and parking accuracy.
-
-### 🏁 Round 1: Lap Completion
-
-In **Round 1**, the bot must autonomously complete **three laps** around the track without needing to avoid obstacles.
-
-- **Objective**: Complete three laps within the time limit.
-- **Tasks**: Path-following and speed control.
-
-# 🤖 Welcome to the WRO Bot Project Repository!
-
-
----
-
-## 🎯 Project Objective
-
 This project is designed to meet the challenges and missions set forth in the **WRO 2024 Future Engineers** category. Our robot will participate in two rounds, each with specific goals related to autonomous navigation, obstacle avoidance, and parking accuracy.
 
 ### Mission Overview for WRO Future Engineers Rounds
@@ -119,11 +99,20 @@ Our bot is equipped with various components that support its autonomous function
 
 ## 🔧 Assembly Instructions
 
-### 🏗️ Chassis Structure
+### 🏗️ Chassis Assembly
 
-Built using LEGO Technic parts from the 45560 set, providing a strong base.
+The following images showcase the detailed assembly process of our WRO Bot's chassis, utilizing the LEGO 45560 expansion set. We’ve clustered multiple views for a comprehensive look at the assembly process.
 
-![Chassis Assembly]()
+<p align="center">
+  <img src="images/PXL_20241113_191659602.PORTRAIT.ORIGINAL[1].jpg" width="120" /> 
+  <img src="images/PXL_20241113_200110695[1].jpg" width="120" /> 
+  <img src="images/PXL_20241114_062930806[1].jpg" width="120" />
+  <img src="images/PXL_20241113_191844222.PORTRAIT[1].jpg" width="120" />
+  <!-- Add more images here, following the same format -->
+</p>
+
+*Each image provides a unique angle or assembly step, helping illustrate the complexity and modularity of the design.*
+
 
 ### 🚗 Drive System
 
