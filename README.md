@@ -102,11 +102,81 @@ Our bot is equipped with various components that support its autonomous function
 
 
 
-
-
 ## 🔧 Assembly Instructions
 
-### 🏗️ Chassis Assembly
+### 🏗️ Chassis Assembly - LEGO 45560 Expansion Set
+
+Our robot’s chassis is built using components from the **LEGO Technic Expansion Set 45560**. This set provides modular, robust, and flexible building parts that are ideal for constructing a stable and durable chassis foundation. The combination of LEGO’s high-quality materials and custom components ensures that our robot is adaptable, allowing for quick adjustments and additions.
+
+#### 📘 LEGO 45560 Expansion Set Manual
+For a step-by-step guide on using the LEGO 45560 parts, refer to the official **LEGO 45560 Expansion Set Manual**:
+- **[LEGO 45560 Expansion Set Manual (PDF Download)](https://www.lego.com/cdn/manuals/45560.pdf)**
+
+---
+
+#### 🧩 Parts List - LEGO 45560 Expansion Set
+
+The LEGO 45560 Expansion Set contains a variety of parts that are essential for building complex mechanisms. Below is a detailed list of all parts included in the set:
+
+| Part Number | Part Name                     | Quantity |
+|-------------|--------------------------------|----------|
+| 45502       | LEGO Technic Beam 3x5          | 2        |
+| 45503       | LEGO Technic Beam 3x7          | 4        |
+| 45504       | LEGO Technic Beam 5x11         | 2        |
+| 45505       | LEGO Technic Beam 5x7          | 4        |
+| 45507       | LEGO Technic Beam 1x9          | 6        |
+| 45508       | LEGO Technic Beam 1x15         | 4        |
+| 45509       | LEGO Technic Angular Beam 4x6  | 6        |
+| 45510       | LEGO Technic Angular Beam 3x5  | 4        |
+| 3703        | LEGO Technic Beam 1x16         | 2        |
+| 32000       | LEGO Technic Brick 1x14        | 4        |
+| 32002       | LEGO Technic Cross Block 3x3   | 4        |
+| 92907       | LEGO Technic Axle 7            | 8        |
+| 32009       | LEGO Technic Axle 9            | 4        |
+| 24316       | LEGO Technic Gear 24 Tooth     | 4        |
+| 42003       | LEGO Technic Gear 16 Tooth     | 6        |
+| 6538b       | LEGO Technic Connector Peg w/ Friction | 50 |
+| 3647        | LEGO Technic Gear 8 Tooth      | 6        |
+| 87083       | LEGO Technic Pin 2L            | 60       |
+| 32269       | LEGO Technic Connector Peg     | 20       |
+| 40490       | LEGO Technic Axle Pin          | 40       |
+| 32556       | LEGO Technic Double Cross Block | 6      |
+| 32184       | LEGO Technic Connector with Bush | 8      |
+| 3749        | LEGO Technic Bush              | 40       |
+| 3713        | LEGO Technic Half Bush         | 30       |
+| 42195       | LEGO Technic Pin w/ Stop       | 12       |
+| 18654       | LEGO Technic Angular Beam 4x4  | 6        |
+| 11478       | LEGO Technic Frame 5x7         | 2        |
+
+> **Note**: Quantities are approximate based on the LEGO 45560 set contents. For exact counts, refer to the [manual](https://www.lego.com/cdn/manuals/45560.pdf).
+
+---
+
+#### 🛠️ Chassis Assembly Process
+
+Here’s a step-by-step overview of the chassis assembly process using the LEGO 45560 Expansion Set:
+
+1. **Base Frame Construction**: Start by assembling the base frame using 5x11 and 5x7 beams for structural stability. These beams provide a strong foundation for mounting additional components.
+2. **Motor and Axle Integration**: Utilize the LEGO Technic beams and axle connectors to securely attach the motors. Ensure proper alignment to enable smooth and controlled movement.
+3. **Reinforcing with Angular Beams**: Use the 4x6 and 3x5 angular beams to reinforce corners and support areas where weight and stress are concentrated.
+4. **Mounting Sensors and Electronics**: Attach sensor mounts and electronic components using cross blocks and bushings, making sure they are aligned for efficient data capture and processing.
+5. **Gear Assembly for Differential Drive**: Assemble gears (8, 16, and 24-tooth gears) to create a differential drive system, allowing independent rotation of wheels for smooth turns.
+
+---
+
+#### 🔍 Benefits of Using LEGO Technic Parts
+
+- **Modularity**: The LEGO Technic beams and connectors allow for quick modifications, so adjustments can be made without disrupting the entire structure.
+- **Durability**: High-quality materials ensure the chassis remains stable even during rigorous testing.
+- **Precision**: Technic gears, axles, and connectors provide precise alignment, which is critical for movement control and sensor accuracy.
+
+---
+
+By leveraging the flexibility and durability of the LEGO 45560 Expansion Set, our chassis design achieves a balance between robustness and adaptability. The manual and parts list serve as valuable resources for replicating or modifying the design as needed.
+
+
+---
+
 
 The following images showcase the detailed assembly process of our WRO Bot's chassis, utilizing the LEGO 45560 expansion set.
 
