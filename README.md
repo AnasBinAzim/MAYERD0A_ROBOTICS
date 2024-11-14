@@ -88,26 +88,6 @@ After completing the laps, the bot must accurately park within a designated zone
 
 Our bot is equipped with various components that support its autonomous functionality. Here is a breakdown of the key hardware elements used in this project:
 
-## 🧩 Components and Hardware
-
-Our bot is equipped with various components that support its autonomous functionality. Here is a breakdown of the key hardware elements used in this project:
-
-## 🧩 Components and Hardware
-
-Our bot is equipped with various components that support its autonomous functionality. Here is a breakdown of the key hardware elements used in this project:
-
-## 🧩 Components and Hardware
-
-Our bot is equipped with various components that support its autonomous functionality. Here is a breakdown of the key hardware elements used in this project:
-
-## 🧩 Components and Hardware
-
-Our bot is equipped with various components that support its autonomous functionality. Here is a breakdown of the key hardware elements used in this project:
-
-## 🧩 Components and Hardware
-
-Our bot is equipped with various components that support its autonomous functionality. Here is a breakdown of the key hardware elements used in this project:
-
 | Component                | Description                                                                                      | Image                                                                                                                                             | Purchase Link                                                                                 |
 |--------------------------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | **Raspberry Pi 5**       | Provides processing power for control algorithms and sensor data management.                     | ![Raspberry Pi 5](https://github.com/user-attachments/assets/2467b4e3-1a5b-45f8-9aa9-fb4c0423d065)                                               | [Purchase Raspberry Pi 5](https://amzn.to/3wKg5TG)                                            |
