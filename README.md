@@ -88,6 +88,14 @@ After completing the laps, the bot must accurately park within a designated zone
 
 Our bot is equipped with various components that support its autonomous functionality. Here is a breakdown of the key hardware elements used in this project:
 
+## 🧩 Components and Hardware
+
+Our bot is equipped with various components that support its autonomous functionality. Here is a breakdown of the key hardware elements used in this project:
+
+## 🧩 Components and Hardware
+
+Our bot is equipped with various components that support its autonomous functionality. Here is a breakdown of the key hardware elements used in this project:
+
 | Component                | Description                                                                                      | Image                                                                                                                                             | Purchase Link                                                                                 |
 |--------------------------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | **Raspberry Pi 5**       | Provides processing power for control algorithms and sensor data management.                     | ![Raspberry Pi 5](https://github.com/user-attachments/assets/a16b195a-2446-4413-97ef-c06426b3b4ef)                                              | [Purchase Raspberry Pi 5](https://amzn.to/3wKg5TG)                                            |
@@ -96,10 +104,11 @@ Our bot is equipped with various components that support its autonomous function
 | **XL4016 Buck Converter** | Provides stable voltage for the Raspberry Pi and ESP32, enhancing power management.             | ![XL4016 Buck Converter](https://github.com/user-attachments/assets/398f762d-c885-4e7c-b636-90ecdf7b67f4)                                       | [Purchase XL4016](https://amzn.to/4xl4016)                                                    |
 | **Custom PCB**           | Custom-designed PCB for efficient wiring and stable connections across all components.          | ![Custom PCB](https://via.placeholder.com/150)                                                                                                   | [Custom Design](https://custompcbprovider.com)                                                |
 | **Ultrasonic Sensors**    | Detects distances to obstacles and aids in precise navigation.                                   | ![Ultrasonic Sensor](https://via.placeholder.com/150)                                                                                            | [Purchase Ultrasonic Sensor](https://amzn.to/3Ultrasonic)                                     |
-| **Infrared Sensors**     | Used for line-following and environmental data collection.                                       | ![Infrared Sensor](https://via.placeholder.com/150)                                                                                              | [Purchase IR Sensor](https://amzn.to/3Infrared)                                               |
+| **Camera - SJ CAM C200** | Captures visual data, supporting navigation and obstacle detection tasks.                        | ![SJ CAM C200](https://github.com/user-attachments/assets/94e0235c-8289-4c30-94a4-da3dfe93f413)                                                  | [Purchase SJ CAM C200](https://amzn.to/3SJCAM)                                                |
 | **3D Printed Mounts**     | Custom-made mounts for stable sensor and component positioning.                                | ![3D Printed Mount](https://via.placeholder.com/150)                                                                                             | N/A                                                                                            |
 
 ---
+
 
 ## 🚀 Key Features
 
