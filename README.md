@@ -104,10 +104,10 @@ Our bot is equipped with various components that support its autonomous function
 The following images showcase the detailed assembly process of our WRO Bot's chassis, utilizing the LEGO 45560 expansion set. We’ve clustered multiple views for a comprehensive look at the assembly process.
 
 <p align="center">
-  <img src="images/PXL_20241113_191659602.PORTRAIT.ORIGINAL[1].jpg" width="120" /> 
-  <img src="images/PXL_20241113_200110695[1].jpg" width="120" /> 
-  <img src="images/PXL_20241114_062930806[1].jpg" width="120" />
-  <img src="images/PXL_20241113_191844222.PORTRAIT[1].jpg" width="120" />
+  <img src="images/PXL_20241113_191659602.PORTRAIT.ORIGINAL[1].jpg" /> 
+  <img src="images/PXL_20241113_200110695[1].jpg"  /> 
+  <img src="images/PXL_20241114_062930806[1].jpg"  />
+  <img src="images/PXL_20241113_191844222.PORTRAIT[1].jpg"/>
   <!-- Add more images here, following the same format -->
 </p>
 
