@@ -228,6 +228,25 @@ The Raspberry Pi is mounted with custom 3D-printed parts for stability.
 
 ---
 
+
+## 🚗 Mobility Management
+
+This section covers the mobility features of our robot, including drive mechanisms, steering, and any additional mobility-specific hardware. By integrating components like differential drives or custom mounts, we ensure the robot can move accurately and reliably across different surfaces.
+
+---
+
+## ⚡ Power and Sense Management
+
+Power management and sensor integration are critical for maintaining consistent operation. This section explains our approach to stabilizing power supply to all components, while managing sensors like ultrasonic and camera modules for optimal performance.
+
+---
+
+## 🧠 Program Infrastructure and Explanation of Algorithm
+
+In this section, we discuss the underlying software infrastructure, including how data flows within the system, how sensors are interpreted, and the logic behind navigation, obstacle avoidance, and lap counting algorithms. Our programming approach ensures efficient processing and response times.
+
+---
+
 ## 💻 Software Setup
 
 1. **Install Dependencies**:
