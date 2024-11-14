@@ -44,9 +44,6 @@ In **Round 1**, the bot must autonomously complete **three laps** around the tra
 
 # 🤖 Welcome to the WRO Bot Project Repository!
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/172c3a2a-33b5-4c01-a7e5-fbb2edcce263" alt="Mayerdoa Robotics Logo" width="200" />
-</div>
 
 ---
 
