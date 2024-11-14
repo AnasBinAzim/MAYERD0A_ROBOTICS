@@ -101,27 +101,19 @@ Our bot is equipped with various components that support its autonomous function
 
 ### 🏗️ Chassis Assembly
 
-The following images showcase the detailed assembly process of our WRO Bot's chassis, utilizing the LEGO 45560 expansion set. 
+The following images showcase the detailed assembly process of our WRO Bot's chassis, utilizing the LEGO 45560 expansion set.
 
 <p align="center">
-  <img src= ![PXL_20241113_191659602 PORTRAIT ORIGINAL 1](https://github.com/user-attachments/assets/f35d0fc2-224d-45f7-a863-30e9098c40af)
- /> 
-  <img src= (https://github.com/user-attachments/assets/1b8da3c9-1893-435a-a694-a94949254aeb)
-  /> 
-  <img src= (https://github.com/user-attachments/assets/305f3ca1-0cee-404a-8215-7aa532ce29b4)
-  />
-  <img src= (https://github.com/user-attachments/assets/41d0e57a-37c3-4f4c-ac51-11565c5eae3e)
-/>
-   <img src=(https://github.com/user-attachments/assets/603f8648-d725-40b9-9c70-7f7e070e68ce)
-/>
-  <img src= (https://github.com/user-attachments/assets/98ead8a8-19e7-466c-9a73-a7ec516daf5e)
-/>
- <img src=(https://github.com/user-attachments/assets/cabef7af-5b70-4ce9-b736-c687f250d55c)
-
-/>
-
-
+  <img src="https://github.com/user-attachments/assets/f35d0fc2-224d-45f7-a863-30e9098c40af" width="120" />
+  <img src="https://github.com/user-attachments/assets/1b8da3c9-1893-435a-a694-a94949254aeb" width="120" />
+  <img src="https://github.com/user-attachments/assets/305f3ca1-0cee-404a-8215-7aa532ce29b4" width="120" />
+  <img src="https://github.com/user-attachments/assets/41d0e57a-37c3-4f4c-ac51-11565c5eae3e" width="120" />
+  <img src="https://github.com/user-attachments/assets/603f8648-d725-40b9-9c70-7f7e070e68ce" width="120" />
+  <img src="https://github.com/user-attachments/assets/98ead8a8-19e7-466c-9a73-a7ec516daf5e" width="120" />
+  <img src="https://github.com/user-attachments/assets/cabef7af-5b70-4ce9-b736-c687f250d55c" width="120" />
 </p>
+
+*Each image provides a unique angle or assembly step, helping illustrate the complexity and modularity of the design.*
 
 *Each image provides a unique angle or assembly step, helping illustrate the complexity and modularity of the design.*
 
