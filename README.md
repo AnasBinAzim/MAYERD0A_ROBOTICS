@@ -1,4 +1,4 @@
-# 🤖 WRO Future Engineers 2024: SMOKI Bot Project by MAYERDOA_ROBOTICS
+# 🤖 **MAYERDOA Robotics - WRO 2024 Project** 🤖
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/172c3a2a-33b5-4c01-a7e5-fbb2edcce263" alt="Mayerdoa Robotics Logo" width="200" />
@@ -6,24 +6,26 @@
 
 ---
 
-## 🌍 World Robot Olympiad (WRO) Bot Project
+## 👥 **Team MAYERDOA - "Mothers' Prayers"**
 
-Welcome to the **SMOKI Bot Project** repository for the **WRO Future Engineers 2024** category! Our team, **MAYERDOA_ROBOTICS** from Bangladesh, has built a fully autonomous robot capable of navigating a track, avoiding obstacles, and completing missions in alignment with WRO Future Engineers objectives.
+- **Anas Bin Azim** – Software & Hardware Developer | [anas.azim.71@gmail.com](mailto:anas.azim.71@gmail.com)
+- **Rakibul Islam** – Software & Hardware Developer | [rakibul.rir06@gmail.com](mailto:rakibul.rir06@gmail.com)
+- **Mohiuddin Sami** – Software Developer | [sm.mohiuddin.sami@gmail.com](mailto:sm.mohiuddin.sami@gmail.com)
+
+**Team Origin**: Bangladesh
 
 ---
 
-## 🎉 Team and Project Introduction
+### 🌟 **The Meaning Behind MAYERDOA**
 
-**MAYERDOA_ROBOTICS** is a robotics team competing in the **WRO 2024 Future Engineers** category with an autonomous bot designed for high adaptability and intelligent navigation. Our bot, **SMOKI**, combines LEGO Technic modularity, advanced processing from the **Raspberry Pi 5**, and an ESP32 microcontroller for real-time sensor control.
+Our team name, **"MAYERDOA,"** translates to **"Mother's Prayers"** in Bengali, a tribute to the unwavering support of our mothers. They have been our guiding light, steadfastly cheering us on from the initial selection to the WRO global stage. Through every challenge, they are our invisible strength—their love and prayers fueling each achievement, each step forward, each line of code. Their blessings are woven into the fabric of this project, making it more than just a technical endeavor; it’s a heartfelt journey.
 
-### Team Members
+---
 
-1. **Anas Bin Azim** (Software & Hardware Developer) – [anas.azim.71@gmail.com](mailto:anas.azim.71@gmail.com)
-2. **Rakibul Islam** (Software & Hardware Developer) – [rakibul.rir06@gmail.com](mailto:rakibul.rir06@gmail.com)
-3. **Mohiuddin Sami** (Software Developer) – [sm.mohiuddin.sami@gmail.com](mailto:sm.mohiuddin.sami@gmail.com)
 
-**Country**: Bangladesh  
-**Event**: World Robot Olympiad 2024
+## 🎉 **Project Overview**
+
+Our bot, **SMOKI**, is built for excellence in the **World Robot Olympiad 2024** in the Future Engineers category. From its structural core using LEGO Technic elements to its computing capabilities powered by the **Raspberry Pi 5** and **ESP32 microcontroller**, SMOKI is crafted to handle the nuanced challenges of autonomous navigation and obstacle handling.
 
 ---
 
