@@ -42,10 +42,32 @@ In **Round 1**, the bot must autonomously complete **three laps** around the tra
 - **Objective**: Complete three laps within the time limit.
 - **Tasks**: Path-following and speed control.
 
+# 🤖 Welcome to the WRO Bot Project Repository!
+
 <div align="center">
-  <img src=![ROUND1 WRO](https://github.com/user-attachments/assets/823b29fa-8c92-479e-a78a-9fc96c407858)
- />
+  <img src="https://github.com/user-attachments/assets/172c3a2a-33b5-4c01-a7e5-fbb2edcce263" alt="Mayerdoa Robotics Logo" width="200" />
 </div>
+
+---
+
+## 🎯 Project Objective
+
+This project is designed to meet the challenges and missions set forth in the **WRO 2024 Future Engineers** category. Our robot will participate in two rounds, each with specific goals related to autonomous navigation, obstacle avoidance, and parking accuracy.
+
+### Mission Overview for WRO Future Engineers Rounds
+
+### 🏁 Round 1: Lap Completion
+
+In **Round 1**, the robot must autonomously complete **three laps** on a pre-defined track. The goal of this round is for the bot to demonstrate stable navigation and precise lap tracking without any obstacle avoidance requirements.
+
+- **Objective**: Complete three laps on the track within the allotted time.
+- **Key Tasks**: Accurate path-following, speed control, and lap counting.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/823b29fa-8c92-479e-a78a-9fc96c407858" alt="Round 1 WRO Track" width="500" />
+</div>
+
+---
 
 ### 🏆 Round 2: Lap Completion with Obstacle Avoidance and Parking
 
@@ -59,9 +81,9 @@ After completing the laps, the bot must accurately park within a designated zone
 - **Tasks**: Obstacle detection, color-based avoidance, and precision parking.
 
 <div align="center">
-  <img src=![WRO TRACK](https://github.com/user-attachments/assets/b578392d-b443-4315-8fe3-f03af828c39a)
- />
+  <img src="https://github.com/user-attachments/assets/b578392d-b443-4315-8fe3-f03af828c39a" alt="Round 2 WRO Track" width="500" />
 </div>
+
 
 ---
 
