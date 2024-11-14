@@ -35,33 +35,9 @@ This project is designed to meet the challenges and missions set forth in the **
 
 ### Mission Overview for WRO Future Engineers Rounds
 
-### 🏁 Round 1: Lap Completion
-
-In **Round 1**, the robot must autonomously complete **three laps** on a pre-defined track. The goal of this round is for the bot to demonstrate stable navigation and precise lap tracking without any obstacle avoidance requirements.
-
-- **Objective**: Complete three laps on the track within the allotted time.
-- **Key Tasks**: Accurate path-following, speed control, and lap counting.
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/823b29fa-8c92-479e-a78a-9fc96c407858" alt="Round 1 WRO Track" width="500" />
-</div>
-
----
-
-### 🏆 Round 2: Lap Completion with Obstacle Avoidance and Parking
-
-In **Round 2**, the bot must complete **three laps** while avoiding green and red obstacles:
-  - **Green Obstacles**: The bot should move **left** to avoid.
-  - **Red Obstacles**: The bot should move **right** to avoid.
-  
-After completing the laps, the bot must accurately park within a designated zone.
-
-- **Objective**: Complete three laps, avoid obstacles, and park in the designated area.
-- **Tasks**: Obstacle detection, color-based avoidance, and precision parking.
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/b578392d-b443-4315-8fe3-f03af828c39a" alt="Round 2 WRO Track" width="500" />
-</div>
+| **🏁 Round 1: Lap Completion**                                                                                       | **🏆 Round 2: Lap Completion with Obstacle Avoidance and Parking**                                                           |
+|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| <p align="left">In **Round 1**, the robot must autonomously complete **three laps** on a pre-defined track. The goal of this round is for the bot to demonstrate stable navigation and precise lap tracking without any obstacle avoidance requirements.</p>  <br>  - **Objective**: Complete three laps on the track within the allotted time.<br> - **Key Tasks**: Accurate path-following, speed control, and lap counting. <br><img src="https://github.com/user-attachments/assets/823b29fa-8c92-479e-a78a-9fc96c407858" alt="Round 1 WRO Track" width="300" /> | <p align="left">In **Round 2**, the bot must complete **three laps** while avoiding green and red obstacles:<br> - **Green Obstacles**: The bot should move **left** to avoid.<br> - **Red Obstacles**: The bot should move **right** to avoid.<br> After completing the laps, the bot must accurately park within a designated zone.</p>  <br> - **Objective**: Complete three laps, avoid obstacles, and park in the designated area.<br> - **Tasks**: Obstacle detection, color-based avoidance, and precision parking. <br><img src="https://github.com/user-attachments/assets/b578392d-b443-4315-8fe3-f03af828c39a" alt="Round 2 WRO Track" width="300" /> |
 
 
 ---
