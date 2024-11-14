@@ -110,7 +110,14 @@ The following images showcase the detailed assembly process of our WRO Bot's cha
   <img src="https://github.com/user-attachments/assets/41d0e57a-37c3-4f4c-ac51-11565c5eae3e" width="120" />
   <img src="https://github.com/user-attachments/assets/603f8648-d725-40b9-9c70-7f7e070e68ce" width="120" />
   <img src="https://github.com/user-attachments/assets/98ead8a8-19e7-466c-9a73-a7ec516daf5e" width="120" />
-  <img src="https://github.com/user-attachments/assets/cabef7af-5b70-4ce9-b736-c687f250d55c" width="120" />
+  <img src="https://github.com/user-attachments/assets/41d0e57a-37c3-4f4c-ac51-11565c5eae3e" width="120" />
+  <img src="https://github.com/user-attachments/assets/7aa07579-eaef-4024-b4e7-54cf38eaba18" width="120" />
+  <img src="https://github.com/user-attachments/assets/6a235cf7-fba6-4403-862e-a4929a48b6a9" width="120" />
+  <img src="https://github.com/user-attachments/assets/e717916d-93f4-4844-b1ac-7bc6b1c991f5" width="120" />
+  <img src="https://github.com/user-attachments/assets/64b7140a-9e3e-4bfb-b659-bb22befd86a8" width="120" />
+  <img src="https://github.com/user-attachments/assets/e717916d-93f4-4844-b1ac-7bc6b1c991f5" width="120" />
+  
+  
 </p>
 
 *Each image provides a unique angle or assembly step, helping illustrate the complexity and modularity of the design.*
