@@ -217,12 +217,12 @@ By leveraging the flexibility and durability of the LEGO 45560 Expansion Set, ou
 The following images showcase the detailed assembly process of our WRO Bot's chassis, utilizing the LEGO 45560 expansion set.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0994a988-1f73-43db-b7f9-34c5243a842a" width="200" height="150" />
-  <img src="https://github.com/user-attachments/assets/39b389db-0038-425f-bcd5-740f748e3cc9" width="200" height="150" />
-  <img src="https://github.com/user-attachments/assets/339eaf97-91a8-4987-8af9-c86c2d4fe360" width="200" height="150" />
-  <img src="https://github.com/user-attachments/assets/30eae1ee-b442-4caf-86c3-7d5bbb12c6c3" width="200" height="150" />
-  <img src="https://github.com/user-attachments/assets/e95b4755-0067-4639-bd6b-58631e9da91e" width="200" height="150" />
-  <img src="https://github.com/user-attachments/assets/cb176c4d-0af5-4f80-ae3b-d7a9033592d0" width="200" height="150" />
+  <img src="https://github.com/user-attachments/assets/0994a988-1f73-43db-b7f9-34c5243a842a" width="300" height="225" />
+  <img src="https://github.com/user-attachments/assets/39b389db-0038-425f-bcd5-740f748e3cc9" width="300" height="225" />
+  <img src="https://github.com/user-attachments/assets/339eaf97-91a8-4987-8af9-c86c2d4fe360" width="300" height="225" />
+  <img src="https://github.com/user-attachments/assets/30eae1ee-b442-4caf-86c3-7d5bbb12c6c3" width="300" height="225" />
+  <img src="https://github.com/user-attachments/assets/e95b4755-0067-4639-bd6b-58631e9da91e" width="300" height="225" />
+  <img src="https://github.com/user-attachments/assets/cb176c4d-0af5-4f80-ae3b-d7a9033592d0" width="300" height="225" />
   <img src="https://github.com/user-attachments/assets/14527900-366e-4555-8aac-33a8163e1e19" />
 </p>
 
