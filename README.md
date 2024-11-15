@@ -234,10 +234,10 @@ The drive system includes DC motors, which provide reliable propulsion and contr
 ![Drive System](./images/02_drive_system.jpg)
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/297d61d9-bef9-49eb-92bd-bed3f49f170d" width="330"height="225" />
-  <img src="https://github.com/user-attachments/assets/3731a99c-2025-4ecf-bbbc-6adab70886ab" width="330" height="225" />
-  <img src="https://github.com/user-attachments/assets/e5054dfd-4277-47fe-9986-4acdd1ff4e14" width="330" height="225" />
-  <img src="https://github.com/user-attachments/assets/f5ab2184-7332-4fab-bb6f-050e5189baf2" width="330" height="225" />
+  <img src="https://github.com/user-attachments/assets/297d61d9-bef9-49eb-92bd-bed3f49f170d" width="550"height="225" />
+  <img src="https://github.com/user-attachments/assets/3731a99c-2025-4ecf-bbbc-6adab70886ab" width="550" height="225" />
+  <img src="https://github.com/user-attachments/assets/e5054dfd-4277-47fe-9986-4acdd1ff4e14" width="550" height="225" />
+  <img src="https://github.com/user-attachments/assets/f5ab2184-7332-4fab-bb6f-050e5189baf2" width="550" height="225" />
 </p>
 
 ### ⚡ Electronics and Power System
