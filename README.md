@@ -1,7 +1,7 @@
 # 🤖 **MAYERDOA Robotics - WRO 2024 Project** 🤖
 
 <div align="center">
-  <img src=![good](https://github.com/user-attachments/assets/15e9b36d-2bf1-4de5-bdc4-36a72aa1e23a)/>
+  <img src="https://github.com/user-attachments/assets/15e9b36d-2bf1-4de5-bdc4-36a72aa1e23a" alt="MAYERDOA Robotics Banner"/>
 </div>
 
 ---
