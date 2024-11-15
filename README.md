@@ -217,18 +217,13 @@ By leveraging the flexibility and durability of the LEGO 45560 Expansion Set, ou
 The following images showcase the detailed assembly process of our WRO Bot's chassis, utilizing the LEGO 45560 expansion set.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f35d0fc2-224d-45f7-a863-30e9098c40af" width="200" height="150" />
-  <img src="https://github.com/user-attachments/assets/1b8da3c9-1893-435a-a694-a94949254aeb" width="200" height="150" />
-  <img src="https://github.com/user-attachments/assets/305f3ca1-0cee-404a-8215-7aa532ce29b4" width="200" height="150" />
-  <img src="https://github.com/user-attachments/assets/41d0e57a-37c3-4f4c-ac51-11565c5eae3e" width="200" height="150" />
-  <img src="https://github.com/user-attachments/assets/603f8648-d725-40b9-9c70-7f7e070e68ce" width="200" height="150" />
-  <img src="https://github.com/user-attachments/assets/98ead8a8-19e7-466c-9a73-a7ec516daf5e" width="200" height="150" />
-  <img src="https://github.com/user-attachments/assets/7aa07579-eaef-4024-b4e7-54cf38eaba18" width="200" height="150" />
-  <img src="https://github.com/user-attachments/assets/6a235cf7-fba6-4403-862e-a4929a48b6a9" width="200" height="150" />
-  <img src="https://github.com/user-attachments/assets/e717916d-93f4-4844-b1ac-7bc6b1c991f5" width="200" height="150" />
-  <img src="https://github.com/user-attachments/assets/64b7140a-9e3e-4bfb-b659-bb22befd86a8" width="200" height="150" />
-  <img src="https://github.com/user-attachments/assets/ec1019fc-c8fe-4b5d-86d1-c554ce76b774" width="200" height="150" />
-  <img src="https://github.com/user-attachments/assets/2eb9f7d2-800f-4223-8c29-a2ce30d680db" width="200" height="150" />
+  <img src="https://github.com/user-attachments/assets/0994a988-1f73-43db-b7f9-34c5243a842a" width="200" height="150" />
+  <img src="https://github.com/user-attachments/assets/39b389db-0038-425f-bcd5-740f748e3cc9" width="200" height="150" />
+  <img src="https://github.com/user-attachments/assets/339eaf97-91a8-4987-8af9-c86c2d4fe360" width="200" height="150" />
+  <img src="https://github.com/user-attachments/assets/30eae1ee-b442-4caf-86c3-7d5bbb12c6c3" width="200" height="150" />
+  <img src="https://github.com/user-attachments/assets/e95b4755-0067-4639-bd6b-58631e9da91e" width="200" height="150" />
+  <img src="https://github.com/user-attachments/assets/cb176c4d-0af5-4f80-ae3b-d7a9033592d0" width="200" height="150" />
+  <img src="https://github.com/user-attachments/assets/14527900-366e-4555-8aac-33a8163e1e19" width="200" height="150" />
 </p>
 
 
