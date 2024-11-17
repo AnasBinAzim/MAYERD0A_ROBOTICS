@@ -263,6 +263,7 @@ The Raspberry Pi is mounted with custom 3D-printed parts for stability.
 ---
 
 
+
 ## 🚗 Mobility Management
 
 The mobility system of our robot has been meticulously designed to ensure smooth, efficient, and reliable movement, addressing both power distribution and maneuverability.
@@ -279,7 +280,9 @@ The rear wheels are powered through a **differential gearbox**, driven by a **LE
 
 A differential gearbox is a mechanical device that splits the engine torque two ways, allowing each output to spin at a different speed. This is crucial for vehicles, including robots, to navigate turns smoothly. When a vehicle turns, the wheels on the outside of the turn must cover more distance than the wheels on the inside. Without a differential, both wheels would be forced to rotate at the same speed, leading to increased tire wear, reduced traction, and potential mechanical strain.
 
-![Differential Gearbox](https://learnmech.com/wp-content/uploads/2015/01/differential-gear-box.jpg)
+<p align="center">
+  <img src="https://learnmech.com/wp-content/uploads/2015/01/differential-gear-box.jpg" width="330" height="225" />
+</p>
 
 *Image Source: [LearnMech](https://learnmech.com/working-of-differential-gear-box-for/)*
 
@@ -307,7 +310,9 @@ The LEGO Encoder Motor provides precise control over rotational speed and direct
 - **Accurate Speed Regulation:** Ensures that the differential receives consistent input, facilitating predictable wheel behavior.
 - **Feedback Mechanism:** The encoder provides real-time data on motor performance, enabling adjustments for optimal operation.
 
-![LEGO Encoder Motor](https://3dtool.ru/wp-content/uploads/2019/03/LEGO-Mindstorms-EV3-45560.jpg)
+<p align="center">
+  <img src="https://3dtool.ru/wp-content/uploads/2019/03/LEGO-Mindstorms-EV3-45560.jpg" width="330" height="225" />
+</p>
 
 *Image Source: [3DTool](https://3dtool.ru/product/resursnyj-nabor-dlya-sborki-robotov-lego-mindstorms-ev3-45560-obrazovatelnaya-versiya/)*
 
@@ -317,26 +322,7 @@ To control the motors effectively, we integrated an **L298N Motor Driver**. This
 
 - **Dual H-Bridge Design:** Facilitates independent control of two motors.
 - **PWM Support:** Allows precise speed adjustments for optimal performance.
-- **Current Overload Protection:** Enhances system reliability by safeguarding against excessive current draw.
-
-![L298N Motor Driver](https://www.openimpulse.com/blog/wp-content/uploads/wpsc/product_images/L298N-Motor-Driver-Module.jpg)
-
-*Image Source: [Open Impulse](https://www.openimpulse.com/blog/products-page/product-category/l298n-stepper-motor-driver-module/)*
-
-
-### Overall Mobility Benefits
-
-The combination of a servo motor for steering, a differential gearbox for power distribution, and an L298N motor driver for control ensures:
-
-1. **Enhanced Maneuverability:** Precise steering and differential-driven motion provide excellent handling.
-2. **Efficient Power Utilization:** A single DC motor powering the differential minimizes energy consumption while maintaining torque.
-3. **Durability and Stability:** Smooth power distribution reduces mechanical stress on components, extending their lifespan.
-4. **Adaptability:** The mobility system is versatile enough to perform well in various terrains and competitive challenges.
-
-This robust mobility setup equips our robot with the agility and reliability needed for high performance in the WRO competition.
-
-
----
+- **Current Overload Protection:** Enhances system reliability by safeguarding agai
 
 ## ⚡ Power and Sense Management
 
