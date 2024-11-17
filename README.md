@@ -281,7 +281,7 @@ The rear wheels are powered through a **differential gearbox**, driven by a **LE
 A differential gearbox is a mechanical device that splits the engine torque two ways, allowing each output to spin at a different speed. This is crucial for vehicles, including robots, to navigate turns smoothly. When a vehicle turns, the wheels on the outside of the turn must cover more distance than the wheels on the inside. Without a differential, both wheels would be forced to rotate at the same speed, leading to increased tire wear, reduced traction, and potential mechanical strain.
 
 <p align="center">
-  <img src="https://learnmech.com/wp-content/uploads/2015/01/differential-gear-box.jpg" width="330" height="225" />
+  <img src="https://github.com/user-attachments/assets/18ed7431-8bcc-4953-92a2-46f3a52d74c5" width="500" height="305" />
 </p>
 
 *Image Source: [LearnMech](https://learnmech.com/working-of-differential-gear-box-for/)*
