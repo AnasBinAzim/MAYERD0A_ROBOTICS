@@ -266,6 +266,76 @@ The Raspberry Pi is mounted with custom 3D-printed parts for stability.
 
 This section covers the mobility features of our robot, including drive mechanisms, steering, and any additional mobility-specific hardware. By integrating components like differential drives or custom mounts, we ensure the robot can move accurately and reliably across different surfaces.
 
+The mobility system of our robot has been meticulously designed to ensure smooth, efficient, and reliable movement, addressing both power distribution and maneuverability.
+
+### Front Axle Articulation
+
+The front axle is articulated by a **Servo Motor**, enabling precise steering control. This configuration allows the robot to execute sharp turns and navigate complex paths with accuracy. The servo motor's responsiveness ensures that the robot can adapt to dynamic scenarios effectively, providing the necessary flexibility for competitive tasks.
+
+### Rear Axle Power Distribution
+
+The rear wheels are powered through a **differential gearbox**, driven by a **LEGO Encoder Motor** from the **45560 Expansion Set**. The differential gearbox serves a critical role by enabling the wheels on the same axle to rotate at different speeds while receiving power from a single **DC motor**. This functionality is especially important during turns, where the outer wheel must travel a greater distance than the inner wheel.
+
+#### Understanding the Differential Gearbox
+
+A differential gearbox is a mechanical device that splits the engine torque two ways, allowing each output to spin at a different speed. This is crucial for vehicles, including robots, to navigate turns smoothly. When a vehicle turns, the wheels on the outside of the turn must cover more distance than the wheels on the inside. Without a differential, both wheels would be forced to rotate at the same speed, leading to increased tire wear, reduced traction, and potential mechanical strain.
+
+![Differential Gearbox Diagram](https://learnmech.com/wp-content/uploads/2015/01/differential-gear-box.jpg)
+
+*Image Source: [LearnMech](https://learnmech.com/working-of-differential-gear-box-for/)*
+
+#### How It Works
+
+The differential gearbox consists of several key components:
+
+- **Input Shaft (Driveshaft):** Transmits power from the motor to the differential.
+- **Bevel Gears:** Facilitate the splitting of torque between the wheels.
+- **Side Gears:** Connected to the axle shafts, transmitting power to the wheels.
+- **Pinion Gears:** Interact with the side gears to allow differential action.
+
+During straight-line movement, the differential distributes equal torque to both wheels, causing them to rotate at the same speed. However, during a turn, the pinion gears rotate around the side gears, allowing one wheel to speed up and the other to slow down, accommodating the difference in distance each wheel travels.
+
+#### Benefits in Robotic Applications
+
+- **Smooth Turning:** Enables the robot to navigate turns without wheel slippage or mechanical strain.
+- **Energy Efficiency:** Reduces the power required to maneuver, conserving battery life.
+- **Component Longevity:** Minimizes wear on wheels and axles, extending the lifespan of mechanical parts.
+
+#### Integration with LEGO Encoder Motor
+
+The LEGO Encoder Motor provides precise control over rotational speed and direction, which, when combined with the differential gearbox, allows for:
+
+- **Accurate Speed Regulation:** Ensures that the differential receives consistent input, facilitating predictable wheel behavior.
+- **Feedback Mechanism:** The encoder provides real-time data on motor performance, enabling adjustments for optimal operation.
+
+![LEGO Encoder Motor](https://3dtool.ru/wp-content/uploads/2019/03/LEGO-Mindstorms-EV3-45560.jpg)
+
+*Image Source: [3DTool](https://3dtool.ru/product/resursnyj-nabor-dlya-sborki-robotov-lego-mindstorms-ev3-45560-obrazovatelnaya-versiya/)*
+
+### Motor Control System
+
+To control the motors effectively, we integrated an **L298N Motor Driver**. This versatile motor driver module enables bidirectional motor control and speed regulation for both the encoder and DC motors. Key features of the L298N include:
+
+- **Dual H-Bridge Design:** Facilitates independent control of two motors.
+- **PWM Support:** Allows precise speed adjustments for optimal performance.
+- **Current Overload Protection:** Enhances system reliability by safeguarding against excessive current draw.
+
+![L298N Motor Driver](https://www.openimpulse.com/blog/wp-content/uploads/wpsc/product_images/L298N-Motor-Driver-Module.jpg)
+
+*Image Source: [Open Impulse](https://www.openimpulse.com/blog/products-page/product-category/l298n-stepper-motor-driver-module/)*
+
+### Overall Mobility Benefits
+
+The combination of a servo motor for steering, a differential gearbox for power distribution, and an L298N motor driver for control ensures:
+
+1. **Enhanced Maneuverability:** Precise steering and differential-driven motion provide excellent handling.
+2. **Efficient Power Utilization:** A single DC motor powering the differential minimizes energy consumption while maintaining torque.
+3. **Durability and Stability:** Smooth power distribution reduces mechanical stress on components, extending their lifespan.
+4. **Adaptability:** The mobility system is versatile enough to perform well in various terrains and competitive challenges.
+
+This robust mobility setup equips our robot with the agility and reliability needed for high performance in the WRO competition.
+
+
 ---
 
 ## ⚡ Power and Sense Management
