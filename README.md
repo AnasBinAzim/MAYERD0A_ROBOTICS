@@ -265,8 +265,6 @@ The Raspberry Pi is mounted with custom 3D-printed parts for stability.
 
 ## 🚗 Mobility Management
 
-This section covers the mobility features of our robot, including drive mechanisms, steering, and any additional mobility-specific hardware. By integrating components like differential drives or custom mounts, we ensure the robot can move accurately and reliably across different surfaces.
-
 The mobility system of our robot has been meticulously designed to ensure smooth, efficient, and reliable movement, addressing both power distribution and maneuverability.
 
 ### Front Axle Articulation
@@ -281,7 +279,7 @@ The rear wheels are powered through a **differential gearbox**, driven by a **LE
 
 A differential gearbox is a mechanical device that splits the engine torque two ways, allowing each output to spin at a different speed. This is crucial for vehicles, including robots, to navigate turns smoothly. When a vehicle turns, the wheels on the outside of the turn must cover more distance than the wheels on the inside. Without a differential, both wheels would be forced to rotate at the same speed, leading to increased tire wear, reduced traction, and potential mechanical strain.
 
-<img src="https://learnmech.com/wp-content/uploads/2015/01/differential-gear-box.jpg"/>
+![Differential Gearbox](https://learnmech.com/wp-content/uploads/2015/01/differential-gear-box.jpg)
 
 *Image Source: [LearnMech](https://learnmech.com/working-of-differential-gear-box-for/)*
 
@@ -309,7 +307,7 @@ The LEGO Encoder Motor provides precise control over rotational speed and direct
 - **Accurate Speed Regulation:** Ensures that the differential receives consistent input, facilitating predictable wheel behavior.
 - **Feedback Mechanism:** The encoder provides real-time data on motor performance, enabling adjustments for optimal operation.
 
-<img src="https://3dtool.ru/wp-content/uploads/2019/03/LEGO-Mindstorms-EV3-45560.jpg"/>
+![LEGO Encoder Motor](https://3dtool.ru/wp-content/uploads/2019/03/LEGO-Mindstorms-EV3-45560.jpg)
 
 *Image Source: [3DTool](https://3dtool.ru/product/resursnyj-nabor-dlya-sborki-robotov-lego-mindstorms-ev3-45560-obrazovatelnaya-versiya/)*
 
@@ -324,6 +322,7 @@ To control the motors effectively, we integrated an **L298N Motor Driver**. This
 ![L298N Motor Driver](https://www.openimpulse.com/blog/wp-content/uploads/wpsc/product_images/L298N-Motor-Driver-Module.jpg)
 
 *Image Source: [Open Impulse](https://www.openimpulse.com/blog/products-page/product-category/l298n-stepper-motor-driver-module/)*
+
 
 ### Overall Mobility Benefits
 
