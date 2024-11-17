@@ -32,7 +32,7 @@ This repository contains all files, designs, and code used to create **SMOKI**, 
 - **`models`**  
 
 - **`others`**
-- 
+
 - **`schematic`**  
 
 - **`src`**  
