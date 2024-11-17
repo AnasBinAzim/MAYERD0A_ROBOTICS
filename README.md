@@ -434,6 +434,7 @@ Find the IP address of the Raspberry Pi by running:
 
 | **Component**     | **Purpose**                                          |
 |--------------------|------------------------------------------------------|
+| **Ubuntu OS**      | Operating system for the Raspberry Pi 5.            |
 | **Arduino IDE**    | Programming the ESP32 microcontroller.              |
 | **Python**         | Programming and script execution.                   |
 | **OpenCV**         | Computer vision tasks.                              |
