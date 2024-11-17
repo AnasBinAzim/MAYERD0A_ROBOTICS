@@ -37,6 +37,10 @@ This repository contains all files, designs, and code used to create **SMOKI**. 
 * `others` - Additional essential photos.
 
 
+----
+----
+----
+
 ## Table of Contents
 
 - [Team MAYERDOA - "Mothers' Prayers"](#team-mayerdoa---mothers-prayers)
