@@ -24,23 +24,17 @@ Our team name, **"MAYERDOA,"** translates to **"Mother's Prayers"** in Bengali, 
 
 
 ## 🎉 **Project Overview**
+<img align="right" alt="SMOKI" width="350" src="https://github.com/user-attachments/assets/36358350-49c4-48aa-8618-6050d7534626">
 
-<div style="display: flex; align-items: center; justify-content: space-between;">
-  <div>
-    This repository contains all files, designs, and code used to create **SMOKI**. Below is a breakdown of the folder structure:
+This repository contains all files, designs, and code used to create **SMOKI**. Below is a breakdown of the folder structure:
 
-    * `models` – STL files for 3D-printed components.
-    * `getting_started` – Initial setup guide.
-    * `src` – Main code files for the robot.
-    * `video` – Link to a YouTube demonstration of SMOKI in action.
-    * `t-photos` – Contains one serious and one funny team photo.
-    * `v-photos` – Photos of the robot from all angles.
-    * `others` – Additional essential photos.
-  </div>
-  <div>
-    <img src="https://github.com/user-attachments/assets/57fe7eb1-5220-436d-8aba-a49e835e6824"/>
-  </div>
-</div>
+* `models` - STL files for 3D-printed components.
+* `getting_started` - Initial setup guide.
+* `src` - Main code files for the robot.
+* `video` - Link to a YouTube demonstration of SMOKI in action.
+* `t-photos` - Contains one serious and one funny team photo.
+* `v-photos` - Photos of the robot from all angles.
+* `others` - Additional essential photos.
 
 
 ## Table of Contents
