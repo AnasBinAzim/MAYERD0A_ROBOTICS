@@ -30,25 +30,18 @@ This repository contains all files, designs, and code used to create **SMOKI**, 
 
 ### 📂 Repository Structure
 - **`models`**  
-  Contains STL files for 3D-printed components used in the robot.  
 
-- **`others`**  
-  Includes additional essential photos and resources for reference.  
-
+- **`others`**
+- 
 - **`schematic`**  
-  Contains the schematic of the robot's electrical system for better understanding and replication.  
 
 - **`src`**  
-  Includes the main code files that power SMOKI's navigation and control systems.  
 
 - **`t-photos`**  
-  Contains two team photos: one serious and one funny, capturing the spirit of the team.  
 
 - **`v-photos`**  
-  Features photos of the robot from all required angles, showcasing its design and assembly.  
 
 - **`video`**  
-  Provides a link to a YouTube demonstration of SMOKI in action.
 
 ----
 ----
