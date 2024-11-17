@@ -311,7 +311,7 @@ The LEGO Encoder Motor provides precise control over rotational speed and direct
 - **Feedback Mechanism:** The encoder provides real-time data on motor performance, enabling adjustments for optimal operation.
 
 <p align="center">
-  <img src="https://3dtool.ru/wp-content/uploads/2019/03/LEGO-Mindstorms-EV3-45560.jpg" width="330" height="225" />
+  <img src="https://github.com/user-attachments/assets/6e02cdbc-f871-4d50-b9f5-c20749cfb451" />
 </p>
 
 *Image Source: [3DTool](https://3dtool.ru/product/resursnyj-nabor-dlya-sborki-robotov-lego-mindstorms-ev3-45560-obrazovatelnaya-versiya/)*
