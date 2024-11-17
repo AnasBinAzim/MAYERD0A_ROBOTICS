@@ -231,7 +231,8 @@ The following images showcase the detailed assembly process of our WRO Bot's cha
 
 The drive system includes DC motors, which provide reliable propulsion and control.
 
-![Drive System](./images/02_drive_system.jpg)
+https://github.com/user-attachments/assets/59de14fc-f248-4ac2-8b31-80baea148cff
+
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/297d61d9-bef9-49eb-92bd-bed3f49f170d" width="700"height="400" />
@@ -280,7 +281,7 @@ The rear wheels are powered through a **differential gearbox**, driven by a **LE
 
 A differential gearbox is a mechanical device that splits the engine torque two ways, allowing each output to spin at a different speed. This is crucial for vehicles, including robots, to navigate turns smoothly. When a vehicle turns, the wheels on the outside of the turn must cover more distance than the wheels on the inside. Without a differential, both wheels would be forced to rotate at the same speed, leading to increased tire wear, reduced traction, and potential mechanical strain.
 
-![Differential Gearbox Diagram](https://learnmech.com/wp-content/uploads/2015/01/differential-gear-box.jpg)
+<img src="https://learnmech.com/wp-content/uploads/2015/01/differential-gear-box.jpg"/>
 
 *Image Source: [LearnMech](https://learnmech.com/working-of-differential-gear-box-for/)*
 
@@ -308,7 +309,7 @@ The LEGO Encoder Motor provides precise control over rotational speed and direct
 - **Accurate Speed Regulation:** Ensures that the differential receives consistent input, facilitating predictable wheel behavior.
 - **Feedback Mechanism:** The encoder provides real-time data on motor performance, enabling adjustments for optimal operation.
 
-![LEGO Encoder Motor](https://3dtool.ru/wp-content/uploads/2019/03/LEGO-Mindstorms-EV3-45560.jpg)
+<img src="https://3dtool.ru/wp-content/uploads/2019/03/LEGO-Mindstorms-EV3-45560.jpg"/>
 
 *Image Source: [3DTool](https://3dtool.ru/product/resursnyj-nabor-dlya-sborki-robotov-lego-mindstorms-ev3-45560-obrazovatelnaya-versiya/)*
 
