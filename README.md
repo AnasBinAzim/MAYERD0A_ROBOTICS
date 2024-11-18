@@ -24,24 +24,31 @@ Our team name, **"MAYERDOA,"** translates to **"Mother's Prayers"** in Bengali, 
 
 
 ## 🎉 **Project Overview**
-<img align="right" alt="SMOKI" width="350" src="https://github.com/user-attachments/assets/46c38599-e416-42cb-93ba-6f83ff142c18">
+<img align="right" alt="SMOKI" width="450" src="https://github.com/user-attachments/assets/46c38599-e416-42cb-93ba-6f83ff142c18">
 
 This repository contains all files, designs, and code used to create **SMOKI**, our WRO 2024 robot. Below is a breakdown of the folder structure:
 
 ### 📂 Repository Structure
 - **`models`**  
+  Contains 3D models and CAD designs for the SMOKI robot.
 
-- **`others`**
+- **`others`**  
+  Includes additional resources, documentation, and references.
 
 - **`schematic`**  
+  Circuit designs and wiring diagrams for the robot.
 
 - **`src`**  
+  Source code for the robot's software, including control and automation scripts.
 
 - **`t-photos`**  
+  Technical photos of the robot's components and assembly process.
 
 - **`v-photos`**  
+  Visual or aesthetic photos showcasing the robot.
 
 - **`video`**  
+  Videos demonstrating the robot's performance, features, and functionality.
 
 ----
 ----
