@@ -110,16 +110,6 @@ Our bot, **SMOKI**, is built for excellence in the **World Robot Olympiad 2024**
 
 ---
 ---
----
-
-<div style="background-color: #9b59b6; color: white; padding: 15px; border-radius: 5px; text-align: center; font-size: 16px;">
-  <strong>⚠️ Important:</strong> Ensure that you thoroughly read the <em>WRO Future Engineers 2024 Rulebook</em> to understand all rules and guidelines.<br>
-  <a href="https://wro-association.org/competitions/future-engineers/" style="color: #fdfd96; text-decoration: underline;">🔗 WRO Future Engineers 2024 Rulebook</a>
-</div>
-
----
----
----
 
 
 ## 🧩 Components and Hardware
@@ -142,14 +132,6 @@ Our bot is equipped with various components that support its autonomous function
 ---
 ---
 ---
-
-
-
-
-
-
-
-
 
 ## 🚀 Key Features
 
@@ -339,6 +321,9 @@ A **bevel gear** is a type of gear where the axes of the two shafts intersect, a
 </tr>
 </table>
 
+---
+>[!IMPORTANT]
+> Bevel gears were essential in the initial stages of our design, but they had limitations in terms of energy efficiency during turns.
 ---
 
 #### **Differential Gearbox**
