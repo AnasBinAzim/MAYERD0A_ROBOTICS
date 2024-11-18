@@ -356,9 +356,9 @@ A **differential gearbox** is a mechanical device that allows the wheels on the 
 
 ---
 
-#### **Image of a Differential Gearbox**:
+#### **Diagram of a Differential Gearbox**:
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/7e984874-86f6-48d5-82c4-c906034f9c9" width="400"/>
+  <img src="https://github.com/user-attachments/assets/7e984874-86f6-48d5-82c4-c906034f9c9"/>
 </div>
 *Image Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Automotive_Differential.png)*
 
