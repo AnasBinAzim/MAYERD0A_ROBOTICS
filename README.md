@@ -560,9 +560,136 @@ We have developed a **custom hand-designed PCB** to streamline the robot's power
 ---
 
 
-# 🧠 Program Infrastructure and Explanation of Algorithm
+# 🧠 Program Infrastructure and Explanation ## 🏁 Round 1 Algorithm - Lap Completion
+
+In **Round 1**, our robot **SMOKI** must autonomously complete **three laps** on a predefined track without the need for obstacle avoidance. To achieve precise navigation and lap counting, we have developed a robust algorithm that integrates image processing with control systems.
+
+---
+
+### 🌐 Algorithm Overview
+
+1. **📸 Image Acquisition**:
+   - The robot captures real-time images of the track using its onboard camera.
+
+2. **🎨 Color Space Conversion**:
+   - Captured images are converted from the **RGB** color space to the **HSV (Hue, Saturation, Value)** color space.
+   - The HSV color space is chosen for its effectiveness in color segmentation, as it is less sensitive to lighting variations.
+
+3. **🔍 Color Segmentation and Orientation Determination**:
+   - Using predetermined HSV ranges, the algorithm isolates the **blue** and **orange** line segments on the track.
+   - During the first run, the robot checks whether the blue line appears before the orange line or vice versa.
+   - **Orientation Determination**:
+     - If the blue line comes before the orange line, the robot sets its orientation accordingly.
+     - This initial orientation check ensures the robot follows the track in the correct direction.
+
+4. **📏 Line Detection and Lap Counting**:
+   - The **Hough Line Transform** method is applied to detect lines within the segmented images.
+   - The robot counts the detected lines to keep track of laps.
+   - **Lap Completion**:
+     - After counting **12 lines** (corresponding to three laps), the robot initiates a predetermined delay and then stops.
+
+5. **⚙️ Position Correction Using PID Control**:
+   - Before setting the orientation, a **PID (Proportional-Integral-Derivative) controller** calculates the error.
+   - **Error Calculation**:
+     - The error is determined by the difference between the distances measured by sensors on the left and right sides of the robot (i.e., `error = left_distance - right_distance` or vice versa).
+   - **Distance Maintenance**:
+     - If the orientation is **right-based**, the robot maintains a **25 cm** distance from the right side.
+     - If the orientation is **left-based**, it maintains a **25 cm** distance from the left side.
+   - The PID controller adjusts the robot's steering to minimize the error, helping it stay centered on the track.
+
+---
+
+### 📖 Detailed Explanation
+
+#### 1. 📸 Image Acquisition and Preprocessing
+
+- **Camera Input**:
+  - High-resolution images are captured at regular intervals to ensure up-to-date visual data.
+- **HSV Conversion**:
+  - Conversion to HSV allows for more effective color thresholding.
+  - HSV separates image intensity (Value) from color information (Hue and Saturation), making it easier to detect specific colors under varying lighting conditions.
+
+#### 2. 🎨 Color Segmentation
+
+- **HSV Thresholding**:
+  - Specific HSV ranges for blue and orange are defined based on calibration.
+  - **Blue Line Detection**:
+    - Pixels within the blue HSV range are extracted.
+  - **Orange Line Detection**:
+    - Pixels within the orange HSV range are extracted.
+- **Orientation Check**:
+  - By analyzing the sequence of color segments (blue vs. orange), the robot determines its starting orientation.
+  - This prevents incorrect lap counting due to starting in the wrong direction.
+
+#### 3. 📏 Line Detection with Hough Transform
+
+- **Edge Detection**:
+  - Preprocessing steps like Gaussian blur and Canny edge detection are applied to enhance line features.
+- **Hough Line Transform**:
+  - Detects straight lines by transforming points in image space to a parameter space.
+  - Lines are identified based on the accumulation of intersecting points in the parameter space.
+- **Lap Counting Logic**:
+  - Each detected line crossing increments a counter.
+  - The robot recognizes lap completion after counting **12** line crossings, accounting for both blue and orange lines over three laps.
+
+<div align="center">
+  <!-- Placeholder for Hough Line Transform Image -->
+  <img src="path_to_hough_line_transform_image.png" alt="Hough Line Transform" width="600">
+  <p><em>Figure: Visualization of Hough Line Transform applied to track image.</em></p>
+</div>
+
+#### 🔗 **Hough Line Transform Tutorial**
+
+For a comprehensive understanding of the Hough Line Transform method, you can watch this detailed tutorial:
+
+- [🔗 Hough Line Transform Tutorial by DigitalSreeni](https://www.youtube.com/watch?v=5zAT6yTHvP0&ab_channel=DigitalSreeni)
+
+#### 4. ⚙️ PID Control for Position Correction
+
+- **Sensor Input**:
+  - Distance sensors on both sides provide real-time measurements of the robot's position relative to the track edges.
+- **Error Calculation**:
+  - The error signal is the difference between the left and right distance measurements.
+- **PID Controller**:
+  - **Proportional Term (P)**: Reacts to the current error.
+  - **Integral Term (I)**: Accounts for past errors to eliminate steady-state offset.
+  - **Derivative Term (D)**: Predicts future error based on the rate of change.
+- **Steering Adjustment**:
+  - The PID output adjusts the steering angle to minimize the error.
+  - Ensures the robot maintains the desired **25 cm** distance from the designated side.
+- **Orientation-Based Behavior**:
+  - **Right-Based Orientation**:
+    - The robot favors the right side of the track.
+  - **Left-Based Orientation**:
+    - The robot favors the left side of the track.
+
+---
+
+### 📊 Flowchart of the Algorithm
+
+```mermaid
+flowchart TD
+    A[Start] --> B[Capture Image]
+    B --> C[Convert to HSV]
+    C --> D[Segment Blue and Orange Lines]
+    D --> E{Blue Before Orange?}
+    E -->|Yes| F[Set Right-Based Orientation]
+    E -->|No| G[Set Left-Based Orientation]
+    F --> H[Apply Hough Line Transform]
+    G --> H
+    H --> I[Count Detected Lines]
+    I --> J{Lines Counted >= 12?}
+    J -->|No| K[Calculate Error]
+    K --> L[PID Controller Adjusts Steering]
+    L --> M[Continue Navigation]
+    M --> B
+    J -->|Yes| N[Delay and Stop]
+    N --> O[End]
+of Algorithm
 
 In this section, we discuss the underlying software infrastructure, including how data flows within the system, how sensors are interpreted, and the logic behind navigation, obstacle avoidance, and lap counting algorithms. Our programming approach ensures efficient processing and response times.
+
+
 
 ---
 
