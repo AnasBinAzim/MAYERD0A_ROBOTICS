@@ -333,7 +333,7 @@ A **differential gearbox** allows the wheels on the same axle to rotate at diffe
 <tr>
 <td width="30%">
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/ffcfa0ae-2682-4199-8c0b-4bcbff421d08)" width="150"/>
+  <img src="https://github.com/user-attachments/assets/ffcfa0ae-2682-4199-8c0b-4bcbff421d08" width="150"/>
 </div>
 </td>
 <td width="70%">
