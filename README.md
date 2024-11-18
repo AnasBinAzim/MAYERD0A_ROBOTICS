@@ -511,7 +511,8 @@ We have developed a **custom hand-designed PCB** to streamline the robot's power
 
 | **Top View of PCB** | **Bottom View of PCB** | **Power Management Diagram** |
 |----------------------|------------------------|-------------------------------|
-| <img src="https://github.com/user-attachments/assets/be051834-2c23-495e-9aa1-83d9620e1524" /> | <img src="https://github.com/user-attachments/assets/45d68411-f99a-4ef4-8aef-c63eb856a8e1" /> | <img width="801" alt="DIAGRAM" src="https://github.com/user-attachments/assets/0f01372c-1cff-4ff7-b65b-5e5a5ca5f88c" /> |
+| <img src="https://github.com/user-attachments/assets/be051834-2c23-495e-9aa1-83d9620e1524" width="400"/> | <img src="https://github.com/user-attachments/assets/45d68411-f99a-4ef4-8aef-c63eb856a8e1" width="400"/> | <img src="https://github.com/user-attachments/assets/0f01372c-1cff-4ff7-b65b-5e5a5ca5f88c" width="1200"/> |
+
 
 ---
 https://github.com/user-attachments/assets/be051834-2c23-495e-9aa1-83d9620e1524
