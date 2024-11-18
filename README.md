@@ -41,6 +41,10 @@ This repository includes all files, designs, and code for **SMOKI**, our WRO 202
 
 ----
 
+----
+
+----
+
 ## Table of Contents
 
 - [Team MAYERDOA - "Mothers' Prayers"](#team-mayerdoa---mothers-prayers)
