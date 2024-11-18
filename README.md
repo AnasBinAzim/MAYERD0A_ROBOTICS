@@ -248,7 +248,7 @@ https://github.com/user-attachments/assets/59de14fc-f248-4ac2-8b31-80baea148cff
   <img src="https://github.com/user-attachments/assets/f5ab2184-7332-4fab-bb6f-050e5189baf2" width="700" height="400" />
 </p>
 
-### ⚡ Electronics and Power System
+# ⚡ Electronics and Power System
 
 - **Power Module**: Ensures consistent power to the Raspberry Pi and ESP32.
 - **Wiring**: Organized to minimize interference.
@@ -258,7 +258,7 @@ https://github.com/user-attachments/assets/59de14fc-f248-4ac2-8b31-80baea148cff
 ----
 
 
-## 🚗 Mobility Management
+# 🚗 Mobility Management
 
 The mobility system of our robot has been meticulously designed to ensure smooth, efficient, and reliable movement, addressing both power distribution and maneuverability. This section outlines the evolution of our robot's mobility systems, including upgrades to the steering and gear systems.
 
@@ -437,13 +437,13 @@ Together, these upgrades ensured that our robot was optimized for the challenges
 ----
 ----
 
-## ⚡ Power and Sense Management
+# ⚡ Power and Sense Management
 
 Power management and sensor integration are critical for maintaining consistent operation. This section explains our approach to stabilizing power supply to all components, while managing sensors like ultrasonic and camera modules for optimal performance.
 
 ---
 
-## 🧠 Program Infrastructure and Explanation of Algorithm
+# 🧠 Program Infrastructure and Explanation of Algorithm
 
 In this section, we discuss the underlying software infrastructure, including how data flows within the system, how sensors are interpreted, and the logic behind navigation, obstacle avoidance, and lap counting algorithms. Our programming approach ensures efficient processing and response times.
 
