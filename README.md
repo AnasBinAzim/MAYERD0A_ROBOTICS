@@ -462,75 +462,74 @@ Together, these upgrades ensured that our robot was optimized for the challenges
 ----
 ----
 
-# Power and Sense Management
+# ⚡ Power and Sense Management
 
 The **Power and Sense Management** system of our robot has been meticulously designed to optimize performance while ensuring reliable power delivery, precise sensing, and efficient communication between components.
 
 ---
 
-### Camera Placement and Functionality
+## 🎥 Camera Placement and Functionality
 
 The robot's main camera is positioned at the top and angled slightly downwards. This setup enhances object detection capabilities by providing:
-- **Close-Range Detection**: The camera can identify objects in close proximity with high accuracy.
-- **Extended-Range Detection**: Ensures objects further away are detected effectively.
+- **🔍 Close-Range Detection**: The camera can identify objects in close proximity with high accuracy.
+- **🌐 Extended-Range Detection**: Ensures objects further away are detected effectively.
 
 The camera feeds data to the **Raspberry Pi 5**, which processes image recognition algorithms to detect towers and corner lines. The processed data is then transmitted to the **ESP32 microcontroller** for real-time navigation and obstacle avoidance.
 
 ---
 
-### Sonar Mount Design
+## 📡 Sonar Mount Design
 
-The robot includes a **custom-designed sonar mount** placed at the front and side of the robot. The sonar sensors are mounted at an angle of **15 degrees**, providing:
-- **Early Wall Detection**: The sensors detect obstacles ahead of time, allowing ample reaction time.
-- **Broader Coverage**: The angle enhances detection range and minimizes blind spots.
+The robot includes a **custom-designed sonar mount** placed vertically on all sides of the robot. The sonar sensors are mounted at an angle of **15 degrees**, providing:
+- **🛑 Early Wall Detection**: Sensors detect obstacles ahead of time, allowing ample reaction time.
+- **📏 Broader Coverage**: The angle enhances detection range and minimizes blind spots.
+
+**Why HC-SR04?**  
+The HC-SR04 sonar sensors were chosen due to their **wide availability** and **affordable price**, ensuring cost-effectiveness without compromising functionality.
 
 ---
 
-### Power Management
+## 🔋 Power Management
 
 Our robot's power system has been engineered for stability and efficiency, addressing all unique voltage and current requirements:
-1. **Two Lithium-Ion Cells**: Each rated at **4.2V**, providing a total of **8.4V**.
-2. **XL4016 Buck Converter**: Used to step down **8.4V** to a stable **5V** for powering the Raspberry Pi 5 and other components.
-3. **Buck Modules**:
+1. **🔋 Two Lithium-Ion Cells**: Each rated at **4.2V**, providing a total of **8.4V**.
+2. **⚙️ XL4016 Buck Converter**: Steps down **8.4V** to a stable **5V** for powering the Raspberry Pi 5 and other components.
+3. **🔌 Buck Modules**:
    - One module supplies **6V** for the servo motor.
    - Another module provides **5V** for the ESP32 microcontroller.
-4. **12V Power for Motors**: Delivered using a **Buck-Boost Converter** to ensure consistent motor performance.
+4. **⚡ 12V Power for Motors**: Delivered using a **Buck-Boost Converter** to ensure consistent motor performance.
 
 ---
 
-### PCB Design
+## 🛠️ PCB Design
 
 We have developed a **custom hand-designed PCB** to streamline the robot's power distribution and sensor integration. The PCB offers:
-- **Optimized Layout**: Minimizing signal interference for reliable performance.
-- **Compact Design**: Saving space within the robot's chassis.
-- **Enhanced Durability**: Ensuring longevity during competitive operation.
+- **📐 Optimized Layout**: Minimizing signal interference for reliable performance.
+- **🎯 Compact Design**: Saving space within the robot's chassis.
+- **💪 Enhanced Durability**: Ensuring longevity during competitive operation.
 
-----
+---
 
-### System Visuals
+## 🖼️ System Visuals
 
 | **Top View of PCB** | **Bottom View of PCB** | **Power Management Diagram** |
 |----------------------|------------------------|-------------------------------|
-| <img src="https://github.com/user-attachments/assets/be051834-2c23-495e-9aa1-83d9620e1524" width="400" /> | <img src="https://github.com/user-attachments/assets/45d68411-f99a-4ef4-8aef-c63eb856a8e1" width="400" /> | <img src="https://github.com/user-attachments/assets/0f01372c-1cff-4ff7-b65b-5e5a5ca5f88c" width="1200"/> |
----
-
+| <img src="https://github.com/user-attachments/assets/be051834-2c23-495e-9aa1-83d9620e1524" width="400" height="400" /> | <img src="https://github.com/user-attachments/assets/45d68411-f99a-4ef4-8aef-c63eb856a8e1" width="400" height="400" /> | <img src="https://github.com/user-attachments/assets/0f01372c-1cff-4ff7-b65b-5e5a5ca5f88c" width="1200" /> |
 
 ---
-https://github.com/user-attachments/assets/be051834-2c23-495e-9aa1-83d9620e1524
 
+## 🌟 Integrated System Benefits
 
-### Integrated System Benefits
-
-1. **Reliable Power Delivery**: Stable outputs ensure consistent operation of motors, sensors, and microcontrollers.
-2. **Accurate Detection**: Strategic placement of sensors and the camera enhances navigation and obstacle avoidance.
-3. **Compact and Efficient Design**: The hand-designed PCB and modular components streamline the overall architecture.
-4. **Real-Time Responsiveness**: The Raspberry Pi 5 and ESP32 communicate seamlessly to process and execute commands efficiently.
+1. **🔋 Reliable Power Delivery**: Stable outputs ensure consistent operation of motors, sensors, and microcontrollers.
+2. **📡 Accurate Detection**: Strategic placement of sensors and the camera enhances navigation and obstacle avoidance.
+3. **📦 Compact and Efficient Design**: The hand-designed PCB and modular components streamline the overall architecture.
+4. **⚡ Real-Time Responsiveness**: The Raspberry Pi 5 and ESP32 communicate seamlessly to process and execute commands efficiently.
 
 This system ensures that the robot is well-prepared to tackle the challenges of the WRO competition with precision and adaptability.
+---
+---
+---
 
----
----
----
 
 # 🧠 Program Infrastructure and Explanation of Algorithm
 
