@@ -28,16 +28,21 @@ Our team name, **"MAYERDOA,"** translates to **"Mother's Prayers"** in Bengali, 
 
 This repository includes all files, designs, and code for **SMOKI**, our WRO 2024 robot. Below is the folder structure:
 
-### 📂 Structure
-- **`models`**: Contains 3D models and CAD designs.  
-- **`others`**: Additional documents and miscellaneous files.  
-- **`schematic`**: Wiring and circuit design diagrams.  
-- **`src`**: Source code for robot programming.  
-- **`system-setup`**: Steps for software and hardware setup.  
-- **`t-photos`**: Technical images of the robot build.  
-- **`v-photos`**: Visual photos for aesthetics and showcasing.  
-- **`video`**: Performance and demo videos of SMOKI.
+## 📂 Structure
+Here’s a breakdown of the project folders:
 
+- **`models`**: Contains 3D models and CAD designs.
+- **`others`**: Additional documents and miscellaneous files.
+- **`schematic`**: Wiring and circuit design diagrams.
+- **`src`**: Source code for robot programming.
+- **`system-setup`**: Steps for software and hardware setup.
+- **`t-photos`**: Technical images of the robot build.
+- **`v-photos`**: Visual photos for aesthetics and showcasing.
+- **`video`**: Performance and demo videos of SMOKI.
+- **`experiments`**: Documentation of trials and iterations with previous models.
+- **`license`**: License information for the project.
+
+---
 
 
 
