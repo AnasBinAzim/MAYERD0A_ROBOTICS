@@ -78,7 +78,6 @@ Our bot, **SMOKI**, is built for excellence in the **World Robot Olympiad 2024**
         <li><strong>Objective</strong>: Complete three laps on the track within the allotted time.</li>
         <li><strong>Key Tasks</strong>: Accurate path-following, speed control, and lap counting.</li>
       </ul>
-      <!-- Adding more spacing to align the images -->
       <div align="center">
         <br><br><br><br><br>
         <img src="https://github.com/user-attachments/assets/823b29fa-8c92-479e-a78a-9fc96c407858" alt="Round 1 WRO Track" width="250" height="180" />
@@ -103,9 +102,14 @@ Our bot, **SMOKI**, is built for excellence in the **World Robot Olympiad 2024**
   </tr>
 </table>
 
-
 ---
 
+<div align="center">
+  <p><strong>Note:</strong> Ensure that you thoroughly read the <em>WRO Future Engineers 2024 Rulebook</em> to understand all rules and guidelines.</p>
+  <p><a href="https://wro-association.org/competitions/future-engineers/">🔗 WRO Future Engineers 2024 Rulebook</a></p>
+</div>
+
+---
 
 
 ## 🧩 Components and Hardware
