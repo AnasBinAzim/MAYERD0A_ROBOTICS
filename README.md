@@ -252,6 +252,12 @@ https://github.com/user-attachments/assets/59de14fc-f248-4ac2-8b31-80baea148cff
 
 - **Power Module**: Ensures consistent power to the Raspberry Pi and ESP32.
 - **Wiring**: Organized to minimize interference.
+
+----
+----
+----
+
+
 ## 🚗 Mobility Management
 
 The mobility system of our robot has been meticulously designed to ensure smooth, efficient, and reliable movement, addressing both power distribution and maneuverability. This section outlines the evolution of our robot's mobility systems, including upgrades to the steering and gear systems.
@@ -292,16 +298,11 @@ A **bevel gear** is a type of gear where the axes of the two shafts intersect, a
 
 ---
 
-#### **Why We Upgraded to a Differential Gearbox**
+#### **Differential Gearbox**
 
-Although bevel gears were efficient for straight-line motion, they posed challenges during turns:
-1. **Fixed Wheel Speeds**: Bevel gears caused both rear wheels to rotate at the same speed, leading to slippage during turns.
-2. **Energy Loss**: The strain during turns increased energy consumption.
-3. **Increased Wear**: Tires and axles experienced significant wear due to mismatched wheel speeds.
-
----
-
-#### **What is a Differential Gearbox?**
+<table>
+<tr>
+<td width="50%">
 
 A **differential gearbox** allows the wheels on the same axle to rotate at different speeds while receiving power from a single motor. This is crucial for smooth turning, where the outer wheel must travel a larger distance than the inner wheel.
 
@@ -309,6 +310,20 @@ A **differential gearbox** allows the wheels on the same axle to rotate at diffe
 1. **Smooth Turns**: Adapts to varying wheel speeds, ensuring efficient cornering.
 2. **Energy Efficiency**: Reduces energy wastage by minimizing wheel slippage.
 3. **Component Longevity**: Minimizes wear on tires and axles.
+
+##### **How Differential Gears Work**
+- Power from the motor is delivered to an input shaft.
+- The differential splits the torque between the two wheels via bevel or spider gears inside the housing.
+- During turns, the differential allows one wheel to spin faster than the other, ensuring smooth movement.
+
+</td>
+<td width="50%">
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Automotive_Differential.png" alt="Differential Gearbox" width="300"/>
+</div>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -319,16 +334,6 @@ A **differential gearbox** allows the wheels on the same axle to rotate at diffe
 | **Turning Efficiency**     | Limited; fixed wheel speeds.             | Superior; wheels rotate independently. |
 | **Energy Usage**           | Higher due to slippage during turns.     | Lower; optimized for dynamic turns.    |
 | **Durability**             | Higher strain on components.             | Reduced strain; longer component life. |
-
----
-
-#### **Images**
-
-**Differential Gearbox**:
-<div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Automotive_Differential.png" alt="Differential Gearbox" width="400"/>
-</div>
-*Image Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Automotive_Differential.png)*
 
 ---
 
