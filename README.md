@@ -273,104 +273,146 @@ The Raspberry Pi is mounted with custom 3D-printed parts for stability.
 
 ## 🚗 Mobility Management
 
-The mobility system of our robot has been meticulously designed to ensure smooth, efficient, and reliable movement, addressing both power distribution and maneuverability.
-
----
-
-### **Front Axle Articulation**
-
-The front axle is articulated by a **Servo Motor**, enabling precise steering control. This configuration allows the robot to execute sharp turns and navigate complex paths with accuracy. The servo motor's responsiveness ensures that the robot can adapt to dynamic scenarios effectively, providing the necessary flexibility for competitive tasks.
+The mobility system of our robot has been meticulously designed to ensure smooth, efficient, and reliable movement, addressing both power distribution and maneuverability. This section outlines the evolution of our robot's mobility systems, including upgrades to the steering and gear systems.
 
 ---
 
 ### **Rear Axle Power Distribution**
 
-Initially, the rear wheels were powered through a **Bevel Gear**, but we later upgraded to a **Differential Gearbox**. Let’s explore the two systems in detail.
+Initially, the rear wheels were powered through a **Bevel Gear**, but we later upgraded to a **Differential Gearbox** to improve efficiency and performance during turns.
 
 ---
 
-### **What is a Bevel Gear?**
+#### **What is a Bevel Gear?**
 
-A **bevel gear** is a type of gear where the axes of the two shafts intersect, and the tooth-bearing faces of the gears are conically shaped. These gears are used to transfer motion between shafts at various angles, most commonly at 90 degrees.
+A **bevel gear** is a type of gear where the axes of the two shafts intersect, and the tooth-bearing faces of the gears are conical. Bevel gears are commonly used to transfer motion between intersecting shafts at an angle, typically 90°.
 
-#### Key Features of Bevel Gears:
-- **Design**: Conical shape with teeth cut along the cone's surface.
-- **Angle**: Typically used at 90°, but can work at other angles.
-- **Material**: Commonly made of steel, brass, or plastic for lightweight applications.
-- **Types**:
-  - **Straight Bevel Gear**: Teeth are straight and converge at the axis.
-  - **Spiral Bevel Gear**: Teeth are curved for smoother operation and higher efficiency.
+##### **How Bevel Gears Work**
+- A driver gear transfers motion to a driven gear, which rotates an output shaft.
+- The teeth of the gears are designed to mesh smoothly, transferring torque efficiently between the shafts.
 
-#### Applications of Bevel Gears:
-- Steering mechanisms in automobiles.
-- Power drills.
-- Right-angle drives in mechanical systems.
-
-#### Advantages of Bevel Gears:
-- **Compact Design**: Useful for space-constrained applications.
-- **Efficient Torque Transfer**: Provides efficient transmission between intersecting shafts.
-- **Simpler Mechanism**: Requires fewer components for basic operation.
-
-#### Disadvantages of Bevel Gears:
-- **Limited Functionality in Turns**: Both wheels rotate at the same speed, causing strain in turning scenarios.
-- **Increased Wear and Tear**: During turns, the mismatch in wheel speeds leads to increased wear on the tires and axles.
+##### **Advantages of Bevel Gears**
+1. **Compact Design**: Suitable for space-constrained applications.
+2. **Efficient Torque Transfer**: Provides reliable power transmission at angles.
+3. **Versatility**: Can operate at angles other than 90° if needed.
 
 ---
 
-#### **Image of a Bevel Gear**:
+#### **Why We Upgraded to a Differential Gearbox**
+
+Although bevel gears were efficient for straight-line motion, they posed challenges during turns:
+1. **Fixed Wheel Speeds**: Bevel gears caused both rear wheels to rotate at the same speed, leading to slippage during turns.
+2. **Energy Loss**: The strain during turns increased energy consumption.
+3. **Increased Wear**: Tires and axles experienced significant wear due to mismatched wheel speeds.
+
+---
+
+#### **What is a Differential Gearbox?**
+
+A **differential gearbox** allows the wheels on the same axle to rotate at different speeds while receiving power from a single motor. This is crucial for smooth turning, where the outer wheel must travel a larger distance than the inner wheel.
+
+##### **Advantages of Differential Gearbox**
+1. **Smooth Turns**: Adapts to varying wheel speeds, ensuring efficient cornering.
+2. **Energy Efficiency**: Reduces energy wastage by minimizing wheel slippage.
+3. **Component Longevity**: Minimizes wear on tires and axles.
+
+---
+
+#### **Comparison: Bevel Gear vs. Differential Gearbox**
+
+| **Feature**                | **Bevel Gear**                            | **Differential Gearbox**                |
+|----------------------------|-------------------------------------------|-----------------------------------------|
+| **Turning Efficiency**     | Limited; fixed wheel speeds.             | Superior; wheels rotate independently. |
+| **Energy Usage**           | Higher due to slippage during turns.     | Lower; optimized for dynamic turns.    |
+| **Durability**             | Higher strain on components.             | Reduced strain; longer component life. |
+
+---
+
+#### **Images**
+
+**Bevel Gear**:
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/4f5f6641-4f92-470f-a16e-11fa917370a1" width="400"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Bevel_Gears.jpg" alt="Bevel Gear" width="400"/>
 </div>
 *Image Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bevel_Gears.jpg)*
 
----
-
-### **Why Upgrade to a Differential Gearbox?**
-
-While bevel gears provided a basic solution for power distribution, we encountered significant limitations during testing:
-
-1. **Turning Efficiency**: The robot struggled to navigate turns smoothly because both rear wheels rotated at the same speed.
-2. **Tire Slippage**: The mismatch in wheel speeds caused slippage and reduced traction.
-3. **Increased Power Consumption**: The motor consumed more energy to compensate for the inefficiencies during turns.
-
-To address these challenges, we upgraded to a **Differential Gearbox**.
-
----
-
-### **What is a Differential Gearbox?**
-
-A **differential gearbox** is a mechanical device that allows the wheels on the same axle to rotate at different speeds while receiving power from a single motor. This is especially important for navigating turns, where the outer wheel must travel a greater distance than the inner wheel.
-
-#### Key Features of Differential Gearboxes:
-- **Torque Splitting**: Distributes engine torque evenly between two wheels.
-- **Smooth Turning**: Allows wheels to rotate at different speeds for efficient cornering.
-- **Robust Design**: Built to handle dynamic loads during turns.
-
----
-
-### **Benefits of Differential Gear Over Bevel Gear**:
-1. **Smooth Turns**: The differential gear adapts to varying wheel speeds, making turns smooth and efficient.
-2. **Energy Efficiency**: Reduces power wastage caused by wheel slippage.
-3. **Component Longevity**: Minimizes wear on tires and axles, extending their lifespan.
-4. **Precision Control**: Provides better control over wheel movements in dynamic scenarios.
-
----
-
-#### **Diagram of a Differential Gearbox**:
+**Differential Gearbox**:
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/7e984874-86f6-48d5-82c4-c906034f9c9"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Automotive_Differential.png" alt="Differential Gearbox" width="400"/>
 </div>
 *Image Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Automotive_Differential.png)*
 
 ---
 
-### **Conclusion: Differential Over Bevel Gear**
+### **Steering Systems**
 
-The transition from bevel gears to a differential gearbox significantly improved our robot's mobility. By enabling independent wheel speeds, the differential gearbox ensures smooth navigation, reduced strain on components, and improved energy efficiency. This upgrade was crucial for meeting the challenges of the WRO competition, where precision and adaptability are paramount.
+Our robot initially used the **Ackermann Steering System**, known for its efficiency in real-world vehicles. However, we later transitioned to the **LEGO Steering System** to simplify the design and improve modularity while maintaining effective steering control.
 
 ---
+
+#### **What is Ackermann Steering System?**
+
+The **Ackermann Steering System** ensures that the wheels of a vehicle turn at different angles during a corner. The inner wheels turn more sharply than the outer wheels, reducing tire slippage and allowing smooth, efficient turning.
+
+##### **How Ackermann Steering Works**
+- The front wheels are connected via a set of steering arms.
+- These arms are angled so that their lines meet at the center of the turn’s radius, ensuring concentric paths for all wheels.
+
+##### **Advantages of Ackermann Steering**
+1. **Efficient Turning**: Minimizes tire slippage.
+2. **Energy Savings**: Reduces power loss caused by wheel drag.
+3. **Realistic Simulation**: Mirrors real-world vehicle steering.
+
 ---
+
+#### **Why We Switched to LEGO Steering System**
+
+The **LEGO Steering System** offered greater simplicity and modularity, which were critical for our robot’s design. While Ackermann Steering is ideal for large-scale vehicles, the LEGO system provided better adaptability for our compact robot.
+
 ---
+
+#### **What is LEGO Steering System?**
+
+The LEGO Steering System uses modular LEGO Technic parts with a simple rack-and-pinion mechanism for steering. It achieves a turning angle of **50 degrees**, allowing precise control over the robot's movements.
+
+##### **Advantages of LEGO Steering**
+1. **Modularity**: Easy to assemble, adjust, and maintain.
+2. **Compact Design**: Fits seamlessly into the robot’s chassis.
+3. **Precision**: Allows accurate steering movements with a servo motor.
+4. **Ease of Use**: Simplifies the overall system design without sacrificing functionality.
+
+---
+
+#### **Images**
+
+**Ackermann Steering System**:
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Ackermann_turning_geometry.png" alt="Ackermann Steering System" width="400"/>
+</div>
+*Image Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ackermann_turning_geometry.png)*
+
+**LEGO Steering System**:
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/lego_steering.jpg" alt="LEGO Steering System" width="400"/>
+</div>
+*Image Source: Custom Design*
+
+---
+
+### **Conclusion**
+
+The upgrades to our robot’s mobility system—switching from bevel gears to a differential gearbox and from Ackermann Steering to LEGO Steering—significantly enhanced its performance. These changes provided:
+1. **Smoother Turns**: Differential gearbox enabled independent wheel speeds, reducing slippage.
+2. **Simpler Design**: LEGO Steering’s modularity allowed for easier integration and maintenance.
+3. **Energy Efficiency**: Reduced strain on components, improving energy usage and longevity.
+
+Together, these upgrades ensured that our robot was optimized for the challenges of the WRO course, achieving a balance between simplicity and performance.
+
+----
+
+----
+
+----
 
 ## ⚡ Power and Sense Management
 
