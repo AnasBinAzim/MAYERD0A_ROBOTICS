@@ -41,6 +41,9 @@ This repository contains all files, designs, and code used to create **SMOKI**, 
 - **`src`**  
   Source code for the robot's software, including control and automation scripts.
 
+- **`system-setup`**  
+  Documentation on software installations, configurations, and setup instructions required to operate SMOKI.
+
 - **`t-photos`**  
   Technical photos of the robot's components and assembly process.
 
