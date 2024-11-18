@@ -9,7 +9,7 @@
 ## 👥 **Team MAYERDOA - "Mothers' Prayers"**
 
 - **Anas Bin Azim**  – Software & Hardware Developer | [anas.azim.71@gmail.com](mailto:anas.azim.71@gmail.com)
-- **Rakibul Islam**  – Team Leader, Software & Hardware Developer | [rakibul.rir06@gmail.com](mailto:rakibul.rir06@gmail.com)
+- **Rakibul Islam**  – Team Leader, Primary Hardware Developer | [rakibul.rir06@gmail.com](mailto:rakibul.rir06@gmail.com)
 - **Mohiuddin Sami** – Primary Software Developer | [sm.mohiuddin.sami@gmail.com](mailto:sm.mohiuddin.sami@gmail.com)
 
 **Team Origin**: Bangladesh
@@ -319,7 +319,7 @@ A **bevel gear** is a type of gear where the axes of the two shafts intersect, a
 
 #### **Image of a Bevel Gear**:
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Bevel_Gears.jpg" alt="Bevel Gear" width="400"/>
+  <img src="https://github.com/user-attachments/assets/4f5f6641-4f92-470f-a16e-11fa917370a1" width="400"/>
 </div>
 *Image Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bevel_Gears.jpg)*
 
@@ -358,7 +358,7 @@ A **differential gearbox** is a mechanical device that allows the wheels on the 
 
 #### **Image of a Differential Gearbox**:
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Automotive_Differential.png" alt="Differential Gearbox" width="400"/>
+  <img src="https://github.com/user-attachments/assets/7e984874-86f6-48d5-82c4-c906034f9c9" width="400"/>
 </div>
 *Image Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Automotive_Differential.png)*
 
