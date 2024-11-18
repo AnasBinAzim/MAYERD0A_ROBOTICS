@@ -319,8 +319,38 @@ A **differential gearbox** allows the wheels on the same axle to rotate at diffe
 </td>
 <td width="50%">
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/50053995-d06c-4f7d-bd43-8041e749704d" width="300"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Automotive_Differential.png" alt="Differential Gearbox" width="300"/>
 </div>
+</td>
+</tr>
+</table>
+
+---
+
+### **Servo Motor with L293D Motor Driver**
+
+<table>
+<tr>
+<td width="30%">
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/dfac34c0-ac64-4a9e-b5ac-c53a23956106" width="150"/>
+</div>
+</td>
+<td width="70%">
+
+We used the **L293D Motor Driver** in combination with a **Servo Motor** to control the robot's wheels effectively. The L293D is a dual H-Bridge motor driver that is perfectly suited for the LEGO motor, which operates at **750mA** current.
+
+##### **Why L293D?**
+- **Optimal Current Capacity**: Can handle up to **1A** peak current, suitable for the LEGO motor’s 750mA requirement.
+- **Bidirectional Control**: Facilitates forward and backward motion of the wheels.
+- **Compact and Lightweight**: Ideal for small-scale robotic systems.
+- **PWM Support**: Enables smooth speed control of the motors.
+
+##### **Advantages of the Servo Motor with L293D**
+1. **Accurate Steering**: The servo motor ensures precise angle adjustments.
+2. **Smooth Speed Control**: PWM functionality provides variable speed control.
+3. **Efficient Current Management**: Matches the LEGO motor's current needs, ensuring reliable operation.
+
 </td>
 </tr>
 </table>
@@ -394,12 +424,14 @@ The LEGO Steering System uses modular LEGO Technic parts with a simple rack-and-
 
 ### **Conclusion**
 
-The upgrades to our robot’s mobility system—switching from bevel gears to a differential gearbox and from Ackermann Steering to LEGO Steering—significantly enhanced its performance. These changes provided:
+The upgrades to our robot’s mobility system—switching from bevel gears to a differential gearbox, integrating the L293D with a servo motor, and transitioning from Ackermann Steering to LEGO Steering—significantly enhanced its performance. These changes provided:
 1. **Smoother Turns**: Differential gearbox enabled independent wheel speeds, reducing slippage.
-2. **Simpler Design**: LEGO Steering’s modularity allowed for easier integration and maintenance.
-3. **Energy Efficiency**: Reduced strain on components, improving energy usage and longevity.
+2. **Precise Control**: The L293D motor driver ensured smooth speed and direction management.
+3. **Simpler Design**: LEGO Steering’s modularity allowed for easier integration and maintenance.
+4. **Energy Efficiency**: Reduced strain on components, improving energy usage and longevity.
 
 Together, these upgrades ensured that our robot was optimized for the challenges of the WRO course, achieving a balance between simplicity and performance.
+
 
 ----
 ----
