@@ -688,9 +688,5 @@ flowchart TD
     N --> O[End]
 
 
-In this section, we discuss the underlying software infrastructure, including how data flows within the system, how sensors are interpreted, and the logic behind navigation, obstacle avoidance, and lap counting algorithms. Our programming approach ensures efficient processing and response times.
-
-
-
 ---
 
