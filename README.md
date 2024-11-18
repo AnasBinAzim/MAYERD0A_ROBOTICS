@@ -104,11 +104,13 @@ Our bot, **SMOKI**, is built for excellence in the **World Robot Olympiad 2024**
 
 ---
 
-<div align="center">
-  <p><strong>Note:</strong> Ensure that you thoroughly read the <em>WRO Future Engineers 2024 Rulebook</em> to understand all rules and guidelines.</p>
-  <p><a href="https://wro-association.org/competitions/future-engineers/">🔗 WRO Future Engineers 2024 Rulebook</a></p>
+<div style="background-color: #9b59b6; color: white; padding: 15px; border-radius: 5px; text-align: center; font-size: 16px;">
+  <strong>⚠️ Important:</strong> Ensure that you thoroughly read the <em>WRO Future Engineers 2024 Rulebook</em> to understand all rules and guidelines.<br>
+  <a href="https://wro-association.org/competitions/future-engineers/" style="color: #fdfd96; text-decoration: underline;">🔗 WRO Future Engineers 2024 Rulebook</a>
 </div>
 
+---
+---
 ---
 
 
