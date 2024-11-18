@@ -103,6 +103,14 @@ Our bot, **SMOKI**, is built for excellence in the **World Robot Olympiad 2024**
 </table>
 
 ---
+>[!IMPORTANT]
+>**Important: WRO Future Engineers Rulebook**
+>* **Thorough Reading:** Ensure that you thoroughly read the **WRO Future Engineers 2024 Rulebook** to understand all rules and guidelines.
+>* **Official Link:** Access the rulebook here: [🔗 WRO Future Engineers 2024 Rulebook](https://wro-association.org/competitions/future-engineers/).
+
+---
+---
+---
 
 <div style="background-color: #9b59b6; color: white; padding: 15px; border-radius: 5px; text-align: center; font-size: 16px;">
   <strong>⚠️ Important:</strong> Ensure that you thoroughly read the <em>WRO Future Engineers 2024 Rulebook</em> to understand all rules and guidelines.<br>
@@ -129,11 +137,6 @@ Our bot is equipped with various components that support its autonomous function
 | **Camera - SJ CAM C200**       | Captures visual data, supporting navigation and obstacle detection tasks.                        | <div align="center"><img src="https://github.com/user-attachments/assets/8bb8ceb2-e95b-45cd-9e9d-ec480b62baaa" alt="SJ CAM C200" width="100"></div>  | [Purchase SJ CAM C200](https://amzn.to/3SJCAM)                                                   |
 | **3D Printed Mounts**          | Custom-made mounts for stable sensor and component positioning.                                  | <div align="center"><img src="https://github.com/user-attachments/assets/66340cc9-0085-4e51-8400-c7a09e2504ad" alt="3D Printed Mounts" width="100"></div>     | N/A                                                                                              |
 
-
->[!NOTE]
->**Important:**
->* Ensure that you thoroughly read the **WRO Future Engineers 2024 Rulebook** to understand all rules and guidelines.
->* You can find the rulebook at this link: [🔗 WRO Future Engineers 2024 Rulebook](https://wro-association.org/competitions/future-engineers/).
 
 
 ---
