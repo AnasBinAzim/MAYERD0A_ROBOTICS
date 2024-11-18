@@ -511,9 +511,11 @@ We have developed a **custom hand-designed PCB** to streamline the robot's power
 
 | **Top View of PCB** | **Bottom View of PCB** | **Power Management Diagram** |
 |----------------------|------------------------|-------------------------------|
-| ![Top View PCB](./WhatsApp%20Image%202024-11-18%20at%2018.56.03_63ca2352.jpg) | ![Bottom View PCB](./WhatsApp%20Image%202024-11-18%20at%2018.58.46_4413c712.jpg) | ![Power Management](https://github.com/user-attachments/assets/power_management.jpg) |
+| <img src="https://github.com/user-attachments/assets/be051834-2c23-495e-9aa1-83d9620e1524" /> | <img src="https://github.com/user-attachments/assets/45d68411-f99a-4ef4-8aef-c63eb856a8e1" /> | <img src="https://github.com/user-attachments/assets/be051834-2c23-495e-9aa1-83d9620e1524" /> |
 
 ---
+https://github.com/user-attachments/assets/be051834-2c23-495e-9aa1-83d9620e1524
+
 
 ### Integrated System Benefits
 
