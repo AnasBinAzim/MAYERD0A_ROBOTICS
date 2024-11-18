@@ -235,24 +235,6 @@ The following images showcase the detailed assembly process of our WRO Bot's cha
       border-collapse: collapse;
     }
 
-    td {
-      padding: 10px;
-      text-align: center;
-    }
-
-    img {
-      border: 5px solid silver; /* Silver frame */
-      border-radius: 8px; /* Optional: Rounded corners */
-      width: 330px;
-      height: 225px;
-    }
-
-    @media screen and (max-width: 768px) {
-      img {
-        width: 100%; /* Make images responsive */
-        height: auto;
-      }
-    }
   </style>
 </head>
 <body>
