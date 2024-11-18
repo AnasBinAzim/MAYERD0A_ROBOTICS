@@ -272,11 +272,26 @@ https://github.com/user-attachments/assets/59de14fc-f248-4ac2-8b31-80baea148cff
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/297d61d9-bef9-49eb-92bd-bed3f49f170d" width="700"height="400" />
-  <img src="https://github.com/user-attachments/assets/3731a99c-2025-4ecf-bbbc-6adab70886ab" width="700" height="400" />
-  <img src="https://github.com/user-attachments/assets/e5054dfd-4277-47fe-9986-4acdd1ff4e14" width="700" height="400" />
-  <img src="https://github.com/user-attachments/assets/f5ab2184-7332-4fab-bb6f-050e5189baf2" width="700" height="400" />
+  <table>
+    <tr>
+      <td>
+        <img src="https://github.com/user-attachments/assets/297d61d9-bef9-49eb-92bd-bed3f49f170d" width="350" height="200" />
+      </td>
+      <td>
+        <img src="https://github.com/user-attachments/assets/3731a99c-2025-4ecf-bbbc-6adab70886ab" width="350" height="200" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://github.com/user-attachments/assets/e5054dfd-4277-47fe-9986-4acdd1ff4e14" width="350" height="200" />
+      </td>
+      <td>
+        <img src="https://github.com/user-attachments/assets/f5ab2184-7332-4fab-bb6f-050e5189baf2" width="350" height="200" />
+      </td>
+    </tr>
+  </table>
 </p>
+
 
 # ⚡ Electronics and Power System
 
