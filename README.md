@@ -512,6 +512,12 @@ Our robot's power system has been engineered for stability and efficiency, addre
    - Another module provides **5V** for the ESP32 microcontroller.
 4. **⚡ 12V Power for Motors**: Delivered using a **Buck-Boost Converter** to ensure consistent motor performance.
 
+>[!IMPORTANT]
+> **Power Highlights:**
+> - The XL4016 Buck Converter ensures stable voltage regulation, critical for protecting the Raspberry Pi and ESP32 microcontroller during operation.
+> - Independent buck modules handle the servo motor and ESP32 power needs, optimizing energy usage across all components.
+
+---
 ---
 
 ## 🛠️ PCB Design
