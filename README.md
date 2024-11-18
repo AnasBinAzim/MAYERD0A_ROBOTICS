@@ -275,61 +275,102 @@ The Raspberry Pi is mounted with custom 3D-printed parts for stability.
 
 The mobility system of our robot has been meticulously designed to ensure smooth, efficient, and reliable movement, addressing both power distribution and maneuverability.
 
-### Front Axle Articulation
+---
+
+### **Front Axle Articulation**
 
 The front axle is articulated by a **Servo Motor**, enabling precise steering control. This configuration allows the robot to execute sharp turns and navigate complex paths with accuracy. The servo motor's responsiveness ensures that the robot can adapt to dynamic scenarios effectively, providing the necessary flexibility for competitive tasks.
 
-### Rear Axle Power Distribution
+---
 
-The rear wheels are powered through a **differential gearbox**, driven by a **LEGO Encoder Motor** from the **45560 Expansion Set**. The differential gearbox serves a critical role by enabling the wheels on the same axle to rotate at different speeds while receiving power from a single **DC motor**. This functionality is especially important during turns, where the outer wheel must travel a greater distance than the inner wheel.
+### **Rear Axle Power Distribution**
 
-#### Understanding the Differential Gearbox
+Initially, the rear wheels were powered through a **Bevel Gear**, but we later upgraded to a **Differential Gearbox**. Let’s explore the two systems in detail.
 
-A differential gearbox is a mechanical device that splits the engine torque two ways, allowing each output to spin at a different speed. This is crucial for vehicles, including robots, to navigate turns smoothly. When a vehicle turns, the wheels on the outside of the turn must cover more distance than the wheels on the inside. Without a differential, both wheels would be forced to rotate at the same speed, leading to increased tire wear, reduced traction, and potential mechanical strain.
+---
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/18ed7431-8bcc-4953-92a2-46f3a52d74c5" width="500" height="305" />
-</p>
+### **What is a Bevel Gear?**
 
-*Image Source: [LearnMech](https://learnmech.com/working-of-differential-gear-box-for/)*
+A **bevel gear** is a type of gear where the axes of the two shafts intersect, and the tooth-bearing faces of the gears are conically shaped. These gears are used to transfer motion between shafts at various angles, most commonly at 90 degrees.
 
-#### How It Works
+#### Key Features of Bevel Gears:
+- **Design**: Conical shape with teeth cut along the cone's surface.
+- **Angle**: Typically used at 90°, but can work at other angles.
+- **Material**: Commonly made of steel, brass, or plastic for lightweight applications.
+- **Types**:
+  - **Straight Bevel Gear**: Teeth are straight and converge at the axis.
+  - **Spiral Bevel Gear**: Teeth are curved for smoother operation and higher efficiency.
 
-The differential gearbox consists of several key components:
+#### Applications of Bevel Gears:
+- Steering mechanisms in automobiles.
+- Power drills.
+- Right-angle drives in mechanical systems.
 
-- **Input Shaft (Driveshaft):** Transmits power from the motor to the differential.
-- **Bevel Gears:** Facilitate the splitting of torque between the wheels.
-- **Side Gears:** Connected to the axle shafts, transmitting power to the wheels.
-- **Pinion Gears:** Interact with the side gears to allow differential action.
+#### Advantages of Bevel Gears:
+- **Compact Design**: Useful for space-constrained applications.
+- **Efficient Torque Transfer**: Provides efficient transmission between intersecting shafts.
+- **Simpler Mechanism**: Requires fewer components for basic operation.
 
-During straight-line movement, the differential distributes equal torque to both wheels, causing them to rotate at the same speed. However, during a turn, the pinion gears rotate around the side gears, allowing one wheel to speed up and the other to slow down, accommodating the difference in distance each wheel travels.
+#### Disadvantages of Bevel Gears:
+- **Limited Functionality in Turns**: Both wheels rotate at the same speed, causing strain in turning scenarios.
+- **Increased Wear and Tear**: During turns, the mismatch in wheel speeds leads to increased wear on the tires and axles.
 
-#### Benefits in Robotic Applications
+---
 
-- **Smooth Turning:** Enables the robot to navigate turns without wheel slippage or mechanical strain.
-- **Energy Efficiency:** Reduces the power required to maneuver, conserving battery life.
-- **Component Longevity:** Minimizes wear on wheels and axles, extending the lifespan of mechanical parts.
+#### **Image of a Bevel Gear**:
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Bevel_Gears.jpg" alt="Bevel Gear" width="400"/>
+</div>
+*Image Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bevel_Gears.jpg)*
 
-#### Integration with LEGO Encoder Motor
+---
 
-The LEGO Encoder Motor provides precise control over rotational speed and direction, which, when combined with the differential gearbox, allows for:
+### **Why Upgrade to a Differential Gearbox?**
 
-- **Accurate Speed Regulation:** Ensures that the differential receives consistent input, facilitating predictable wheel behavior.
-- **Feedback Mechanism:** The encoder provides real-time data on motor performance, enabling adjustments for optimal operation.
+While bevel gears provided a basic solution for power distribution, we encountered significant limitations during testing:
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/6e02cdbc-f871-4d50-b9f5-c20749cfb451" />
-</p>
+1. **Turning Efficiency**: The robot struggled to navigate turns smoothly because both rear wheels rotated at the same speed.
+2. **Tire Slippage**: The mismatch in wheel speeds caused slippage and reduced traction.
+3. **Increased Power Consumption**: The motor consumed more energy to compensate for the inefficiencies during turns.
 
-*Image Source: [3DTool](https://3dtool.ru/product/resursnyj-nabor-dlya-sborki-robotov-lego-mindstorms-ev3-45560-obrazovatelnaya-versiya/)*
+To address these challenges, we upgraded to a **Differential Gearbox**.
 
-### Motor Control System
+---
 
-To control the motors effectively, we integrated an **L298N Motor Driver**. This versatile motor driver module enables bidirectional motor control and speed regulation for both the encoder and DC motors. Key features of the L298N include:
+### **What is a Differential Gearbox?**
 
-- **Dual H-Bridge Design:** Facilitates independent control of two motors.
-- **PWM Support:** Allows precise speed adjustments for optimal performance.
-- **Current Overload Protection:** Enhances system reliability by safeguarding agai
+A **differential gearbox** is a mechanical device that allows the wheels on the same axle to rotate at different speeds while receiving power from a single motor. This is especially important for navigating turns, where the outer wheel must travel a greater distance than the inner wheel.
+
+#### Key Features of Differential Gearboxes:
+- **Torque Splitting**: Distributes engine torque evenly between two wheels.
+- **Smooth Turning**: Allows wheels to rotate at different speeds for efficient cornering.
+- **Robust Design**: Built to handle dynamic loads during turns.
+
+---
+
+### **Benefits of Differential Gear Over Bevel Gear**:
+1. **Smooth Turns**: The differential gear adapts to varying wheel speeds, making turns smooth and efficient.
+2. **Energy Efficiency**: Reduces power wastage caused by wheel slippage.
+3. **Component Longevity**: Minimizes wear on tires and axles, extending their lifespan.
+4. **Precision Control**: Provides better control over wheel movements in dynamic scenarios.
+
+---
+
+#### **Image of a Differential Gearbox**:
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Automotive_Differential.png" alt="Differential Gearbox" width="400"/>
+</div>
+*Image Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Automotive_Differential.png)*
+
+---
+
+### **Conclusion: Differential Over Bevel Gear**
+
+The transition from bevel gears to a differential gearbox significantly improved our robot's mobility. By enabling independent wheel speeds, the differential gearbox ensures smooth navigation, reduced strain on components, and improved energy efficiency. This upgrade was crucial for meeting the challenges of the WRO competition, where precision and adaptability are paramount.
+
+---
+---
+---
 
 ## ⚡ Power and Sense Management
 
