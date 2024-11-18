@@ -634,7 +634,8 @@ In **Round 1**, our robot **SMOKI** must autonomously complete **three laps** on
 
 <div align="center">
   <!-- Placeholder for Hough Line Transform Image -->
-  <img src="path_to_hough_line_transform_image.png" alt="Hough Line Transform" width="600">
+
+  <img src="https://github.com/user-attachments/assets/24ef6a2d-ce3d-4522-8181-7e811d370d6b" alt="Hough Line Transform" width="600">
   <p><em>Figure: Visualization of Hough Line Transform applied to track image.</em></p>
 </div>
 
@@ -685,7 +686,7 @@ flowchart TD
     M --> B
     J -->|Yes| N[Delay and Stop]
     N --> O[End]
-of Algorithm
+
 
 In this section, we discuss the underlying software infrastructure, including how data flows within the system, how sensors are interpreted, and the logic behind navigation, obstacle avoidance, and lap counting algorithms. Our programming approach ensures efficient processing and response times.
 
