@@ -252,25 +252,6 @@ https://github.com/user-attachments/assets/59de14fc-f248-4ac2-8b31-80baea148cff
 
 - **Power Module**: Ensures consistent power to the Raspberry Pi and ESP32.
 - **Wiring**: Organized to minimize interference.
-
-![Electronics Setup](./images/03_electronics.jpg)
-
-### 🔍 Sensors
-
-Sensors are arranged strategically for obstacle detection and navigation.
-
-![Sensors Array](./images/04_sensors.jpg)
-
-### 📸 Mounting the Raspberry Pi and Camera
-
-The Raspberry Pi is mounted with custom 3D-printed parts for stability.
-
-![Raspberry Pi and Camera Mount](./images/05_raspberry_camera.jpg)
-
----
-
-
-
 ## 🚗 Mobility Management
 
 The mobility system of our robot has been meticulously designed to ensure smooth, efficient, and reliable movement, addressing both power distribution and maneuverability. This section outlines the evolution of our robot's mobility systems, including upgrades to the steering and gear systems.
@@ -283,7 +264,16 @@ Initially, the rear wheels were powered through a **Bevel Gear**, but we later u
 
 ---
 
-#### **What is a Bevel Gear?**
+#### **Bevel Gear**
+
+<table>
+<tr>
+<td width="50%">
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/9e19661f-b921-4bea-9028-4e0274306ced" width="300"/>
+</div>
+</td>
+<td width="50%">
 
 A **bevel gear** is a type of gear where the axes of the two shafts intersect, and the tooth-bearing faces of the gears are conical. Bevel gears are commonly used to transfer motion between intersecting shafts at an angle, typically 90°.
 
@@ -295,6 +285,10 @@ A **bevel gear** is a type of gear where the axes of the two shafts intersect, a
 1. **Compact Design**: Suitable for space-constrained applications.
 2. **Efficient Torque Transfer**: Provides reliable power transmission at angles.
 3. **Versatility**: Can operate at angles other than 90° if needed.
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -329,12 +323,6 @@ A **differential gearbox** allows the wheels on the same axle to rotate at diffe
 ---
 
 #### **Images**
-
-**Bevel Gear**:
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/9e19661f-b921-4bea-9028-4e0274306ced" width="400"/>
-</div>
-*Image Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bevel_Gears.jpg)*
 
 **Differential Gearbox**:
 <div align="center">
@@ -409,9 +397,7 @@ The upgrades to our robot’s mobility system—switching from bevel gears to a 
 Together, these upgrades ensured that our robot was optimized for the challenges of the WRO course, achieving a balance between simplicity and performance.
 
 ----
-
 ----
-
 ----
 
 ## ⚡ Power and Sense Management
