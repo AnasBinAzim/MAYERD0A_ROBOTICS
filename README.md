@@ -688,14 +688,8 @@ flowchart TD
     N --> O[End]
 
 
-
-
 ```
 
-
----
----
----
 
 # 🏆 Round 2 Algorithm - Lap Completion with Obstacle Avoidance and Object Detection
 
