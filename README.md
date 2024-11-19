@@ -453,21 +453,6 @@ The LEGO Steering System uses modular LEGO Technic parts with a simple rack-and-
 4. **Ease of Use**: Simplifies the overall system design without sacrificing functionality.
 
 ---
-
-#### **Images**
-
-**Ackermann Steering System**:
-<div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Ackermann_turning_geometry.png" alt="Ackermann Steering System" width="400"/>
-</div>
-*Image Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ackermann_turning_geometry.png)*
-
-**LEGO Steering System**:
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/lego_steering.jpg" alt="LEGO Steering System" width="400"/>
-</div>
-*Image Source: Custom Design*
-
 ---
 
 ### **Conclusion**
