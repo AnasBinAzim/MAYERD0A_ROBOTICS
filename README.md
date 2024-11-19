@@ -690,6 +690,9 @@ flowchart TD
 
 ```
 
+---
+---
+---
 
 # 🏆 Round 2 Algorithm - Lap Completion with Obstacle Avoidance and Object Detection
 
@@ -736,36 +739,7 @@ Round 2 involves an enhanced version of our robot SMOKI, which autonomously comp
 ### 📡 Serial Communication:
 - Send the calculated steering value to the ESP32 via serial communication to adjust the robot's movement accordingly.
 
-## 📊 Flowchart of Round 2 Algorithm
-
-```mermaid
-graph TD
-    A[Start] --> B[Capture Image]
-    B --> C[Convert to HSV Scale]
-    C --> D[Apply Gaussian Blur]
-    D --> E[Segment Black Border via HSV]
-    E --> F[Canny Edge Detection]
-    F --> G[Hough Line Transform for Border Detection]
-    G --> H[Create Border & Mask Out External Areas]
-    H --> I[Check for Line (Blue or Orange)]
-    I --> J{Line Found?}
-    J -->|Yes| K[Calculate Min & Max Slopes]
-    J -->|No| L[Continue Searching]
-    K --> M{Both Blue & Orange Found?}
-    M -->|Yes| N[Compare Slopes & Set Orientation]
-    M -->|No| L
-    N --> O[Check for Acceptable Objects]
-    O --> P[Assign Priority to Objects]
-    P --> Q[Register One Object]
-    Q --> R[Calculate Steering Value Using Quadratic Function]
-    R --> S[Send Steering Value to ESP32]
-    S --> T[End]
-
-
-
-
-
-```
+---
 
 ## Algorithm Explanation
 
@@ -792,56 +766,6 @@ Feel free to reach out if you need more insights or help with further tuning the
 
 
 
-# **Round 2 Algorithm Explanation**
-
----
-
-## **Introduction**
-
-Welcome to the comprehensive explanation of our **Round 2 algorithm**, focusing on image processing and object detection for autonomous navigation. This README provides a detailed walkthrough of the algorithm steps, accompanied by a flowchart to visualize the process. The algorithm processes visual input, detects lines and objects of interest, and generates steering commands for navigation within a bounded environment.
-
----
-
-## **Table of Contents**
-
-- [Introduction](#introduction)
-- [Algorithm Overview](#algorithm-overview)
-- [Flowchart](#flowchart)
-- [Detailed Steps](#detailed-steps)
-  - [1. Image Acquisition](#1-image-acquisition)
-  - [2. Conversion to HSV Color Space](#2-conversion-to-hsv-color-space)
-  - [3. Gaussian Blur](#3-gaussian-blur)
-  - [4. Boundary Detection](#4-boundary-detection)
-  - [5. Masking Outside Boundary](#5-masking-outside-boundary)
-  - [6. Line Detection](#6-line-detection)
-  - [7. Slope Calculation](#7-slope-calculation)
-  - [8. Orientation Determination](#8-orientation-determination)
-  - [9. Object Detection and Prioritization](#9-object-detection-and-prioritization)
-  - [10. Steering Value Calculation and Communication](#10-steering-value-calculation-and-communication)
-- [Conclusion](#conclusion)
-- [Notes](#notes)
-- [Contact Information](#contact-information)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-
----
-
-## **Algorithm Overview**
-
-The algorithm follows these main steps:
-
-1. **Image Acquisition**: Capture the current frame.
-2. **Conversion to HSV**: Convert the image to HSV color space and store colors.
-3. **Gaussian Blur**: Apply blur to reduce noise.
-4. **Boundary Detection**: Detect black borders using edge detection and Hough Transform.
-5. **Masking Outside Boundary**: Ignore areas outside the detected boundary.
-6. **Line Detection**: Detect blue or orange lines based on HSV ranges.
-7. **Slope Calculation**: Calculate slopes of detected lines.
-8. **Orientation Determination**: Determine orientation based on slopes.
-9. **Object Detection and Prioritization**: Detect objects and assign priority.
-10. **Steering Value Calculation and Communication**: Calculate steering value and send to ESP32.
-
----
 
 ## **Flowchart**
 
