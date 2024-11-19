@@ -693,4 +693,176 @@ flowchart TD
 ```
 
 
+---
+---
+---
+
+# 🏆 Round 2 Algorithm - Lap Completion with Obstacle Avoidance and Object Detection
+
+Round 2 involves an enhanced version of our robot SMOKI, which autonomously completes three laps, avoiding obstacles and calculating the steering value based on object prioritization and boundary detection. Below is an in-depth look at the step-by-step algorithm implemented for this round.
+
+## 🌟 Step-by-Step Algorithm Overview
+
+### 📸 Image Acquisition:
+- The camera captures real-time images of the track and surroundings.
+
+### 🎨 HSV Color Conversion:
+- Convert the captured image from RGB to HSV (Hue, Saturation, Value) scale.
+- Store all relevant line and object colors for further use.
+
+### 💨 Gaussian Blur:
+- Apply Gaussian Blur to the frame to reduce noise.
+- Based on predetermined HSV range, isolate the black border portion.
+
+### ⚫ Black Border Detection:
+- Use Canny Edge Detection to identify the black border walls.
+- Apply Hough Line Probabilistic Transformation to determine acceptable border walls.
+
+### 🛑 Border Masking:
+- Create a border in the frame based on the detected lines.
+- Mask out everything beyond the border to eliminate unnecessary information for the rest of the algorithm.
+
+### 🔍 Line Detection (Blue or Orange):
+- Identify lines using the predetermined HSV color range.
+- Check for the blue or orange line in the frame.
+
+### 📐 Slope Calculation:
+- If a line is found, calculate the minimum and maximum slopes for both the blue and orange lines (if both are present).
+
+### ↩️ Orientation Determination:
+- If both blue and orange lines are detected, compare their slopes.
+- Determine the clockwise or anti-clockwise orientation and store this in a variable for future reference.
+
+### 📊 Object Detection and Prioritization:
+- Detect acceptable objects within the boundary wall.
+- Assign a priority value to each object based on distance, orientation, and coordinates.
+- Register only one object based on predetermined mathematical calculations.
+- Calculate the steering value for navigation using a quadratic function based on the object's distance and position along the x-axis.
+
+### 📡 Serial Communication:
+- Send the calculated steering value to the ESP32 via serial communication to adjust the robot's movement accordingly.
+
+## 📊 Flowchart of Round 2 Algorithm
+
+```mermaid
+graph TD
+    A[Start] --> B[Capture Image]
+    B --> C[Convert to HSV Scale]
+    C --> D[Apply Gaussian Blur]
+    D --> E[Segment Black Border via HSV]
+    E --> F[Canny Edge Detection]
+    F --> G[Hough Line Transform for Border Detection]
+    G --> H[Create Border & Mask Out External Areas]
+    H --> I[Check for Line (Blue or Orange)]
+    I --> J{Line Found?}
+    J -->|Yes| K[Calculate Min & Max Slopes]
+    J -->|No| L[Continue Searching]
+    K --> M{Both Blue & Orange Found?}
+    M -->|Yes| N[Compare Slopes & Set Orientation]
+    M -->|No| L
+    N --> O[Check for Acceptable Objects]
+    O --> P[Assign Priority to Objects]
+    P --> Q[Register One Object]
+    Q --> R[Calculate Steering Value Using Quadratic Function]
+    R --> S[Send Steering Value to ESP32]
+    S --> T[End]
+```
+
+## Algorithm Explanation
+
+- **HSV Conversion** allows for effective color segmentation, making it easier to distinguish between track lines and other features regardless of lighting conditions.
+- **Gaussian Blur** helps to reduce noise, making the detection of borders and lines more reliable.
+- Using **Hough Line Transform** and **Canny Edge Detection** enables accurate identification of boundaries, which is crucial for masking irrelevant parts of the frame.
+- **Slope Comparison** provides the robot with information about its current orientation, enabling it to differentiate between clockwise and anti-clockwise directions based on the detected lines.
+- The **Object Prioritization** mechanism ensures that the robot only reacts to the most relevant obstacle, improving navigation efficiency.
+- Finally, the calculated steering value is sent to the ESP32 for precise movement control, ensuring that the robot maintains its intended path while avoiding obstacles effectively.
+
+## Video Tutorial for Hough Line Transform
+
+For a better understanding of how the Hough Line Transform method is used in our algorithm, you can watch this detailed video tutorial:
+
+- [🔗 Hough Line Transform Tutorial by DigitalSreeni](https://www.youtube.com/watch?v=6-3HgNZkDGA)
+
+## Next Steps
+
+- Test the algorithm in various track conditions to ensure robustness.
+- Fine-tune the HSV color ranges and quadratic function for steering to achieve optimal performance.
+- Collect data on the robot's performance to further refine the object prioritization logic.
+
+Feel free to reach out if you need more insights or help with further tuning the algorithm!
+
+
+
+# **Round 2 Algorithm Explanation**
+
+---
+
+## **Introduction**
+
+Welcome to the comprehensive explanation of our **Round 2 algorithm**, focusing on image processing and object detection for autonomous navigation. This README provides a detailed walkthrough of the algorithm steps, accompanied by a flowchart to visualize the process. The algorithm processes visual input, detects lines and objects of interest, and generates steering commands for navigation within a bounded environment.
+
+---
+
+## **Table of Contents**
+
+- [Introduction](#introduction)
+- [Algorithm Overview](#algorithm-overview)
+- [Flowchart](#flowchart)
+- [Detailed Steps](#detailed-steps)
+  - [1. Image Acquisition](#1-image-acquisition)
+  - [2. Conversion to HSV Color Space](#2-conversion-to-hsv-color-space)
+  - [3. Gaussian Blur](#3-gaussian-blur)
+  - [4. Boundary Detection](#4-boundary-detection)
+  - [5. Masking Outside Boundary](#5-masking-outside-boundary)
+  - [6. Line Detection](#6-line-detection)
+  - [7. Slope Calculation](#7-slope-calculation)
+  - [8. Orientation Determination](#8-orientation-determination)
+  - [9. Object Detection and Prioritization](#9-object-detection-and-prioritization)
+  - [10. Steering Value Calculation and Communication](#10-steering-value-calculation-and-communication)
+- [Conclusion](#conclusion)
+- [Notes](#notes)
+- [Contact Information](#contact-information)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+---
+
+## **Algorithm Overview**
+
+The algorithm follows these main steps:
+
+1. **Image Acquisition**: Capture the current frame.
+2. **Conversion to HSV**: Convert the image to HSV color space and store colors.
+3. **Gaussian Blur**: Apply blur to reduce noise.
+4. **Boundary Detection**: Detect black borders using edge detection and Hough Transform.
+5. **Masking Outside Boundary**: Ignore areas outside the detected boundary.
+6. **Line Detection**: Detect blue or orange lines based on HSV ranges.
+7. **Slope Calculation**: Calculate slopes of detected lines.
+8. **Orientation Determination**: Determine orientation based on slopes.
+9. **Object Detection and Prioritization**: Detect objects and assign priority.
+10. **Steering Value Calculation and Communication**: Calculate steering value and send to ESP32.
+
+---
+
+## **Flowchart**
+
+```mermaid
+flowchart TD
+    Start --> Step1[Capture Image]
+    Step1 --> Step2[Convert Image to HSV]
+    Step2 --> Step3[Apply Gaussian Blur]
+    Step3 --> Step4[Isolate Black Borders]
+    Step4 --> Step5[Detect Borders with Canny Edge and Hough Transform]
+    Step5 --> Step6[Mask Area Outside Borders]
+    Step6 --> Step7[Detect Blue or Orange Lines]
+    Step7 --> Step8[Calculate Min and Max Slopes]
+    Step8 --> Decision1{Both Lines Detected?}
+    Decision1 -- Yes --> Step9[Determine Orientation]
+    Decision1 -- No --> Step9[Use Detected Line]
+    Step9 --> Step10[Detect Objects Within Boundary]
+    Step10 --> Step11[Assign Priority to Objects]
+    Step11 --> Step12[Select Highest Priority Object]
+    Step12 --> Step13[Calculate Steering Value]
+    Step13 --> Step14[Send Steering Value to ESP32]
+    Step14 --> End
 
