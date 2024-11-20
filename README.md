@@ -657,7 +657,7 @@ For a comprehensive understanding of the Hough Line Transform method, you can wa
 flowchart TD
     A[Start] --> B[Capture Image]
     B --> C[Convert to HSV]
-    C --> D[Segment Blue and Orange Lines]
+    C --> D[Segment Blue and Orange Portions]
     D --> E{Blue Before Orange?}
     E -->|Yes| F[Set Right-Based Orientation]
     E -->|No| G[Set Left-Based Orientation]
@@ -673,7 +673,6 @@ flowchart TD
     N --> O[End]
 
 
-```
 
 ---
 ---
