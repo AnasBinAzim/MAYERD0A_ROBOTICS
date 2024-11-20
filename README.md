@@ -653,6 +653,8 @@ For a comprehensive understanding of the Hough Line Transform method, you can wa
 
 ### 📊 Flowchart of the Algorithm
 
+## 📊 Flowchart of the Algorithm
+
 ```mermaid
 flowchart TD
     A[Start] --> B[Capture Image]
@@ -671,8 +673,7 @@ flowchart TD
     M --> B
     J -->|Yes| N[Delay and Stop]
     N --> O[End]
-
-
+```
 
 ---
 ---
