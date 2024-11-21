@@ -49,7 +49,31 @@ myPoints = []  # [x, y, h, w, colorId]
 width_for_constant_distance = 12  # minimum acceptable width
 
 
-def display_message(line1, line2, line3, font_size=14):
+from PIL import ImageDraw
+
+def draw_rounded_rectangle(draw, x1, y1, x2, y2, radius, outline, width):
+    """
+    Draw a rounded rectangle.
+    draw: ImageDraw object
+    x1, y1, x2, y2: Coordinates of the bounding box (top-left and bottom-right)
+    radius: Radius of the rounded corners
+    outline: Color of the outline
+    width: Line width
+    """
+    # Draw the 4 corners as circles (arcs) and the 4 sides as lines
+    draw.arc([x1, y1, x1 + 2 * radius, y1 + 2 * radius], start=180, end=270, fill=outline, width=width)  # top-left corner
+    draw.arc([x2 - 2 * radius, y1, x2, y1 + 2 * radius], start=270, end=360, fill=outline, width=width)  # top-right corner
+    draw.arc([x1, y2 - 2 * radius, x1 + 2 * radius, y2], start=90, end=180, fill=outline, width=width)  # bottom-left corner
+    draw.arc([x2 - 2 * radius, y2 - 2 * radius, x2, y2], start=0, end=90, fill=outline, width=width)  # bottom-right corner
+
+    # Draw the 4 sides of the rectangle
+    draw.line([x1 + radius, y1, x2 - radius, y1], fill=outline, width=width)  # top side
+    draw.line([x1 + radius, y2, x2 - radius, y2], fill=outline, width=width)  # bottom side
+    draw.line([x1, y1 + radius, x1, y2 - radius], fill=outline, width=width)  # left side
+    draw.line([x2, y1 + radius, x2, y2 - radius], fill=outline, width=width)  # right side
+
+# Example usage in your `display_message` function:
+def display_message(line1, line2, line3, font_size=10):
     try:
         font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", font_size)
     except IOError:
@@ -68,22 +92,23 @@ def display_message(line1, line2, line3, font_size=14):
     # Clear the screen by filling it with black
     draw.rectangle((0, 0, oled.width, oled.height), outline=0, fill=0)
 
-    # Draw a border around the screen
-    border_margin = 1
-    draw.rectangle((border_margin, border_margin, oled.width - 1 - border_margin, oled.height - 1 - border_margin),
-                   outline=255, width=1)
+    # Draw a border with rounded corners around the screen
+    border_margin = 2
+    draw_rounded_rectangle(draw, border_margin, border_margin, oled.width - border_margin, oled.height - border_margin, 10, outline=255, width=2)
 
     # Draw the title line
-    draw_centered_text("Mayerdoa_Robotics", 0)  # Title line at the top
+    draw_centered_text("Mayerdoa_Robotics", 6)  # Title line at the top
 
     # Draw the three lines with appropriate vertical spacing
-    draw_centered_text(line1, font_size + 2)  # First line
-    draw_centered_text(line2, 2 * font_size + 4)  # Second line (depends on variable `d`)
-    draw_centered_text(line3, 3 * font_size + 6)  # Third line (depends on variable `e`)
+    draw_centered_text(line1, font_size + 8)  # First line
+    draw_centered_text(line2, 2 * font_size + 10)  # Second line (depends on variable `d`)
+    draw_centered_text(line3, 3 * font_size + 12)  # Third line (depends on variable `e`)
 
     # Display the image on the OLED
     oled.image(image)
     oled.show()
+
+
 
 
 def convert(k):
