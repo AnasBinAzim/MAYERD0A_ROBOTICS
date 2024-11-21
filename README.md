@@ -475,8 +475,19 @@ Together, these upgrades ensured that our robot was optimized for the challenges
 The **Power and Sense Management** system of our robot has been meticulously designed to optimize performance while ensuring reliable power delivery, precise sensing, and efficient communication between components.
 
 ---
+## 🔋 Power Distribution
 
-## 🎥 Camera Placement and Functionality
+Our robot's power system has been engineered for stability and efficiency, addressing all unique voltage and current requirements:
+1. **🔋 Two Lithium-Ion Cells**: Each rated at **4.2V**, providing a total of **8.4V**.
+2. **⚙️ XL4016 Buck Converter**: Steps down **8.4V** to a stable **5V** for powering the Raspberry Pi 5 and other components.
+3. **🔌 Buck Modules**:
+   - One module supplies **6V** for the servo motor.
+   - Another module provides **5V** for the ESP32 microcontroller.
+4. **⚡ 12V Power for Motors**: Delivered using a **Buck-Boost Converter** to ensure consistent motor performance.
+
+---
+
+### 🎥 Camera Placement and Functionality
 
 The robot's main camera is positioned at the top and angled slightly downwards. This setup enhances object detection capabilities by providing:
 - **🔍 Close-Range Detection**: The camera can identify objects in close proximity with high accuracy.
@@ -486,7 +497,7 @@ The camera feeds data to the **Raspberry Pi 5**, which processes image recogniti
 
 ---
 
-## 📡 Sonar Mount Design
+### 📡 Sonar Mount Design
 
 ### 🛠️ Previous Design
 In our earlier design, we used **HC-SR04 sonar sensors** placed at **45-degree angles**, mounted horizontally on two sides of the robot, with one sensor placed vertically in the middle. This configuration provided basic obstacle detection but had limitations:
@@ -507,15 +518,6 @@ The new configuration leverages **HC-SR04 sonar sensors**, chosen for their **wi
 
 ---
 
-## 🔋 Power Management
-
-Our robot's power system has been engineered for stability and efficiency, addressing all unique voltage and current requirements:
-1. **🔋 Two Lithium-Ion Cells**: Each rated at **4.2V**, providing a total of **8.4V**.
-2. **⚙️ XL4016 Buck Converter**: Steps down **8.4V** to a stable **5V** for powering the Raspberry Pi 5 and other components.
-3. **🔌 Buck Modules**:
-   - One module supplies **6V** for the servo motor.
-   - Another module provides **5V** for the ESP32 microcontroller.
-4. **⚡ 12V Power for Motors**: Delivered using a **Buck-Boost Converter** to ensure consistent motor performance.
 
 >[!IMPORTANT]
 > **Power Highlights:**
