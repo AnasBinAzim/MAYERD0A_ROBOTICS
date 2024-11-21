@@ -284,13 +284,7 @@ The drive system includes DC motors, which provide reliable propulsion and contr
 </p>
 
 
-# ⚡ Electronics and Power System
 
-- **Power Module**: Ensures consistent power to the Raspberry Pi and ESP32.
-- **Wiring**: Organized to minimize interference.
-
-----
-----
 ----
 
 
