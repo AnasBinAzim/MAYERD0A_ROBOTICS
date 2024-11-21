@@ -158,7 +158,7 @@ Our robot’s chassis is built using components from the **LEGO Technic Expansio
 
 #### 📘 LEGO 45560 Expansion Set Manual
 For a step-by-step guide on using the LEGO 45560 parts, refer to the official **LEGO 45560 Expansion Set Manual**:
-- **[LEGO 45560 Expansion Set Manual (PDF Download)](https://www.lego.com/cdn/manuals/45560.pdf)**
+- **[LEGO 45560 Expansion Set Instructions]([https://www.lego.com/cdn/manuals/45560.pdf](https://robotsquare.com/2013/10/01/lego-mindstorms-ev3-education-expansion-set-45560-instructions/))**
 
 ---
 
