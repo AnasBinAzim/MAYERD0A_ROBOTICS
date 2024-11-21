@@ -48,28 +48,43 @@ LineValues = [[40, 43, 94],
 myPoints = []  # [x, y, h, w, colorId]
 width_for_constant_distance = 12  # minimum acceptable width
 
-def display_message(message):
-    # Clear the display
-    oled.fill(0)
-    oled.show()
 
-    # Use a moderately larger font, for example, a 16-point font
+def display_message(line1, line2, line3, font_size=14):
     try:
-        # Load a custom, smaller scaled font (adjust the font size to be appropriate)
-        font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 16)
+        font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", font_size)
     except IOError:
-        font = ImageFont.load_default()  # Fall back to default if custom font isn't available
+        font = ImageFont.load_default()
 
     # Create an image to draw on
-    image = Image.new("1", (oled.width, oled.height))  # Create an empty screen
+    image = Image.new("1", (oled.width, oled.height))
     draw = ImageDraw.Draw(image)
 
-    # Draw text with the custom font
-    draw.text((0, 0), message, font=font, fill=255)
+    # Helper function to draw a centered text
+    def draw_centered_text(text, y_offset):
+        text_width, text_height = draw.textsize(text, font=font)
+        x = (oled.width - text_width) // 2  # Center the text
+        draw.text((x, y_offset), text, font=font, fill=255)
+
+    # Clear the screen by filling it with black
+    draw.rectangle((0, 0, oled.width, oled.height), outline=0, fill=0)
+
+    # Draw a border around the screen
+    border_margin = 1
+    draw.rectangle((border_margin, border_margin, oled.width - 1 - border_margin, oled.height - 1 - border_margin),
+                   outline=255, width=1)
+
+    # Draw the title line
+    draw_centered_text("Mayerdoa_Robotics", 0)  # Title line at the top
+
+    # Draw the three lines with appropriate vertical spacing
+    draw_centered_text(line1, font_size + 2)  # First line
+    draw_centered_text(line2, 2 * font_size + 4)  # Second line (depends on variable `d`)
+    draw_centered_text(line3, 3 * font_size + 6)  # Third line (depends on variable `e`)
 
     # Display the image on the OLED
     oled.image(image)
     oled.show()
+
 
 def convert(k):
     res = 0
@@ -79,6 +94,7 @@ def convert(k):
         res += abs(k - 240)
     return res
 
+
 def convert2(k):
     res = 0
     if k > 320:
@@ -86,6 +102,7 @@ def convert2(k):
     else:
         res += abs(k - 320)
     return res
+
 
 def findColor(frame):
     global or_tnc, or_val, bl_tnc, bl_val
@@ -102,55 +119,66 @@ def findColor(frame):
     or_val = 0
     bl_tnc = 0
     bl_val = 0
+
     for ln in LineColors:
         lower = np.array(ln[0:3])
         upper = np.array(ln[3:6])
         mask = cv.inRange(frameHSV, lower, upper)
         count += 1
         # cv.imshow(str(ln[0]), mask)
-        if drawLine(mask, count) == 1:
+
+        if drawLine(mask, count) == 1:  # Check if line is detected
             if count == 1:
-                isbl = 1
+                isbl = 1  # Blue line detected
             else:
-                isor = 1
-    stre.append(isln)
+                isor = 1  # Orange line detected
+
+    # Process the line counts and averages
     if or_tnc > 0:
         or_val /= or_tnc
     if bl_tnc > 0:
         bl_val /= bl_tnc
+
+    # Determine direction based on line color values
     c = 0
     if isbl and isor:
         if or_val > bl_val:
-            c = 2
+            c = 2  # Orange line is more dominant
         elif bl_val > or_val:
-            c = 1
-    rs = c
+            c = 1  # Blue line is more dominant
+
+    # Display results based on the detected direction
     if c == 0:
-        display_message("nope")
+        display_message("nope", "bal", "bal")  # No line detected
     elif c == 1:
-        display_message("left")
+        display_message("left", "bal", "bal")  # Blue line detected, turn left
     elif c == 2:
-        display_message("right")
+        display_message("right", "bal", "bal")  # Orange line detected, turn right
     else:
-        display_message("Unknown")
+        display_message("Unknown", "bal", "bal")  # Unknown condition
+
+    # Send the result via serial communication
     num = chr(c)
     ser.write(num.encode('utf-8'))
+
+    # Reset the processing variables for the next frame
     stre = []
     return
+
 
 def drawLine(frame, cnt):
     global or_tnc, or_val, bl_tnc, bl_val
     edges = cv.Canny(frame, 50, 150, apertureSize=3)
     # cv.imshow('edges', edges)
     lines = cv.HoughLinesP(edges, 1, np.pi / 180, 100, minLineLength=100, maxLineGap=10)
-    
+
     f = 0
-    
+
     if lines is not None:
         for line in lines:
             f = 1
             x1, y1, x2, y2 = line[0]
-            cv.line(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
+            cv.line(frame_cc, (x1, y1), (x2, y2), (0, 255, 0), 2)
 
             # Calculate the slope (m)
             if x2 - x1 != 0:  # Prevent division by zero
@@ -164,16 +192,17 @@ def drawLine(frame, cnt):
                 or_val += b
 
             # Draw the line on the frame
-           
+
     # cv.imshow("aeh", frame)
     return f
+
 
 while True:
     success, frame = test.read()
     frame_cc = frame.copy()
     findColor(frame)
     cv.imshow("Result", frame_cc)
-    #time.sleep(350 / 1000)
+    # time.sleep(350 / 1000)
     if cv.waitKey(1) & 0xFF == ord('q'):
         break
 
