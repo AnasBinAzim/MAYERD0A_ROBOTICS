@@ -18,7 +18,7 @@
 
 ### 🌟 **The Meaning Behind MAYERDOA**
 
-Our team name, **"MAYERDOA,"** translates to **"Mother's Prayers"** in Bengali, a tribute to the unwavering support of our mothers. They have been our guiding light, steadfastly cheering us on from the initial selection to the WRO global stage. Through every challenge, they are our invisible strength—their love and prayers fueling each achievement, each step forward, each line of code. Their blessings are woven into the fabric of this project, making it more than just a technical endeavor; it’s a heartfelt journey.
+Our team name, "MAYERDOA," means "Mother's Prayers" in Bengali, honoring the constant support and encouragement of our mothers. From the early stages of selection to reaching the global WRO stage, they have been our strongest supporters, always standing by us. Their love and prayers have been our strength, helping us overcome challenges, achieve milestones, and stay motivated through every step of the journey. This project is more than just a technical effort—it’s a reflection of their unwavering belief in us.
 
 ---
 
