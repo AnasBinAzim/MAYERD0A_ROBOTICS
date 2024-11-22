@@ -627,12 +627,7 @@ The new configuration leverages **HC-SR04 sonar sensors**, chosen for their **wi
 ---
 ---
 
-## 🛠️ PCB Design
-
-We have developed a **custom hand-designed PCB** to streamline the robot's power distribution and sensor integration. The PCB offers:
-- **📐 Optimized Layout**: Minimizing signal interference for reliable performance.
-- **🎯 Compact Design**: Saving space within the robot's chassis.
-- **💪 Enhanced Durability**: Ensuring longevity during competitive operation.
+## 🛠️ Our PCB is custom made. The schematics are in the schematic folder 
 
 ---
 
