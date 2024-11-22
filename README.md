@@ -563,14 +563,6 @@ The power system ensures all components receive stable and efficient power tailo
 - Upgrade to more energy-efficient components as technology advances. ( WE WILL BE AROUND HOPEFULLY)
 
 ---
-
-## 🤝 Contributing
-Contributions are welcome! Please feel free to submit pull requests or open issues.
-
----
-
-
-
 ## 🎥 Camera Placement and Functionality
 
 The robot's main camera is positioned at the top and angled slightly downwards. This setup enhances object detection capabilities by providing:
