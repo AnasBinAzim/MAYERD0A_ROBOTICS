@@ -132,5 +132,33 @@ WantedBy=multi-user.target
 sudo systemctl enable vncserver@1.service
 sudo systemctl start vncserver@1.service
 
+```
+
+### Step 5: Connect Remotely
+
+Find the IP address of the Raspberry Pi by running:
+
+| **Command**      | **Description**                                     |
+|------------------|-----------------------------------------------------|
+| `hostname -I`    | Displays the IP address of the Raspberry Pi.        |
+
+1. Open **RealVNC Viewer** on your computer.
+2. Enter the IP address (e.g., `192.168.x.x`) in the connection bar.
+3. Log in using the VNC password you set during configuration.
+
+---
+
+### Summary of Installed Components
+
+| **Component**     | **Purpose**                                          |
+|--------------------|------------------------------------------------------|
+| **Raspberry Pi OS** | Operating system for the Raspberry Pi 4B.           |
+| **Arduino IDE**    | Programming the ESP32 microcontroller.              |
+| **Python**         | Programming and script execution.                   |
+| **OpenCV**         | Computer vision tasks.                              |
+| **Geany**          | Lightweight editor for programming.                 |
+| **RealVNC**        | Remote access and control of the Raspberry Pi.      |
+
+
 
 
