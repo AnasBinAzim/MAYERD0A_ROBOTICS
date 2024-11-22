@@ -217,15 +217,7 @@ def findColor(frame):
         list = getContours(mask)
         count += 1
         for obj in list:
-            if count == 1 and obj[2] >= width_for_black_distance:
-                print("I am black")
-                x = obj[0]
-                y = int(obj[1])
-                w = -obj[2]
-                h = obj[3]
-                y = 82
-
-            elif count != 1 and obj[2] >= width_for_constant_distance:
+            if count != 1 and obj[2] >= width_for_constant_distance:
                 x = obj[0]
                 y = obj[1]
                 w = obj[2]
@@ -291,10 +283,10 @@ def findColor(frame):
             # turning_radius = math.sqrt(turning_radius)
             if (turning_radius > 1):
                 turning_radius = 1
-            turning_radius *= 70
+            turning_radius *= 35
             # if turning_radius  == 0:
             #   turning_radius = 1
-            turning_radius = 100 - turning_radius
+            turning_radius = 95 - turning_radius
         elif gre == 1:
             obj_x = green_right - obj_x
             if obj_x < 0:
@@ -317,11 +309,12 @@ def findColor(frame):
             if (turning_radius > 1):
                 turning_radius = 1
             # print(turning_radius)
-            turning_radius *= 60
+            turning_radius *= 35
+            turning_radius = int(turning_radius)
             # if turning_radius  == 0:
             #    turning_radius = 1
             # print(turning_radius)
-            turning_radius = 100 + turning_radius
+            turning_radius = 95 + turning_radius
         turning_radius = int(turning_radius)
     print(turning_radius)
     count = 0
@@ -369,8 +362,9 @@ def findColor(frame):
     else:
         ln2 = "No Line"
     #display_message(ln1, ln2, ln3)
-    c = turning_radius - 40
-    c = c / 3
+    c = turning_radius - 60
+    c = c * 4
+    c = c / 7
     c = int(c)
     if (c == 1):
         c += 40
