@@ -290,8 +290,8 @@ The drive system includes DC motors, which provide reliable propulsion and contr
 
 # 🚗 Mobility Management
 
-The mobility system of our robot has been meticulously designed to ensure smooth, efficient, and reliable movement, addressing both power distribution and maneuverability. This section outlines the evolution of our robot's mobility systems, including upgrades to the steering and gear systems.
 
+Our robot’s mobility system has been carefully crafted to deliver smooth, efficient, and reliable movement, focusing on both power distribution and maneuverability. Over time, we’ve made a lot of changes and adjustments, carefully upgrading the steering and gear systems to address specific challenges and enhance performance. This section takes a closer look at the evolution of our mobility system, highlighting how these refinements have helped us achieve better functionality and adaptability.
 ---
 
 ### **Rear Axle Power Distribution**
