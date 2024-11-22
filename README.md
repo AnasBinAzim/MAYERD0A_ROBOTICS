@@ -290,8 +290,7 @@ The drive system includes DC motors, which provide reliable propulsion and contr
 
 # 🚗 Mobility Management
 
-
-Our robot’s mobility system has been carefully crafted to deliver smooth, efficient, and reliable movement, focusing on both power distribution and maneuverability. Over time, we’ve made a lot of changes and adjustments, carefully upgrading the steering and gear systems to address specific challenges and enhance performance. This section takes a closer look at the evolution of our mobility system, highlighting how these refinements have helped us achieve better functionality and adaptability.
+This segment goes over the mobility management of SMOKI
 ---
 
 ### **Rear Axle Power Distribution**
