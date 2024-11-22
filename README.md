@@ -459,13 +459,6 @@ Together, these upgrades ensured that our robot was optimized for the challenges
 
 The **Power and Sense Management** system of our robot has been meticulously designed to optimize performance while ensuring reliable power delivery, precise sensing, and efficient communication between components.
 
----
-
-# 🔋 Power Distribution System
-
-This repository documents the **Power Distribution System** of our robot, designed for stability, efficiency, and seamless integration of components.
-
----
 
 ## 📜 Overview
 The power system ensures all components receive stable and efficient power tailored to their unique voltage and current requirements. This design optimizes energy utilization and guarantees reliability under various operational loads.
