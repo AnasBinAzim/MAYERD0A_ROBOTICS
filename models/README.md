@@ -28,9 +28,15 @@ The structure of **SMOKI** is primarily built using **LEGO components** for modu
 ## 📌 **Usage Instructions**
 
 1. **Download the STL Files**: Click on the links above to download individual files or clone the repository to access all files.
-2. **3D Printing**: The printer we are using is Ender 3 S1 pro. Print the models using your preferred 3D printer and settings. We recommend high-strength PLA or PETG for durability. Our 3d printer :
-<img src="https://github.com/user-attachments/assets/cc1ce725-33da-4c36-866f-9ea1db2e712a"/>
-3. **Assembly**: Follow the [Robot Assembly Guide](./README.md) for detailed instructions on integrating these components into the robot.
+2. **3D Printing**: The printer we are using is **Ender 3 S1 Pro**. Print the models using your preferred 3D printer and settings. We recommend high-strength PLA or PETG for durability.  
+
+   <p align="center">
+      <img src="https://github.com/user-attachments/assets/cc1ce725-33da-4c36-866f-9ea1db2e712a" alt="Ender 3 S1 Pro 3D Printer" style="margin-top: 20px; margin-bottom: 20px;"/>
+   </p>
+
+3. **Assembly**: Follow the [Robot Assembly Guide](../README.md) in the main repository for detailed instructions on integrating these components into the robot.
+
+---
 
 ---
 
