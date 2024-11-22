@@ -51,18 +51,19 @@ Here’s a breakdown of the project folders:
 
 ----
 
-## Table of Contents
-
-- [Team MAYERDOA - "Mothers' Prayers"](#team-mayerdoa---mothers-prayers)
-- [Mission Overview for WRO Future Engineers Rounds](#mission-overview-for-wro-future-engineers-rounds)
-- [Components and Hardware](#components-and-hardware)
-- [Assembly Instructions](#assembly-instructions)
-- [Project Objective](#project-objective)
-- [Mobility Management](#mobility-management)
-- [Power and Sense Management](#power-and-sense-management)
-- [Program Infrastructure and Explanation of Algorithm](#program-infrastructure-and-explanation-of-algorithm)
-- [Software Setup](#software-setup)
-
+## 📚 **Table of Contents**
+- [Team MAYERDOA - "Mothers' Prayers"](#👥-team-mayerdoa---mothers-prayers)
+- [Project Overview](#-project-overview)
+- [Folder Structure](#📂-structure)
+- [Mission Overview](#-mission-overview-for-wro-future-engineers-rounds)
+- [Components and Hardware](#🧩-components-and-hardware)
+- [Key Features](#🚀-key-features)
+- [Assembly Instructions](#🔧-assembly-instructions)
+- [Mobility Management](#🚗-mobility-management)
+- [Power and Sense Management](#⚡-power-and-sense-management)
+- [Program Infrastructure](#🧠-program-infrastructure-and-explanation)
+- [Flowcharts](#📊-flowcharts)
+- [Contact Information](#🤝-contributing)
 
 
 
