@@ -455,7 +455,7 @@ Together, these upgrades ensured that our robot was optimized for the challenges
 ----
 ----
 
-# ⚡ Power and Sense Management
+# ⚡ Power and Sense Management :
 
 The **Power and Sense Management** system of our robot has been meticulously designed to optimize performance while ensuring reliable power delivery, precise sensing, and efficient communication between components.
 
