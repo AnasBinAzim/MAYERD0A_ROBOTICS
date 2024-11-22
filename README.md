@@ -627,7 +627,7 @@ The new configuration leverages **HC-SR04 sonar sensors**, chosen for their **wi
 
 ### Power Management Diagram
 
-<img src="<img width="801" alt="DIAGRAM" src="https://github.com/user-attachments/assets/069480c6-0f9b-4a68-be3e-c151bef17a56"/>
+<img width="801" alt="DIAGRAM" src="https://github.com/user-attachments/assets/069480c6-0f9b-4a68-be3e-c151bef17a56"/>
 
 
 
