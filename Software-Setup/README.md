@@ -174,7 +174,52 @@ crontab -e
 ```
 
 Step 2: Add a Startup Command
-Add the following line at the end of the file to run your script at startup:
+Add the following line to the crontab
+
+```
+@reboot /usr/bin/python3 /path/to/your_script.py
+
+```
+
+
+### Step 3: Save and Exit
+To save and exit the editor (assuming `nano` is used):
+
+- Press `CTRL+O` to save the file.
+- Press `CTRL+X` to exit the editor.
+
+### Step 4 : Verify Crontab``
+
+```
+crontab -l
+
+```
+### Step 5 : Reboot the Raspberry Pi
+```
+sudo reboot
+
+```
+
+### Step 6 : Debugging (Optional)
+```
+chmod +x /path/to/your_script.py
+```
+
+### Check system logs for CRON errors:
+```
+cat /var/log/syslog | grep CRON
+```
+
+### Example :
+```
+
+This is the solid README code with each instruction in its own section, formatted clearly for use.
+
+```
+
+
+
+
 
 
 
