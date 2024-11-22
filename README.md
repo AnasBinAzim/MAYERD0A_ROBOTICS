@@ -563,12 +563,7 @@ The power system ensures all components receive stable and efficient power tailo
 
 ## 🚀 Future Improvements
 - Integrate a smart power monitoring system to dynamically adjust power distribution.
-- Upgrade to more energy-efficient components as technology advances.
-
----
-
-## 📝 License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+- Upgrade to more energy-efficient components as technology advances. ( WE WILL BE AROUND HOPEFULLY)
 
 ---
 
