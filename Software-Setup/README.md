@@ -1,7 +1,6 @@
-
 ## 💻 Software Setup
 
-Our software environment integrates **Arduino IDE** for ESP32 programming and **Ubuntu OS** on the Raspberry Pi 5. Below is the complete guide for setting up the software environment, with all necessary commands and instructions.
+Our software environment integrates **Arduino IDE** for ESP32 programming and **Raspberry Pi OS** on the Raspberry Pi 4B. Below is the complete guide for setting up the software environment, with all necessary commands and instructions.
 
 ---
 
@@ -18,9 +17,9 @@ We use **Arduino IDE** to program the ESP32 microcontroller. Follow these steps:
 1. Open the Arduino IDE.
 2. Navigate to **File > Preferences**.
 3. In the "Additional Boards Manager URLs," paste the following URL:
-https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
-4. Click **OK**.
-5. Go to **Tools > Board > Boards Manager**, search for "ESP32," and click **Install**.
+4. [ESP32 Boards Manager URL](https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json)
+5. Click **OK**.
+6. Go to **Tools > Board > Boards Manager**, search for "ESP32," and click **Install**.
 
 #### Step 3: Verify the Setup
 1. Connect your ESP32 via USB.
@@ -29,30 +28,30 @@ https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32
 
 ---
 
-### 2. Ubuntu OS Setup on Raspberry Pi 5
+### 2. Raspberry Pi OS Setup on Raspberry Pi 4B
 
-For this project, we installed **Ubuntu OS** on the Raspberry Pi 5. Here's how to do it:
+For this project, we installed **Raspberry Pi OS** on the Raspberry Pi 4B. Here's how to do it:
 
-#### Step 1: Download Ubuntu OS
-1. Visit the [official Ubuntu website](https://ubuntu.com/download/raspberry-pi).
-2. Download the Ubuntu image compatible with Raspberry Pi.
+#### Sub-Step 1: Download Raspberry Pi OS
+1. Visit the [official Raspberry Pi website](https://www.raspberrypi.com/software/).
+2. Download the Raspberry Pi OS image.
 
-#### Step 2: Flash Ubuntu OS to an SD Card
+#### Sub-Step 2: Flash Raspberry Pi OS to an SD Card
 1. Download and install **Raspberry Pi Imager** from [here](https://www.raspberrypi.com/software/).
 2. Insert your SD card into the computer.
 3. Open Raspberry Pi Imager and:
-- **Select Operating System**: Choose the Ubuntu image you downloaded.
+- **Select Operating System**: Choose the Raspberry Pi OS image you downloaded.
 - **Select Storage**: Choose your SD card.
 4. Click **Write** to flash the OS onto the SD card.
 
-#### Step 3: Boot Ubuntu OS
-1. Insert the SD card into the Raspberry Pi 5.
+#### Sub-Step 3: Boot Raspberry Pi OS
+1. Insert the SD card into the Raspberry Pi 4B.
 2. Connect peripherals (monitor, keyboard) and power up the Raspberry Pi.
-3. Follow the on-screen instructions to complete the Ubuntu setup.
+3. Follow the on-screen instructions to complete the Raspberry Pi OS setup.
 
 ---
 
-### 3. Installing Python on Ubuntu
+### 3. Installing Python on Raspberry Pi OS
 
 Python is essential for running scripts and software. Install it by running the following commands:
 
@@ -111,9 +110,8 @@ Start the VNC server:
 | `vncserver`                      | Starts the VNC server.                       |
 
 #### Step 4: Automate VNC Server on Boot
-To ensure the VNC server starts automatically on boot:
+To ensure the VNC server starts automatically on boot, configure the systemd service as shown:
 
-1. Open the VNC service configuration file:
 ```bash
 sudo nano /etc/systemd/system/vncserver@.service
 
@@ -130,32 +128,9 @@ ExecStop=/usr/bin/vncserver -kill :1
 [Install]
 WantedBy=multi-user.target
 
+
 sudo systemctl enable vncserver@1.service
 sudo systemctl start vncserver@1.service
-```
 
 
-#### Step 5: Connect Remotely
 
-Find the IP address of the Raspberry Pi by running:
-
-| **Command**      | **Description**                                     |
-|------------------|-----------------------------------------------------|
-| `hostname -I`    | Displays the IP address of the Raspberry Pi.        |
-
-1. Open **RealVNC Viewer** on your computer.
-2. Enter the IP address (e.g., `192.168.x.x`) in the connection bar.
-3. Log in using the VNC password you set during configuration.
-
----
-
-### Summary of Installed Components
-
-| **Component**     | **Purpose**                                          |
-|--------------------|------------------------------------------------------|
-| **Ubuntu OS**      | Operating system for the Raspberry Pi 5.            |
-| **Arduino IDE**    | Programming the ESP32 microcontroller.              |
-| **Python**         | Programming and script execution.                   |
-| **OpenCV**         | Computer vision tasks.                              |
-| **Geany**          | Lightweight editor for programming.                 |
-| **RealVNC**        | Remote access and control of the Raspberry Pi.      |
