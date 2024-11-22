@@ -40,16 +40,14 @@ print("Camera opened successfully!")
 test.set(3, 640)
 test.set(4, 420)
 
-LineColors = [[0, 63, 62, 16, 161, 226],
-              [105, 103, 119, 114, 161, 160]]
+LineColors = [[0, 35, 68, 84, 168, 226],
+              [98, 40, 93, 122, 112, 159]]
 LineValues = [[40, 43, 94],
               [110, 70, 45]]
 
 myPoints = []  # [x, y, h, w, colorId]
 width_for_constant_distance = 12  # minimum acceptable width
 
-
-from PIL import ImageDraw
 
 def draw_rounded_rectangle(draw, x1, y1, x2, y2, radius, outline, width):
     """
@@ -61,16 +59,21 @@ def draw_rounded_rectangle(draw, x1, y1, x2, y2, radius, outline, width):
     width: Line width
     """
     # Draw the 4 corners as circles (arcs) and the 4 sides as lines
-    draw.arc([x1, y1, x1 + 2 * radius, y1 + 2 * radius], start=180, end=270, fill=outline, width=width)  # top-left corner
-    draw.arc([x2 - 2 * radius, y1, x2, y1 + 2 * radius], start=270, end=360, fill=outline, width=width)  # top-right corner
-    draw.arc([x1, y2 - 2 * radius, x1 + 2 * radius, y2], start=90, end=180, fill=outline, width=width)  # bottom-left corner
-    draw.arc([x2 - 2 * radius, y2 - 2 * radius, x2, y2], start=0, end=90, fill=outline, width=width)  # bottom-right corner
+    draw.arc([x1, y1, x1 + 2 * radius, y1 + 2 * radius], start=180, end=270, fill=outline,
+             width=width)  # top-left corner
+    draw.arc([x2 - 2 * radius, y1, x2, y1 + 2 * radius], start=270, end=360, fill=outline,
+             width=width)  # top-right corner
+    draw.arc([x1, y2 - 2 * radius, x1 + 2 * radius, y2], start=90, end=180, fill=outline,
+             width=width)  # bottom-left corner
+    draw.arc([x2 - 2 * radius, y2 - 2 * radius, x2, y2], start=0, end=90, fill=outline,
+             width=width)  # bottom-right corner
 
     # Draw the 4 sides of the rectangle
     draw.line([x1 + radius, y1, x2 - radius, y1], fill=outline, width=width)  # top side
     draw.line([x1 + radius, y2, x2 - radius, y2], fill=outline, width=width)  # bottom side
     draw.line([x1, y1 + radius, x1, y2 - radius], fill=outline, width=width)  # left side
     draw.line([x2, y1 + radius, x2, y2 - radius], fill=outline, width=width)  # right side
+
 
 # Example usage in your `display_message` function:
 def display_message(line1, line2, line3, font_size=10):
@@ -94,7 +97,8 @@ def display_message(line1, line2, line3, font_size=10):
 
     # Draw a border with rounded corners around the screen
     border_margin = 2
-    draw_rounded_rectangle(draw, border_margin, border_margin, oled.width - border_margin, oled.height - border_margin, 10, outline=255, width=2)
+    draw_rounded_rectangle(draw, border_margin, border_margin, oled.width - border_margin, oled.height - border_margin,
+                           10, outline=255, width=2)
 
     # Draw the title line
     draw_centered_text("Mayerdoa_Robotics", 6)  # Title line at the top
@@ -107,8 +111,6 @@ def display_message(line1, line2, line3, font_size=10):
     # Display the image on the OLED
     oled.image(image)
     oled.show()
-
-
 
 
 def convert(k):
@@ -140,10 +142,10 @@ def findColor(frame):
     stre = []
     isbl = 0
     isor = 0
-    or_tnc = 0
-    or_val = 0
-    bl_tnc = 0
-    bl_val = 0
+    or_tnc = 1000000
+    or_val = -1000000
+    bl_tnc = 1000000
+    bl_val = -1000000
 
     for ln in LineColors:
         lower = np.array(ln[0:3])
@@ -158,29 +160,43 @@ def findColor(frame):
             else:
                 isor = 1  # Orange line detected
 
-    # Process the line counts and averages
-    if or_tnc > 0:
-        or_val /= or_tnc
-    if bl_tnc > 0:
-        bl_val /= bl_tnc
+    # Process the line counts and average
 
     # Determine direction based on line color values
     c = 0
-    if isbl and isor:
-        if or_val > bl_val:
-            c = 2  # Orange line is more dominant
-        elif bl_val > or_val:
-            c = 1  # Blue line is more dominant
+    ln1 = "1"
+    ln2 = "2"
+    ln3 = "3"
+    ln1 = "nope"
+    ln3 = "Nope"
 
-    # Display results based on the detected direction
-    if c == 0:
-        display_message("nope", "bal", "bal")  # No line detected
-    elif c == 1:
-        display_message("left", "bal", "bal")  # Blue line detected, turn left
-    elif c == 2:
-        display_message("right", "bal", "bal")  # Orange line detected, turn right
+    print(or_tnc)
+    print(or_val)
+    print(bl_tnc)
+    print(bl_val)
+
+    if isbl and isor:
+        if or_tnc < bl_val:
+            c = 1  # Blue line is more dominant
+            ln1 = "left"
+        elif bl_tnc < or_val:
+            c = 2  # Orange line is more dominant
+            ln1 = "right"
+        else:
+            ln1 = "ERROR"
+    elif isbl:
+        c = 1
+        ln3 = "left"
+    elif isor:
+        c = 2
+        ln3 = "right"
+
+    if isor or isbl:
+        ln2 = "Detected"
     else:
-        display_message("Unknown", "bal", "bal")  # Unknown condition
+        ln2 = "No Line"
+
+    display_message(ln1, ln2, ln3)  # Unknown condition
 
     # Send the result via serial communication
     num = chr(c)
@@ -195,7 +211,7 @@ def drawLine(frame, cnt):
     global or_tnc, or_val, bl_tnc, bl_val
     edges = cv.Canny(frame, 50, 150, apertureSize=3)
     # cv.imshow('edges', edges)
-    lines = cv.HoughLinesP(edges, 1, np.pi / 180, 100, minLineLength=100, maxLineGap=10)
+    lines = cv.HoughLinesP(edges, 1, np.pi / 180, 100, minLineLength=70, maxLineGap=10)
 
     f = 0
 
@@ -209,12 +225,13 @@ def drawLine(frame, cnt):
             if x2 - x1 != 0:  # Prevent division by zero
                 m = (y2 - y1) / (x2 - x1)
                 b = y1 - m * x1
-            if cnt == 1:
-                bl_tnc += 1
-                bl_val += b
-            else:
-                or_tnc += 1
-                or_val += b
+                b = int(b)
+                if cnt == 1:
+                    bl_tnc = min(bl_tnc, b)
+                    bl_val = max(bl_val, b)
+                else:
+                    or_tnc = min(or_tnc, b)
+                    or_val = max(or_val, b)
 
             # Draw the line on the frame
 
@@ -224,6 +241,7 @@ def drawLine(frame, cnt):
 
 while True:
     success, frame = test.read()
+    frame = cv.GaussianBlur(frame, (5, 5), 0)
     frame_cc = frame.copy()
     findColor(frame)
     cv.imshow("Result", frame_cc)
@@ -231,5 +249,7 @@ while True:
     if cv.waitKey(1) & 0xFF == ord('q'):
         break
 
+oled.fill(0)
+oled.show()
 test.release()
 cv.destroyAllWindows()
