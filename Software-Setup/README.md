@@ -161,4 +161,20 @@ Find the IP address of the Raspberry Pi by running:
 
 
 
+# Starting up the code on startup in pi 5
+
+## Running Code at Startup Using Crontab
+
+To ensure your script or program runs automatically when the Raspberry Pi boots up, follow these steps:
+
+### Step 1: Edit Crontab
+Open the crontab configuration file by running the following command:
+```bash
+crontab -e
+```
+
+Step 2: Add a Startup Command
+Add the following line at the end of the file to run your script at startup:
+
+
 
