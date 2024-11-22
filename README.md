@@ -460,17 +460,130 @@ Together, these upgrades ensured that our robot was optimized for the challenges
 The **Power and Sense Management** system of our robot has been meticulously designed to optimize performance while ensuring reliable power delivery, precise sensing, and efficient communication between components.
 
 ---
-## 🔋 Power Distribution
 
-Our robot's power system has been engineered for stability and efficiency, addressing all unique voltage and current requirements:
-1. **🔋 Two Lithium-Ion Cells**: Each rated at **4.2V**, providing a total of **8.4V**.
-2. **⚙️ XL4016 Buck Converter**: Steps down **8.4V** to a stable **5V** for powering the Raspberry Pi 5 and other components.
-3. **🔌 Buck Modules**:
-   - One module supplies **6V** for the servo motor.
-   - Another module provides **5V** for the ESP32 microcontroller.
-4. **⚡ 12V Power for Motors**: Delivered using a **Buck-Boost Converter** to ensure consistent motor performance.
+# 🔋 Power Distribution System
+
+This repository documents the **Power Distribution System** of our robot, designed for stability, efficiency, and seamless integration of components.
 
 ---
+
+## 📜 Overview
+The power system ensures all components receive stable and efficient power tailored to their unique voltage and current requirements. This design optimizes energy utilization and guarantees reliability under various operational loads.
+
+---
+
+## ⚙️ System Architecture
+
+### **1. Power Source: Two Lithium-Ion Cells**
+- **Configuration**: Two 4.2V lithium-ion cells connected in series.
+- **Total Voltage**: 8.4V when fully charged, dropping to ~6V when discharged.
+- **Features**:
+  - High energy density for extended runtime.
+  - Lightweight and rechargeable.
+
+---
+
+### **2. XL4016 Buck Converter**
+- **Input**: 8.4V from the battery pack.
+- **Output**: Stable 5V for the **Raspberry Pi 5** and other components.
+- **Specifications**:
+  - Input Voltage Range: Up to 40V.
+  - High efficiency (~90%) for minimal heat generation.
+- **Usage**:
+  - Powers the Raspberry Pi 5 to ensure stable performance for real-time processing tasks.
+
+---
+
+### **3. Additional Buck Converters**
+#### **(a) 5V Buck Converter for Servo Motor**
+- **Purpose**: Supplies 5V for the **Servo Motor**.
+- **Key Benefits**:
+  - Ensures optimal torque and speed for motor operations.
+  - Prevents jitter or underperformance caused by unstable power.
+
+#### **(b) 5V Buck Converter for ESP32**
+- **Purpose**: Supplies 5V for the **ESP32 Microcontroller**.
+- **Features**:
+  - Powers the ESP32 for communication (Wi-Fi and Bluetooth).
+  - Protects against overvoltage, ensuring stable and reliable operation.
+
+---
+
+### **4. Buck-Boost Converter for Motors**
+- **Purpose**: Provides a consistent 12V for the motors, regardless of battery voltage variations.
+- **How It Works**:
+  - Boosts the voltage when input drops below 12V (e.g., batteries discharged to 6V).
+  - Steps down the voltage if the input exceeds 12V.
+- **Benefits**:
+  - Delivers reliable motor performance under various loads.
+  - Prevents voltage-related motor performance issues.
+
+---
+
+## 🔌 Voltage Distribution Table
+
+| Component                | Voltage Supplied | Converter Type      |
+|--------------------------|------------------|---------------------|
+| **Raspberry Pi 5**       | 5V               | XL4016 Buck         |
+| **Servo Motor**          | 5V               | Buck Converter      |
+| **ESP32 Microcontroller**| 5V               | Buck Converter      |
+| **Motors**               | 12V              | Buck-Boost Converter|
+
+---
+
+## 🔧 Installation and Configuration
+
+1. **Connect the Lithium-Ion Cells**:
+   - Use a **series connection** to achieve 8.4V.
+   - Ensure a proper battery management system (BMS) to prevent overcharging or deep discharging.
+
+2. **Setup XL4016 Buck Converter**:
+   - Adjust the output voltage to 5V using the onboard potentiometer.
+   - Connect the output to the Raspberry Pi 5 power input.
+
+3. **Install Buck Converters**:
+   - **5V Converter for Servo Motor**:
+     - Configure the output voltage to 5V for the servo motor.
+     - Connect the output to the servo's power input.
+   - **5V Converter for ESP32**:
+     - Configure the output voltage to 5V for the ESP32 microcontroller.
+     - Connect the output to the ESP32's power input.
+
+4. **Configure Buck-Boost Converter**:
+   - Set the output to 12V.
+   - Connect the output to the motor driver’s power input.
+
+5. **Test Voltage Levels**:
+   - Use a multimeter to verify output voltages for each converter before powering the components.
+
+---
+
+## 🛠 Maintenance Tips
+- **Regularly Check Connections**:
+  - Ensure tight and secure connections to avoid power interruptions.
+- **Monitor Battery Levels**:
+  - Recharge the lithium-ion cells when the voltage drops below 6V.
+- **Inspect Converters**:
+  - Periodically check for overheating or loose components on the converters.
+
+---
+
+## 🚀 Future Improvements
+- Integrate a smart power monitoring system to dynamically adjust power distribution.
+- Upgrade to more energy-efficient components as technology advances.
+
+---
+
+## 📝 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🤝 Contributing
+Contributions are welcome! Please feel free to submit pull requests or open issues.
+
+---
+
 
 
 ## 🎥 Camera Placement and Functionality
