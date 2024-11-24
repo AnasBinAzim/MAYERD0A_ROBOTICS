@@ -754,10 +754,7 @@ flowchart TD
     M --> B
     J -->|Yes| N[Delay and Stop]
     N --> O[End]
-
-
----
----
+```
 ---
 
 # 🏆 Round 2 Algorithm - Lap Completion with Obstacle Avoidance and Object Detection
