@@ -128,49 +128,9 @@ Our bot is equipped with various components that support its autonomous function
 | **Custom PCB**                     | Custom-designed PCB for efficient wiring and stable connections across all components.           | <div align="center"><img src="https://github.com/user-attachments/assets/395457b5-f8e8-41e0-8a82-dc93fbd486c8" alt="Custom PCB" width="100"></div>           | N/A                                                                                              |
 | **Ultrasonic Sensors**             | Detects distances to obstacles and aids in precise navigation.                                   | <div align="center"><img src="https://github.com/user-attachments/assets/dc6408c5-e4c1-4a63-b9cf-35efa5a8483a" alt="Ultrasonic Sensor" width="100"></div> | [Purchase Ultrasonic Sensor](https://amzn.to/3Ultrasonic)                                        |
 | **Webcam - FIFINE K420 HD**        | Captures visual data, supporting navigation and obstacle detection tasks.                        | <div align="center"><img src="https://github.com/user-attachments/assets/fifine_k420_hd_webcam.png" alt="FIFINE K420 HD Webcam" width="100"></div> | [Purchase FIFINE K420 HD Webcam](https://amzn.to/3FifineK420)                                   |
-| **Gyroscope - MPU 6050**           | Provides motion tracking and orientation data, enabling stable navigation and movement.          | <div align="center"><img src="https://github.com/user-attachments/assets/mpu6050_image.png" alt="MPU 6050" width="100"></div>             | [Purchase MPU 6050](https://amzn.to/3MPU6050)                                                   |
-| **Battery - GENS 1000mAh**         | Supplies power to the robot, ensuring long operational time and reliable energy for all components.| <div align="center"><img src="## 🧩 Components and Hardware
+| **Gyroscope - MPU 6050**           | Provides motion tracking and orientation data, enabling stable navigation and movement.          | <div align="center"><img src="https://github.com/user-attachments/assets/07cc2983-cd5c-4480-8f0b-84880edcf8bd" alt="MPU 6050" width="100"></div>       | [Purchase MPU 6050](https://amzn.to/3MPU6050)                                                   
+| **Battery - GENS 1000mAh**         | Supplies power to the robot, ensuring long operational time and reliable energy for all components.| <div align="center"><img src="![Gens-Ace-2200mah-3s-lipo-removebg-preview](https://github.com/user-attachments/assets/87325f1f-403d-42e1-ae27-17ad206f80ad)" width="100"></div>       | [Buy GENS ACE 11.1V 3S LiPo Battery](https://www.rcshopbd.com/product/gens-ace-11-1v-3s-lipo-1000mah-1650mah-2200mah-3300mah-battery/)
 
-Our bot is equipped with various components that support its autonomous functionality. Here is a breakdown of the key hardware elements used in this project:
-
-#
----
-
-### **Component Details**
-
-#### **Webcam - FIFINE K420 HD Webcam**
-
-**Description:**  
-The FIFINE K420 HD Webcam is responsible for capturing high-definition visual data essential for the robot's navigation and obstacle detection. With a resolution of up to 1080p, it ensures clear and detailed imagery, facilitating accurate image processing tasks such as line detection and object recognition.
-
-**Image:**  
-<div align="center"><img src="https://github.com/user-attachments/assets/fifine_k420_hd_webcam.png" alt="FIFINE K420 HD Webcam" width="100"></div>
-
-**Purchase Link:**  
-[Purchase FIFINE K420 HD Webcam](https://amzn.to/3FifineK420)
-
----
-
-### **Summary of Added Components**
-
-- **Gyroscope - MPU 6050:** Enhances the robot's ability to understand and respond to its motion and orientation, critical for tasks requiring precise movement and balance.
-  
-- **Battery - GENS 1000mAh:** Ensures that the robot can operate for extended periods without interruptions, providing a stable and reliable power source for all electronic components.
-
----
-
-These additional components integrate seamlessly with the existing hardware, further enhancing the robot's autonomous capabilities and overall performance. The MPU 6050 augments the robot's sensory input, while the GENS 1000mAh battery ensures sustained operation, making the system more robust and efficient.
-
----
-" />       | [Purchase GENS 1000mAh Battery](https://amzn.to/3GENS1000mAh)                                    |
-| **3D Printed Mounts**              | Custom-made mounts for stable sensor and component positioning.                                  | <div align="center"><img src="https://github.com/user-attachments/assets/66340cc9-0085-4e51-8400-c7a09e2504ad" alt="3D Printed Mounts" width="100"></div>     | N/A                                                                                              |
-
----
-
-
-
----
----
 ---
 
 ## 🚀 Key Features
