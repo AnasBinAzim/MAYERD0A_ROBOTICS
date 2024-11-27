@@ -119,16 +119,69 @@ Our bot, **SMOKI**, is built for excellence in the **World Robot Olympiad 2024**
 
 Our bot is equipped with various components that support its autonomous functionality. Here is a breakdown of the key hardware elements used in this project:
 
-| Component                      | Description                                                                                      | Image                                                                                                        | Purchase Link                                                                                    |
-|--------------------------------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| **Raspberry Pi 4B**             | Provides processing power for control algorithms and sensor data management.                     | <div align="center"><img src="https://github.com/user-attachments/assets/b6b79ab7-a635-4ff0-9f66-b53b7e97dcd7" alt="Raspberry Pi 5" width="100"></div> | [Purchase Raspberry Pi 4B](https://amzn.to/3wKg5TG)                                               |
+| Component                          | Description                                                                                      | Image                                                                                                        | Purchase Link                                                                                     |
+|------------------------------------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| **Raspberry Pi 4B**                | Provides processing power for control algorithms and sensor data management.                     | <div align="center"><img src="https://github.com/user-attachments/assets/b6b79ab7-a635-4ff0-9f66-b53b7e97dcd7" alt="Raspberry Pi 4B" width="100"></div> | [Purchase Raspberry Pi 4B](https://amzn.to/3wKg5TG)                                              |
+| **ESP32 Microcontroller**         | Handles real-time sensor data interpretation and motor control.                                  | <div align="center"><img src="https://github.com/user-attachments/assets/0fe5f54b-8df2-492c-a68c-8e100bae381d" alt="ESP32" width="100"></div>        | [Purchase ESP32](https://amzn.to/3ESP32)                                                         |
+| **LEGO EV3 Expansion Set (45560)** | Modular components used for building and structural support.                                     | <div align="center"><img src="https://github.com/user-attachments/assets/c99f6a51-5c82-4981-bed8-0cb59690b966" alt="LEGO EV3 Set" width="100"></div>  | [Purchase LEGO 45560](https://amzn.to/3K4eLEGO)                                                  |
+| **XL4016 Buck Converter**         | Provides stable voltage for the Raspberry Pi and ESP32, enhancing power management.              | <div align="center"><img src="https://github.com/user-attachments/assets/b7184ca5-34c3-48db-86e7-a5e919362516" alt="XL4016 Buck Converter" width="100"></div> | [Purchase XL4016](https://amzn.to/4xl4016)                                                       |
+| **Custom PCB**                     | Custom-designed PCB for efficient wiring and stable connections across all components.           | <div align="center"><img src="https://github.com/user-attachments/assets/395457b5-f8e8-41e0-8a82-dc93fbd486c8" alt="Custom PCB" width="100"></div>           | N/A                                                                                              |
+| **Ultrasonic Sensors**             | Detects distances to obstacles and aids in precise navigation.                                   | <div align="center"><img src="https://github.com/user-attachments/assets/dc6408c5-e4c1-4a63-b9cf-35efa5a8483a" alt="Ultrasonic Sensor" width="100"></div> | [Purchase Ultrasonic Sensor](https://amzn.to/3Ultrasonic)                                        |
+| **Webcam - FIFINE K420 HD**        | Captures visual data, supporting navigation and obstacle detection tasks.                        | <div align="center"><img src="https://github.com/user-attachments/assets/fifine_k420_hd_webcam.png" alt="FIFINE K420 HD Webcam" width="100"></div> | [Purchase FIFINE K420 HD Webcam](https://amzn.to/3FifineK420)                                   |
+| **Gyroscope - MPU 6050**           | Provides motion tracking and orientation data, enabling stable navigation and movement.          | <div align="center"><img src="https://github.com/user-attachments/assets/mpu6050_image.png" alt="MPU 6050" width="100"></div>             | [Purchase MPU 6050](https://amzn.to/3MPU6050)                                                   |
+| **Battery - GENS 1000mAh**         | Supplies power to the robot, ensuring long operational time and reliable energy for all components.| <div align="center"><img src="## 🧩 Components and Hardware
+
+Our bot is equipped with various components that support its autonomous functionality. Here is a breakdown of the key hardware elements used in this project:
+
+## 🧩 Components and Hardware
+
+Our bot is equipped with various components that support its autonomous functionality. Here is a breakdown of the key hardware elements used in this project:
+
+| Component                       | Description                                                                                      | Image                                                                                                        | Purchase Link                                                                                     |
+|---------------------------------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| **Raspberry Pi 4B**             | Provides processing power for control algorithms and sensor data management.                     | <div align="center"><img src="https://github.com/user-attachments/assets/b6b79ab7-a635-4ff0-9f66-b53b7e97dcd7" alt="Raspberry Pi 4B" width="100"></div> | [Purchase Raspberry Pi 4B](https://amzn.to/3wKg5TG)                                              |
 | **ESP32 Microcontroller**      | Handles real-time sensor data interpretation and motor control.                                  | <div align="center"><img src="https://github.com/user-attachments/assets/0fe5f54b-8df2-492c-a68c-8e100bae381d" alt="ESP32" width="100"></div>        | [Purchase ESP32](https://amzn.to/3ESP32)                                                         |
-| **LEGO EV3 Expansion Set (45560)** | Modular components used for building and structural support.                             | <div align="center"><img src="https://github.com/user-attachments/assets/c99f6a51-5c82-4981-bed8-0cb59690b966" alt="LEGO EV3 Set" width="100"></div>  | [Purchase LEGO 45560](https://amzn.to/3K4eLEGO)                                                  |
+| **LEGO EV3 Expansion Set (45560)** | Modular components used for building and structural support.                                     | <div align="center"><img src="https://github.com/user-attachments/assets/c99f6a51-5c82-4981-bed8-0cb59690b966" alt="LEGO EV3 Set" width="100"></div>  | [Purchase LEGO 45560](https://amzn.to/3K4eLEGO)                                                  |
 | **XL4016 Buck Converter**      | Provides stable voltage for the Raspberry Pi and ESP32, enhancing power management.              | <div align="center"><img src="https://github.com/user-attachments/assets/b7184ca5-34c3-48db-86e7-a5e919362516" alt="XL4016 Buck Converter" width="100"></div> | [Purchase XL4016](https://amzn.to/4xl4016)                                                       |
-| **Custom PCB**                 | Custom-designed PCB for efficient wiring and stable connections across all components.           | <div align="center"><img src="https://github.com/user-attachments/assets/395457b5-f8e8-41e0-8a82-dc93fbd486c8" alt="Custom PCB" width="100"></div>           | N/A                                                                                              |
-| **Ultrasonic Sensors**         | Detects distances to obstacles and aids in precise navigation.                                   | <div align="center"><img src="https://github.com/user-attachments/assets/dc6408c5-e4c1-4a63-b9cf-35efa5a8483a" alt="Ultrasonic Sensor" width="100"></div> | [Purchase Ultrasonic Sensor](https://amzn.to/3Ultrasonic)                                        |
-| **Camera - SJ CAM C200**       | Captures visual data, supporting navigation and obstacle detection tasks.                        | <div align="center"><img src="https://github.com/user-attachments/assets/8bb8ceb2-e95b-45cd-9e9d-ec480b62baaa" alt="SJ CAM C200" width="100"></div>  | [Purchase SJ CAM C200](https://amzn.to/3SJCAM)                                                   |
-| **3D Printed Mounts**          | Custom-made mounts for stable sensor and component positioning.                                  | <div align="center"><img src="https://github.com/user-attachments/assets/66340cc9-0085-4e51-8400-c7a09e2504ad" alt="3D Printed Mounts" width="100"></div>     | N/A                                                                                              |
+| **Custom PCB**                  | Custom-designed PCB for efficient wiring and stable connections across all components.           | <div align="center"><img src="https://github.com/user-attachments/assets/395457b5-f8e8-41e0-8a82-dc93fbd486c8" alt="Custom PCB" width="100"></div>           | N/A                                                                                              |
+| **Ultrasonic Sensors**          | Detects distances to obstacles and aids in precise navigation.                                   | <div align="center"><img src="https://github.com/user-attachments/assets/dc6408c5-e4c1-4a63-b9cf-35efa5a8483a" alt="Ultrasonic Sensor" width="100"></div> | [Purchase Ultrasonic Sensor](https://amzn.to/3Ultrasonic)                                        |
+| **Webcam - FIFINE K420 HD**     | Captures visual data, supporting navigation and obstacle detection tasks.                        | <div align="center"><img src="https://github.com/user-attachments/assets/fifine_k420_hd_webcam.png" alt="FIFINE K420 HD Webcam" width="100"></div> | [Purchase FIFINE K420 HD Webcam](https://amzn.to/3FifineK420)                                   |
+| **Gyroscope - MPU 6050**        | Provides motion tracking and orientation data, enabling stable navigation and movement.          | <div align="center"><img src="https://github.com/user-attachments/assets/76e7149b-372a-4ff6-9c32-7e28b9f2b5b2.png" alt="MPU 6050" width="100"></div>             | [Purchase MPU 6050](https://amzn.to/3MPU6050)                                                   |
+| **Battery - GENS 1000mAh**      | Supplies power to the robot, ensuring long operational time and reliable energy for all components.| <div align="center"><img src="https://github.com/user-attachments/assets/2a00a13a-b4b2-4d5b-89a7-264a10c203b6.png" alt="GENS 1000mAh Battery" width="100"></div>       | [Purchase GENS 1000mAh Battery](https://amzn.to/3GENS1000mAh)                                    |
+| **3D Printed Mounts**           | Custom-made mounts for stable sensor and component positioning.                                  | <div align="center"><img src="https://github.com/user-attachments/assets/66340cc9-0085-4e51-8400-c7a09e2504ad" alt="3D Printed Mounts" width="100"></div>     | N/A                                                                                              |
+
+---
+
+### **Component Details**
+
+#### **Webcam - FIFINE K420 HD Webcam**
+
+**Description:**  
+The FIFINE K420 HD Webcam is responsible for capturing high-definition visual data essential for the robot's navigation and obstacle detection. With a resolution of up to 1080p, it ensures clear and detailed imagery, facilitating accurate image processing tasks such as line detection and object recognition.
+
+**Image:**  
+<div align="center"><img src="https://github.com/user-attachments/assets/fifine_k420_hd_webcam.png" alt="FIFINE K420 HD Webcam" width="100"></div>
+
+**Purchase Link:**  
+[Purchase FIFINE K420 HD Webcam](https://amzn.to/3FifineK420)
+
+---
+
+### **Summary of Added Components**
+
+- **Gyroscope - MPU 6050:** Enhances the robot's ability to understand and respond to its motion and orientation, critical for tasks requiring precise movement and balance.
+  
+- **Battery - GENS 1000mAh:** Ensures that the robot can operate for extended periods without interruptions, providing a stable and reliable power source for all electronic components.
+
+---
+
+These additional components integrate seamlessly with the existing hardware, further enhancing the robot's autonomous capabilities and overall performance. The MPU 6050 augments the robot's sensory input, while the GENS 1000mAh battery ensures sustained operation, making the system more robust and efficient.
+
+---
+" />       | [Purchase GENS 1000mAh Battery](https://amzn.to/3GENS1000mAh)                                    |
+| **3D Printed Mounts**              | Custom-made mounts for stable sensor and component positioning.                                  | <div align="center"><img src="https://github.com/user-attachments/assets/66340cc9-0085-4e51-8400-c7a09e2504ad" alt="3D Printed Mounts" width="100"></div>     | N/A                                                                                              |
+
+---
 
 
 
