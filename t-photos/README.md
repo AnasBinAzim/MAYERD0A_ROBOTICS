@@ -6,6 +6,7 @@
 
 ![candid](https://github.com/user-attachments/assets/3a7c32d6-c2c3-4d16-906d-0d878ba6b8a1)
 
+![LASTSECONDCOOKING(funny photo)](https://github.com/user-attachments/assets/78c8fd88-caad-4030-9e9d-3ff54e2cb068)
 
 
 
