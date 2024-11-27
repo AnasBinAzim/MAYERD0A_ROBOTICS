@@ -66,7 +66,7 @@ Here’s a breakdown of the project folders:
 
 
 
-Our bot, **SMOKI**, is built for excellence in the **World Robot Olympiad 2024** in the Future Engineers category. From its structural core using LEGO Technic elements to its computing capabilities powered by the **Raspberry Pi 5** and **ESP32 microcontroller**, SMOKI is crafted to handle the nuanced challenges of autonomous navigation and obstacle handling.
+Our bot, **SMOKI**, is built for excellence in the **World Robot Olympiad 2024** in the Future Engineers category. From its structural core using LEGO Technic elements to its computing capabilities powered by the **Raspberry Pi 4B** and **ESP32 microcontroller**, SMOKI is crafted to handle the nuanced challenges of autonomous navigation and obstacle handling.
 
 ---
 
@@ -121,7 +121,7 @@ Our bot is equipped with various components that support its autonomous function
 
 | Component                      | Description                                                                                      | Image                                                                                                        | Purchase Link                                                                                    |
 |--------------------------------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| **Raspberry Pi 5**             | Provides processing power for control algorithms and sensor data management.                     | <div align="center"><img src="https://github.com/user-attachments/assets/b6b79ab7-a635-4ff0-9f66-b53b7e97dcd7" alt="Raspberry Pi 5" width="100"></div> | [Purchase Raspberry Pi 5](https://amzn.to/3wKg5TG)                                               |
+| **Raspberry Pi 4B**             | Provides processing power for control algorithms and sensor data management.                     | <div align="center"><img src="https://github.com/user-attachments/assets/b6b79ab7-a635-4ff0-9f66-b53b7e97dcd7" alt="Raspberry Pi 5" width="100"></div> | [Purchase Raspberry Pi 4B](https://amzn.to/3wKg5TG)                                               |
 | **ESP32 Microcontroller**      | Handles real-time sensor data interpretation and motor control.                                  | <div align="center"><img src="https://github.com/user-attachments/assets/0fe5f54b-8df2-492c-a68c-8e100bae381d" alt="ESP32" width="100"></div>        | [Purchase ESP32](https://amzn.to/3ESP32)                                                         |
 | **LEGO EV3 Expansion Set (45560)** | Modular components used for building and structural support.                             | <div align="center"><img src="https://github.com/user-attachments/assets/c99f6a51-5c82-4981-bed8-0cb59690b966" alt="LEGO EV3 Set" width="100"></div>  | [Purchase LEGO 45560](https://amzn.to/3K4eLEGO)                                                  |
 | **XL4016 Buck Converter**      | Provides stable voltage for the Raspberry Pi and ESP32, enhancing power management.              | <div align="center"><img src="https://github.com/user-attachments/assets/b7184ca5-34c3-48db-86e7-a5e919362516" alt="XL4016 Buck Converter" width="100"></div> | [Purchase XL4016](https://amzn.to/4xl4016)                                                       |
@@ -480,7 +480,7 @@ The power system ensures all components receive stable and efficient power tailo
   - Input Voltage Range: Up to 40V.
   - High efficiency (~90%) for minimal heat generation.
 - **Usage**:
-  - Powers the Raspberry Pi 5 to ensure stable performance for real-time processing tasks.
+  - Powers the Raspberry Pi 4B to ensure stable performance for real-time processing tasks.
 
 ---
 
@@ -514,7 +514,7 @@ The power system ensures all components receive stable and efficient power tailo
 
 | Component                | Voltage Supplied | Converter Type      |
 |--------------------------|------------------|---------------------|
-| **Raspberry Pi 5**       | 5V               | XL4016 Buck         |
+| **Raspberry Pi 4B**       | 5V               | XL4016 Buck         |
 | **Servo Motor**          | 5V               | Buck Converter      |
 | **ESP32 Microcontroller**| 5V               | Buck Converter      |
 | **Motors**               | 12V              | Buck-Boost Converter|
