@@ -161,7 +161,7 @@ Find the IP address of the Raspberry Pi by running:
 
 
 
-# Starting up the code on startup in pi 5
+# Starting up the code on startup in pi 4B
 
 ## Running Code at Startup Using Crontab
 
